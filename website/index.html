@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Tlačítko - checkbox který po zaškrtnutí otevře okno
+
+    css ->
+    #check:checked ~ .wrapper {..}
+
+-->
+<input type="checkbox" id="check" onclick="focusMethod()">
+<label class="chat-btn" for="check"><img style="width: 40px;height: 40px;user-select:none;" src="messa.png"> </label>
+
+<!-- Okno chatu -->
+<div class="wrapper">
+    <div class="chat-header">
+      <img src="spse_clean.png" alt="image" style="width: 30px; position: relative; top:4px; left:3px; border-radius: 50%;">
+        <p class="bot-name">Griddy</p>
+    </div>
+    <div class="chat" id="chat">
+
+    </div>
+    <div class="chat-bottom">
+        <input type="text" class="inputText" id="chatMsg"  placeholder="Zeptej se mě...">
+        <button class="send odeslat_button" name="Odeslat" onclick="onbtnclick()" id="Odeslat"> <img src="./images/send-simple.png" style="width: 50px"> </button>
+    </div>
+</div>
+
+
+
+    <script src="./app.js"></script>
+
+</body>
+</html>

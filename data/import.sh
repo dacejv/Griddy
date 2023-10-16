@@ -1,0 +1,1 @@
+mongoimport --host mongodb:27017 --authenticationDatabase admin --username 'root' --password 'password' --db local --collection chatbot --type json --file /data/database.json --jsonArray

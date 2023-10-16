@@ -1,0 +1,194 @@
+[
+  {
+    "text": "Nachází se ve škole bufet?",
+    "intent_response_key_target": "faq/bufet_info",
+    "intent_response_key_prediction": {
+      "name": "faq/umisteni_bufet",
+      "confidence": 0.4721449613571167
+    }
+  },
+  {
+    "text": "Je pro vás na škole k dispozici možnost dálkového vzdělávání?",
+    "intent_response_key_target": "faq/dalkove_studium",
+    "intent_response_key_prediction": {
+      "name": "faq/distancni_vyuka",
+      "confidence": 0.5174627304077148
+    }
+  },
+  {
+    "text": "Můžou na vaší škole studenti studovat na dálku?",
+    "intent_response_key_target": "faq/dalkove_studium",
+    "intent_response_key_prediction": {
+      "name": "faq/distancni_vyuka",
+      "confidence": 0.5029578804969788
+    }
+  },
+  {
+    "text": "Lze na vaší škole studovat na dálku prostřednictvím internetu?",
+    "intent_response_key_target": "faq/dalkove_studium",
+    "intent_response_key_prediction": {
+      "name": "faq/distancni_vyuka",
+      "confidence": 0.4753751754760742
+    }
+  },
+  {
+    "text": "Má vaše škola možnost dálkového studia?",
+    "intent_response_key_target": "faq/distancni_vyuka",
+    "intent_response_key_prediction": {
+      "name": "faq/dalkove_studium",
+      "confidence": 0.7242609262466431
+    }
+  },
+  {
+    "text": "Můžete studovat na dálku na vaší škole?",
+    "intent_response_key_target": "faq/distancni_vyuka",
+    "intent_response_key_prediction": {
+      "name": "faq/dalkove_studium",
+      "confidence": 0.5307718515396118
+    }
+  },
+  {
+    "text": "Můžou studenti na vaší škole studovat přes internet?",
+    "intent_response_key_target": "faq/distancni_vyuka",
+    "intent_response_key_prediction": {
+      "name": "faq/dalkove_studium",
+      "confidence": 0.5590075254440308
+    }
+  },
+  {
+    "text": "Je pro vaši školu dostupná možnost dálkového studia?",
+    "intent_response_key_target": "faq/distancni_vyuka",
+    "intent_response_key_prediction": {
+      "name": "faq/dalkove_studium",
+      "confidence": 0.46054065227508545
+    }
+  },
+  {
+    "text": "Je možnost dálkového studia k dispozici na vaší škole?",
+    "intent_response_key_target": "faq/distancni_vyuka",
+    "intent_response_key_prediction": {
+      "name": "faq/dalkove_studium",
+      "confidence": 0.5474167466163635
+    }
+  },
+  {
+    "text": "Jak funguje obor technické lyceum?",
+    "intent_response_key_target": "faq/info_lyceum",
+    "intent_response_key_prediction": {
+      "name": "faq/rozdeleni_lyceum",
+      "confidence": 0.5619735717773438
+    }
+  },
+  {
+    "text": "Jak je domov mládeže kvalitní?",
+    "intent_response_key_target": "faq/internat_studenti_spokojenost",
+    "intent_response_key_prediction": {
+      "name": "faq/internat_jaky_je",
+      "confidence": 0.5888219475746155
+    }
+  },
+  {
+    "text": "kolik přihlášek můžu ve 2. kole podat?",
+    "intent_response_key_target": "faq/prijmacky_kolik_prihlasek_2_kolo",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_kolik_prihlasek_1_kolo",
+      "confidence": 0.5016186833381653
+    }
+  },
+  {
+    "text": "co mám dělat když jsem se nedostal na vaší školu?",
+    "intent_response_key_target": "faq/prijmacky_neuspesne_odvolani",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.9332451820373535
+    }
+  },
+  {
+    "text": "Nebyl jsem úspěšný u příjmacího řízení na požadovanou školu, co můžu dělat?",
+    "intent_response_key_target": "faq/prijmacky_neuspesne_odvolani",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.5000683069229126
+    }
+  },
+  {
+    "text": "Co mám dělat, když jsem se nedostal ani na odvolání?",
+    "intent_response_key_target": "faq/prijmacky_neuspesne_odvolani",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.8035680651664734
+    }
+  },
+  {
+    "text": "Jaké jsou možnosti, když jsem se nedostal na školu ani na odvolání?",
+    "intent_response_key_target": "faq/prijmacky_neuspesne_odvolani",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.8940860033035278
+    }
+  },
+  {
+    "text": "Co mám dělat, když mě škola odmítla i na odvolání?",
+    "intent_response_key_target": "faq/prijmacky_neuspesne_odvolani",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.4413376450538635
+    }
+  },
+  {
+    "text": "Co mám udělat, když se mi nepodařilo dostat se na školu i po odvolání?",
+    "intent_response_key_target": "faq/prijmacky_neuspesne_odvolani",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.7933618426322937
+    }
+  },
+  {
+    "text": "Co mám dělat, když jsem se nedostal na školu ani po odvolání?",
+    "intent_response_key_target": "faq/prijmacky_neuspesne_odvolani",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.8401974439620972
+    }
+  },
+  {
+    "text": "co mám dělat když jsem neuspěl u příjmacích zkoušek?",
+    "intent_response_key_target": "faq/prijmacky_neuspesne_odvolani",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.955430805683136
+    }
+  },
+  {
+    "text": "Kdy mohu podat odvolání proti výsledkům přijímacích zkoušek?",
+    "intent_response_key_target": "faq/prijmacky_odvolani_kdy",
+    "intent_response_key_prediction": {
+      "name": "faq/prijmacky_odvolani_jak",
+      "confidence": 0.6695089936256409
+    }
+  },
+  {
+    "text": "Jak ukončit studium na škole?",
+    "intent_response_key_target": "faq/studium_preruseni",
+    "intent_response_key_prediction": {
+      "name": "faq/studium_ukonceni",
+      "confidence": 0.7786231637001038
+    }
+  },
+  {
+    "text": "Jak ukončit studium na  škole?",
+    "intent_response_key_target": "faq/studium_preruseni",
+    "intent_response_key_prediction": {
+      "name": "faq/studium_ukonceni",
+      "confidence": 0.7786231637001038
+    }
+  },
+  {
+    "text": "Kolik je žáků ve škole?",
+    "intent_response_key_target": "faq/zaci_celkovy_pocet",
+    "intent_response_key_prediction": {
+      "name": "faq/tridy_pocet_zaku",
+      "confidence": 0.4709377586841583
+    }
+  }
+]

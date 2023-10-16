@@ -1,0 +1,60 @@
+version: '3' #verze dockeru
+services:
+    rasa:
+      container_name: "rasa_server"  #jméno kontejneru
+      user: root          #uživatel
+      build:
+        context:  .   #cesta k slože Dockefile (je ve stejným adresáři)
+      volumes:
+      - "./:/app"   #uloží všechny soubory jako volume do /app
+      ports:
+        - "5005:5005"       #porty vnější/vnitřní
+
+
+
+    action_server:
+      container_name: "action_server"
+      build:
+        context: actions  #cesta ke složce kde je Dockerfile
+      volumes:
+        - ./actions:/app/actions #uloží actions jako volume do app/actions
+        - ./data:/app/data   #uloží data jako volume do app/data
+      ports:
+        - 5055:5055
+
+
+    mongo_4_2:
+      container_name: "mongodb"
+      image: mongo:4.2    #stáhne mongo verzi 4.2
+      restart: always  #restartuje se když se vypne
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: root      #přihlášení na DB root
+        MONGO_INITDB_ROOT_PASSWORD: password
+      ports:
+        - 27017:27017
+
+
+    mongo_seed:             #kontejner pro import dat do DB
+      image: mongo:4.2
+      links:
+        - mongo_4_2
+      volumes:
+        - ./data/import.sh:/data/import.sh
+        - ./data/database.json:/data/database.json
+      command:
+        /data/import.sh
+
+    website:
+      container_name: "website"
+      build:
+        context: website
+      image: nginx:stable
+      ports:
+        - "80:80"
+      volumes:
+        - ./website:/usr/share/nginx/html
+        - ./website/nginx.conf:/etc/nginx/nginx.conf
+      depends_on:
+        - rasa              #musí být tyto kontejnery spuštěný
+        - action_server
+        - mongo_4_2

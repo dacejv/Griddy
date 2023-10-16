@@ -1,0 +1,3900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<text>Co dělat když onemocním?</text>
+		<intent>absence_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zletilý žák nebo zákonný zástupce nezletilého žáka je povinen doložit důvody nepřítomnosti ve vyučování nejpozději do 3 kalendářních dnů od počátku jeho nepřítomnosti.</response_text>
+	</record>
+	<record>
+		<text>Jak mám řešit to, že onemocním?</text>
+		<intent>absence_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zletilý žák nebo zákonný zástupce nezletilého žáka je povinen doložit důvody nepřítomnosti ve vyučování nejpozději do 3 kalendářních dnů od počátku jeho nepřítomnosti.</response_text>
+	</record>
+	<record>
+		<text>Budu nemocný. Co mám dělat?</text>
+		<intent>absence_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zletilý žák nebo zákonný zástupce nezletilého žáka je povinen doložit důvody nepřítomnosti ve vyučování nejpozději do 3 kalendářních dnů od počátku jeho nepřítomnosti.</response_text>
+	</record>
+	<record>
+		<text>Co když dítě onemocní?</text>
+		<intent>absence_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zletilý žák nebo zákonný zástupce nezletilého žáka je povinen doložit důvody nepřítomnosti ve vyučování nejpozději do 3 kalendářních dnů od počátku jeho nepřítomnosti.</response_text>
+	</record>
+	<record>
+		<text>Co dělat, když onemocním na týden?</text>
+		<intent>absence_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zletilý žák nebo zákonný zástupce nezletilého žáka je povinen doložit důvody nepřítomnosti ve vyučování nejpozději do 3 kalendářních dnů od počátku jeho nepřítomnosti.</response_text>
+	</record>
+	<record>
+		<text>Co mám dělat když mám velkou absenci?</text>
+		<intent>absence_procenta_problem</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Důležité je pokusit se to řešit co nejdříve. Zkuste promluvit s učiteli a vysvětlit jim důvod vaší dlouhodobé nepřítomnosti. Zároveň se pokuste získat co nejvyšší počet známek k tomu, abyste mohli být klasifikováni.</response_text>
+	</record>
+	<record>
+		<text>Jak mám řešit vysokou absenci?</text>
+		<intent>absence_procenta_problem</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Důležité je pokusit se to řešit co nejdříve. Zkuste promluvit s učiteli a vysvětlit jim důvod vaší dlouhodobé nepřítomnosti. Zároveň se pokuste získat co nejvyšší počet známek k tomu, abyste mohli být klasifikováni.</response_text>
+	</record>
+	<record>
+		<text>Můžu projít, když mám vysokou absenci?</text>
+		<intent>absence_procenta_problem</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Důležité je pokusit se to řešit co nejdříve. Zkuste promluvit s učiteli a vysvětlit jim důvod vaší dlouhodobé nepřítomnosti. Zároveň se pokuste získat co nejvyšší počet známek k tomu, abyste mohli být klasifikováni.</response_text>
+	</record>
+	<record>
+		<text>Jak mám postupovat když mám vysokou absenci?</text>
+		<intent>absence_procenta_problem</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Důležité je pokusit se to řešit co nejdříve. Zkuste promluvit s učiteli a vysvětlit jim důvod vaší dlouhodobé nepřítomnosti. Zároveň se pokuste získat co nejvyšší počet známek k tomu, abyste mohli být klasifikováni.</response_text>
+	</record>
+	<record>
+		<text>Je ve škole automat na kávu?</text>
+		<intent>automaty_kava</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Škola disponuje automaty na kávu.</response_text>
+	</record>
+	<record>
+		<text>Je zde na škole automat na kávu?</text>
+		<intent>automaty_kava</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Škola disponuje automaty na kávu.</response_text>
+	</record>
+	<record>
+		<text>Jsou ve škole automaty na kávu ?</text>
+		<intent>automaty_kava</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Škola disponuje automaty na kávu.</response_text>
+	</record>
+	<record>
+		<text>Jsou ve škole automat s nápojemi ?</text>
+		<intent>automaty_piti</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Škola disponuje automaty s chlazenými nápojemi.</response_text>
+	</record>
+	<record>
+		<text>Je zde na škole automat na piti?</text>
+		<intent>automaty_piti</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Škola disponuje automaty s chlazenými nápojemi.</response_text>
+	</record>
+	<record>
+		<text>Máte ve škole automaty na pití?</text>
+		<intent>automaty_piti</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Škola disponuje automaty s chlazenými nápojemi.</response_text>
+	</record>
+	<record>
+		<text>Využívá se systém Bakaláři?</text>
+		<intent>bakalari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, škola využívá systém Bakaláři.</response_text>
+	</record>
+	<record>
+		<text>Je ve škole systém Bakaláři?</text>
+		<intent>bakalari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, škola využívá systém Bakaláři.</response_text>
+	</record>
+	<record>
+		<text>Používá škola systém Bakaláři?</text>
+		<intent>bakalari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, škola využívá systém Bakaláři.</response_text>
+	</record>
+	<record>
+		<text>Máte na škole i bezbariérový přístup?</text>
+		<intent>bezbarierovy_pristup</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, škola má bezbariérový přístup.</response_text>
+	</record>
+	<record>
+		<text>Má škola bezbariérový přístup?</text>
+		<intent>bezbarierovy_pristup</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, škola má bezbariérový přístup.</response_text>
+	</record>
+	<record>
+		<text>Je zde dobrý přístup i například pro lidi s tělesním postižením?</text>
+		<intent>bezbarierovy_pristup</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, škola má bezbariérový přístup.</response_text>
+	</record>
+	<record>
+		<text>Nachází se ve škole bufet? </text>
+		<intent>bufet_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Bufet je zde velice vážený.</response_text>
+	</record>
+	<record>
+		<text>Je ve škole bufet?</text>
+		<intent>bufet_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Bufet je zde velice vážený.</response_text>
+	</record>
+	<record>
+		<text>Je ve škole bufet ?</text>
+		<intent>bufet_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Bufet je zde velice vážený.</response_text>
+	</record>
+	<record>
+		<text>Nachází se ve škole bufet?</text>
+		<intent>bufet_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Bufet je zde velice vážený.</response_text>
+	</record>
+	<record>
+		<text>zavírací doba bufetu?</text>
+		<intent>bufet_kdy_zavira</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Od pondělí do čtvrtka ve 13:30. V pátek ve 12:30.</response_text>
+	</record>
+	<record>
+		<text>kdy zaviraj bufet?</text>
+		<intent>bufet_kdy_zavira</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Od pondělí do čtvrtka ve 13:30. V pátek ve 12:30.</response_text>
+	</record>
+	<record>
+		<text>V kolik zavira bufet ?</text>
+		<intent>bufet_kdy_zavira</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Od pondělí do čtvrtka ve 13:30. V pátek ve 12:30.</response_text>
+	</record>
+	<record>
+		<text>kdy zavirá bufet?</text>
+		<intent>bufet_kdy_zavira</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Od pondělí do čtvrtka ve 13:30. V pátek ve 12:30.</response_text>
+	</record>
+	<record>
+		<text>Jazyky na Elektrotechnice-IoT?</text>
+		<intent>cizi_jazyky_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Angličtina je povinná pro všechny, následně si žáci vybírají svůj druhý jazyk z němčiny, ruštiny, španělštiny a francouzštiny.</response_text>
+	</record>
+	<record>
+		<text>Jake jsou jazyky na technickem lyceu?</text>
+		<intent>cizi_jazyky_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Angličtina je povinná pro všechny, následně si žáci vybírají svůj druhý jazyk z němčiny, ruštiny, španělštiny a francouzštiny.</response_text>
+	</record>
+	<record>
+		<text>Jaký jazyky jsou povinný na Elektrotechnice - IoT?</text>
+		<intent>cizy_jazyky_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Angličtina je povinná pro všechny, následně si žáci vybírají svůj druhý jazyk z němčiny, ruštiny, španělštiny a francouzštiny.</response_text>
+	</record>
+	<record>
+		<text>Kolik je ve škole jazyků?</text>
+		<intent>cizy_jazyky_kolik</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se vyučuje angličtina, němčina, ruština, španělština a francouzština.</response_text>
+	</record>
+	<record>
+		<text>Cizí jazyky ve škole?</text>
+		<intent>cizy_jazyky_kolik</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se vyučuje angličtina, němčina, ruština, španělština a francouzština.</response_text>
+	</record>
+	<record>
+		<text>Kolik se na škole vyučuje cizích jazyků?</text>
+		<intent>cizy_jazyky_kolik</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se vyučuje angličtina, němčina, ruština, španělština a francouzština.</response_text>
+	</record>
+	<record>
+		<text>Volitelné jazyky?</text>
+		<intent>cizy_jazyky_volitelne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Mezi volitelné jazyky na naší škole patří němčina, ruština, španělština a francouzština.</response_text>
+	</record>
+	<record>
+		<text>Jaké volitelné jazyky si můžu vybrat?</text>
+		<intent>cizy_jazyky_volitelne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Mezi volitelné jazyky na naší škole patří němčina, ruština, španělština a francouzština.</response_text>
+	</record>
+	<record>
+		<text>Jaké jsou na výběr volitelné jazyky?</text>
+		<intent>cizy_jazyky_volitelne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Mezi volitelné jazyky na naší škole patří němčina, ruština, španělština a francouzština.</response_text>
+	</record>
+	<record>
+		<text>jak fungují dovednostní skupiny na jazyky?</text>
+		<intent>cizy_jazyky_vyuka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci jsou rozděleni do speciálních dovednostních skupin na základě jejich jazykových dovedností. Díky tomu se učitelé mohou efektivněji věnovat výuce.</response_text>
+	</record>
+	<record>
+		<text>Podle čeho jsou rozděleni žáci na cizí jazyky?</text>
+		<intent>cizy_jazyky_vyuka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci jsou rozděleni do speciálních dovednostních skupin na základě jejich jazykových dovedností. Díky tomu se učitelé mohou efektivněji věnovat výuce.</response_text>
+	</record>
+	<record>
+		<text>Jak zde probíhá výuka cizího jazyka?</text>
+		<intent>cizy_jazyky_vyuka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci jsou rozděleni do speciálních dovednostních skupin na základě jejich jazykových dovedností. Díky tomu se učitelé mohou efektivněji věnovat výuce.</response_text>
+	</record>
+	<record>
+		<text>Od kdy se učí cizí jazyk?</text>
+		<intent>cizy_jazyky_zacatek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se vyučují oba cizý jazyky od prvního ročníku. </response_text>
+	</record>
+	<record>
+		<text>Vyučují se cizí jazyky od prváku?</text>
+		<intent>cizy_jazyky_zacatek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se vyučují oba cizý jazyky od prvního ročníku. </response_text>
+	</record>
+	<record>
+		<text>Kdy začíná vyučování cizího jazyka?</text>
+		<intent>cizy_jazyky_zacatek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se vyučují oba cizý jazyky od prvního ročníku. </response_text>
+	</record>
+	<record>
+		<text>Od kterého ročníku se vyučuje cizí jazyk?</text>
+		<intent>cizy_jazyky_zacatek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se vyučují oba cizý jazyky od prvního ročníku. </response_text>
+	</record>
+	<record>
+		<text>Je u vás ve škole možnost dálkového studia?</text>
+		<intent>dalkove_studium</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ne.</response_text>
+	</record>
+	<record>
+		<text>Dálkové vzdělávání?</text>
+		<intent>dalkove_studium</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ne.</response_text>
+	</record>
+	<record>
+		<text>Je možnost dálkového studia?</text>
+		<intent>dalkove_studium</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ne.</response_text>
+	</record>
+	<record>
+		<text>Jaké programy využíváte k distanční výuce?</text>
+		<intent>distancni_vyuka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Primárním nástrojem pro vedení distanční výuky na VOŠ a SPŠE Plzeň je Microsoft Teams. Pokud má vyučující materiály vytvořené v jiném prostředí (Moodle apod.), může toto jiné prostředí využívat, ale musí v MS Teams žákům předávat informace o aktivitách souvisejících s výukou. Distanční výuka probíhá dle standardního rozvrhu a je pro žáky povinná. Vyučující je povinen včas sdělit žákům, v jakém formátu bude výuka probíhat. Není-li online hodina oznámena žákům minimálně 24 hodin předem, je pro žáky nepovinná.</response_text>
+	</record>
+	<record>
+		<text>K distanční výuce používá vaše škola microsoft teams?</text>
+		<intent>distancni_vyuka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Primárním nástrojem pro vedení distanční výuky na VOŠ a SPŠE Plzeň je Microsoft Teams. Pokud má vyučující materiály vytvořené v jiném prostředí (Moodle apod.), může toto jiné prostředí využívat, ale musí v MS Teams žákům předávat informace o aktivitách souvisejících s výukou. Distanční výuka probíhá dle standardního rozvrhu a je pro žáky povinná. Vyučující je povinen včas sdělit žákům, v jakém formátu bude výuka probíhat. Není-li online hodina oznámena žákům minimálně 24 hodin předem, je pro žáky nepovinná.</response_text>
+	</record>
+	<record>
+		<text>Jaké jsou tu postupy při distanční výuce?</text>
+		<intent>distancni_vyuka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Primárním nástrojem pro vedení distanční výuky na VOŠ a SPŠE Plzeň je Microsoft Teams. Pokud má vyučující materiály vytvořené v jiném prostředí (Moodle apod.), může toto jiné prostředí využívat, ale musí v MS Teams žákům předávat informace o aktivitách souvisejících s výukou. Distanční výuka probíhá dle standardního rozvrhu a je pro žáky povinná. Vyučující je povinen včas sdělit žákům, v jakém formátu bude výuka probíhat. Není-li online hodina oznámena žákům minimálně 24 hodin předem, je pro žáky nepovinná.</response_text>
+	</record>
+	<record>
+		<text>je mozné nejake doucovani?</text>
+		<intent>doucovani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Doučování je možné po domluvě s učiteli daného předmětu. Samotná škola žádné doučování nenabízí.</response_text>
+	</record>
+	<record>
+		<text>Nabízí škola doučování z českého jazyka?</text>
+		<intent>doucovani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Doučování je možné po domluvě s učiteli daného předmětu. Samotná škola žádné doučování nenabízí.</response_text>
+	</record>
+	<record>
+		<text>Nabízí škola doučování z matematiky?</text>
+		<intent>doucovani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Doučování je možné po domluvě s učiteli daného předmětu. Samotná škola žádné doučování nenabízí.</response_text>
+	</record>
+	<record>
+		<text>nabízí škola doučování z odborných předmětů?</text>
+		<intent>doucovani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Doučování je možné po domluvě s učiteli daného předmětu. Samotná škola žádné doučování nenabízí.</response_text>
+	</record>
+	<record>
+		<text>Je zde nějaká možnost pomoci při studiu? (doučování, programy, ....)</text>
+		<intent>doucovani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Doučování je možné po domluvě s učiteli daného předmětu. Samotná škola žádné doučování nenabízí.</response_text>
+	</record>
+	<record>
+		<text>Má škola vlastní tělocvičnu/fitness ?</text>
+		<intent>fitko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, žáci jí mohou navštěvovat bezplatně po domluvě s učitelem v hodinách výuky. Nebo si mohou za 500 korun pořídit permanentku a navštěvovat tak školní posilovnu i po skončení výuky.</response_text>
+	</record>
+	<record>
+		<text>Je k dispozici posilovna?</text>
+		<intent>fitko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, žáci jí mohou navštěvovat bezplatně po domluvě s učitelem v hodinách výuky. Nebo si mohou za 500 korun pořídit permanentku a navštěvovat tak školní posilovnu i po skončení výuky.</response_text>
+	</record>
+	<record>
+		<text>Je zde posilovna ?</text>
+		<intent>fitko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano, žáci jí mohou navštěvovat bezplatně po domluvě s učitelem v hodinách výuky. Nebo si mohou za 500 korun pořídit permanentku a navštěvovat tak školní posilovnu i po skončení výuky.</response_text>
+	</record>
+	<record>
+		<text>Kolik je na škole hodin tělocviku?</text>
+		<intent>hodin_telesna_vychova</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V prvním ročníku mají všechny třídy 3 hodiny tělesné výchovy týdně. V dalších letech jsou dvě hodiny týdně. </response_text>
+	</record>
+	<record>
+		<text>Počet hodin tělocviku v určitých ročnícíh?</text>
+		<intent>hodin_telesna_vychova</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V prvním ročníku mají všechny třídy 3 hodiny tělesné výchovy týdně. V dalších letech jsou dvě hodiny týdně. </response_text>
+	</record>
+	<record>
+		<text>Jaký je na škole počet hodin tělesné výchovy?</text>
+		<intent>hodin_telesna_vychova</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V prvním ročníku mají všechny třídy 3 hodiny tělesné výchovy týdně. V dalších letech jsou dvě hodiny týdně. </response_text>
+	</record>
+	<record>
+		<text>Je tento chatbot funkční?</text>
+		<intent>chatbot_funguje</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Psali bychom si v opačném případě? ;)</response_text>
+	</record>
+	<record>
+		<text>Fungujes?</text>
+		<intent>chatbot_funguje</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Psali bychom si v opačném případě? ;)</response_text>
+	</record>
+	<record>
+		<text>Funguje tenhle chatbot ?</text>
+		<intent>chatbot_funguje</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Psali bychom si v opačném případě? ;)</response_text>
+	</record>
+	<record>
+		<text>Funguje na škole inkluze?</text>
+		<intent>inkluze</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>sekretariat</response_text>
+	</record>
+	<record>
+		<text>Jak se pracuje se žáky v rámci inkluze?</text>
+		<intent>inkluze</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>sekretariat</response_text>
+	</record>
+	<record>
+		<text>Funguje ve škole inkluze?</text>
+		<intent>inkluze</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>sekretariat</response_text>
+	</record>
+	<record>
+		<text>Do kdy musí dorazit na domov mládeže?</text>
+		<intent>internat_do_kdy_dorazit</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Termín příjezdů je stanoven na dobu 16:00 - 21:30 hodin. Pokud to umožňuje rozvrh žáka, může se souhlasem zákonného zástupce přijíždět v pondělí nebo v den následující po dni pracovního klidu.</response_text>
+	</record>
+	<record>
+		<text>V kolik nejpozději může můj syn přijít na internát</text>
+		<intent>internat_do_kdy_dorazit</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Termín příjezdů je stanoven na dobu 16:00 - 21:30 hodin. Pokud to umožňuje rozvrh žáka, může se souhlasem zákonného zástupce přijíždět v pondělí nebo v den následující po dni pracovního klidu.</response_text>
+	</record>
+	<record>
+		<text>Kdy musí moje dítě dorazit na internát?</text>
+		<intent>internat_do_kdy_dorazit</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Termín příjezdů je stanoven na dobu 16:00 - 21:30 hodin. Pokud to umožňuje rozvrh žáka, může se souhlasem zákonného zástupce přijíždět v pondělí nebo v den následující po dni pracovního klidu.</response_text>
+	</record>
+	<record>
+		<text>Po kolika jsou pokoje na inrternátu?</text>
+		<intent>internat_kapacita_pokoju</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokoje na internátu jsou po dvou. Na základě speciálního požadavku si může uchazeč o ubytování zažádat o vlastní pokoj.</response_text>
+	</record>
+	<record>
+		<text>Pokoje na internátu jsou po kolika?</text>
+		<intent>internat_kapacita_pokoju</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokoje na internátu jsou po dvou. Na základě speciálního požadavku si může uchazeč o ubytování zažádat o vlastní pokoj.</response_text>
+	</record>
+	<record>
+		<text>Po kolika lidech jsou pokoje na internátu</text>
+		<intent>internat_kapacita_pokoju</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokoje na internátu jsou po dvou. Na základě speciálního požadavku si může uchazeč o ubytování zažádat o vlastní pokoj.</response_text>
+	</record>
+	<record>
+		<text>Jsou na intru společné sprchy?</text>
+		<intent>internat_koupelna</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Každé patro má jednu společnou koupelnu.</response_text>
+	</record>
+	<record>
+		<text>je na intru koupelna na pokoji?</text>
+		<intent>internat_koupelna</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Každé patro má jednu společnou koupelnu.</response_text>
+	</record>
+	<record>
+		<text>Mají pokoje na internátu vlastní koupelny?</text>
+		<intent>internat_koupelna</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Každé patro má jednu společnou koupelnu.</response_text>
+	</record>
+	<record>
+		<text>můžu si na intru vařit ?</text>
+		<intent>internat_kuchyne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Funguje zde jedna kuchyň na patro.</response_text>
+	</record>
+	<record>
+		<text>Je na internátu kuchyňka?</text>
+		<intent>internat_kuchyne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Funguje zde jedna kuchyň na patro.</response_text>
+	</record>
+	<record>
+		<text>Je možnost si na intru vařit?</text>
+		<intent>internat_kuchyne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Funguje zde jedna kuchyň na patro.</response_text>
+	</record>
+	<record>
+		<text>Může mého syna na intru navštívit jeho kamarádka?</text>
+		<intent>internat_navstevy</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Návštěvy cizých osob jsou povoleny pouze se souhlasem vychovatele a to pouze v době 15:30 - 19:00. Cizý osoby jsou povinny nahlásit příchod i odchod na recepci DM.</response_text>
+	</record>
+	<record>
+		<text>Jsou na internátě povolený návštěvy?</text>
+		<intent>internat_navstevy</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Návštěvy cizých osob jsou povoleny pouze se souhlasem vychovatele a to pouze v době 15:30 - 19:00. Cizý osoby jsou povinny nahlásit příchod i odchod na recepci DM.</response_text>
+	</record>
+	<record>
+		<text>Kdy musím odjet z intru v pátek?</text>
+		<intent>internat_opusteni_patek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V odjezdový den musíte opustit domov mládeže nejpozději do 15:00.</response_text>
+	</record>
+	<record>
+		<text>Kdy musím opustit interát?</text>
+		<intent>internat_opusteni_patek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V odjezdový den musíte opustit domov mládeže nejpozději do 15:00.</response_text>
+	</record>
+	<record>
+		<text>Do kdy musím opustit intr v pátek?</text>
+		<intent>internat_opusteni_patek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V odjezdový den musíte opustit domov mládeže nejpozději do 15:00.</response_text>
+	</record>
+	<record>
+		<text>Je možné přinést si vlastní perinu?</text>
+		<intent>internat_periny_vlastni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Domov mládeže disponuje vlastními peřiny i polštáři. Ovšem je samozřejmě možné si donést vlastní.</response_text>
+	</record>
+	<record>
+		<text>Mohu si přinést vlastní peřinu na internát?</text>
+		<intent>internat_periny_vlastni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Domov mládeže disponuje vlastními peřiny i polštáři. Ovšem je samozřejmě možné si donést vlastní.</response_text>
+	</record>
+	<record>
+		<text>je na intru možnost vlastní peřiny?</text>
+		<intent>internat_periny_vlastni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Domov mládeže disponuje vlastními peřiny i polštáři. Ovšem je samozřejmě možné si donést vlastní.</response_text>
+	</record>
+	<record>
+		<text>Je potřeba si přinést vlastní peřiny?</text>
+		<intent>internat_periny_vlastni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Domov mládeže disponuje vlastními peřiny i polštáři. Ovšem je samozřejmě možné si donést vlastní.</response_text>
+	</record>
+	<record>
+		<text>Je zde pohodlná matrace?</text>
+		<intent>internat_postele</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Postele na domově mládeže už mají něco za sebou. Ovšem vyspat se na nich taky nedá.</response_text>
+	</record>
+	<record>
+		<text>Je na internátu postel s pohodlnou matrací?</text>
+		<intent>internat_postele</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Postele na domově mládeže už mají něco za sebou. Ovšem vyspat se na nich taky nedá.</response_text>
+	</record>
+	<record>
+		<text>Jsou na internátu pohodlné postele?</text>
+		<intent>internat_postele</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Postele na domově mládeže už mají něco za sebou. Ovšem vyspat se na nich taky nedá.</response_text>
+	</record>
+	<record>
+		<text>Může si mé dítě vybrat s kým bude na pokoji na intru?</text>
+		<intent>internat_spolubydlici</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Musí to ale být uvedeno v přihlášce na domov mládeže.</response_text>
+	</record>
+	<record>
+		<text>Muzu si vybrat spolubydliciho na intr?</text>
+		<intent>internat_spolubydlici</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Musí to ale být uvedeno v přihlášce na domov mládeže.</response_text>
+	</record>
+	<record>
+		<text>Můžu si přivézt vlastní spotřebič?</text>
+		<intent>internat_spotrebice_vlastni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vlastní spotřebiče jsou na domově mládeže zakázány.</response_text>
+	</record>
+	<record>
+		<text>Jsou na internátu povoleny spotřebiče?</text>
+		<intent>internat_spotrebice_vlastni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vlastní spotřebiče jsou na domově mládeže zakázány.</response_text>
+	</record>
+	<record>
+		<text>Vlastní spotřebič je na internátu dovolený?</text>
+		<intent>internat_spotrebice_vlastni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vlastní spotřebiče jsou na domově mládeže zakázány.</response_text>
+	</record>
+	<record>
+		<text>Může si můj syn přinést na internát vlastní spotřebiče?</text>
+		<intent>internat_spotrebice_vlastni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vlastní spotřebiče jsou na domově mládeže zakázány.</response_text>
+	</record>
+	<record>
+		<text>Jsou studenti spokojeni?</text>
+		<intent>internat_studenti_spokojenost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vzhledem k nedostatku dat nemohu posoudit. Podle google recenzí má internát skoro 4 hvězdičky.</response_text>
+	</record>
+	<record>
+		<text>Je velká spokojenost s internátem?</text>
+		<intent>internat_studenti_spokojenost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vzhledem k nedostatku dat nemohu posoudit. Podle google recenzí má internát skoro 4 hvězdičky.</response_text>
+	</record>
+	<record>
+		<text>Jsou studenti spokojeni s domovem mládeže?</text>
+		<intent>internat_studenti_spokojenost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vzhledem k nedostatku dat nemohu posoudit. Podle google recenzí má internát skoro 4 hvězdičky.</response_text>
+	</record>
+	<record>
+		<text>V kolik hodin je večerka?</text>
+		<intent>internat_vecerka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Večerka je ve 22 hodin.</response_text>
+	</record>
+	<record>
+		<text>Je na internátu určena večerka?</text>
+		<intent>internat_vecerka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Večerka je ve 22 hodin.</response_text>
+	</record>
+	<record>
+		<text>Do kdy můžu být vzhůru?</text>
+		<intent>internat_vecerka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Večerka je ve 22 hodin.</response_text>
+	</record>
+	<record>
+		<text>Mohu zůstat na internátu přes víkend?</text>
+		<intent>internat_vikend</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro pobyt na internátu přes víkend jsou zde dvě podmínky: 1. - Oznámit to vychovateli nejpozději do středy daného týdne. 2. - Žadatel musí být zletilý.</response_text>
+	</record>
+	<record>
+		<text>Je možné zůstat přes víkend na internátu?</text>
+		<intent>internat_vikend</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro pobyt na internátu přes víkend jsou zde dvě podmínky: 1. - Oznámit to vychovateli nejpozději do středy daného týdne. 2. - Žadatel musí být zletilý.</response_text>
+	</record>
+	<record>
+		<text>Je možnost zůstat na internátu přes víkend?</text>
+		<intent>internat_vikend</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro pobyt na internátu přes víkend jsou zde dvě podmínky: 1. - Oznámit to vychovateli nejpozději do středy daného týdne. 2. - Žadatel musí být zletilý.</response_text>
+	</record>
+	<record>
+		<text>Do kdy může být venku?</text>
+		<intent>internat_vychazky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vycházky uděluje skupinový vychovatel individuálně dle prospěchu žáka a jeho chování v DM: do 18 let - 21:00. Nad 18 let - 22:30. Prodloužení vycházky žáků starších 18 let může vychovatel dobu vycházky vyjímečně prodloužit do 24:00. Prodloužení vycházky u žáků mladších 18 let může skupinový vychovatel povolit pouze na základě písemné žádosti nezákonného zástupce vychovatel</response_text>
+	</record>
+	<record>
+		<text>Do kolika můžu být venku?</text>
+		<intent>internat_vychazky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vycházky uděluje skupinový vychovatel individuálně dle prospěchu žáka a jeho chování v DM: do 18 let - 21:00. Nad 18 let - 22:30. Prodloužení vycházky žáků starších 18 let může vychovatel dobu vycházky vyjímečně prodloužit do 24:00. Prodloužení vycházky u žáků mladších 18 let může skupinový vychovatel povolit pouze na základě písemné žádosti nezákonného zástupce vychovatel</response_text>
+	</record>
+	<record>
+		<text>V kolik musí být můj syn nejpozději na intru</text>
+		<intent>internat_vychazky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vycházky uděluje skupinový vychovatel individuálně dle prospěchu žáka a jeho chování v DM: do 18 let - 21:00. Nad 18 let - 22:30. Prodloužení vycházky žáků starších 18 let může vychovatel dobu vycházky vyjímečně prodloužit do 24:00. Prodloužení vycházky u žáků mladších 18 let může skupinový vychovatel povolit pouze na základě písemné žádosti nezákonného zástupce vychovatel</response_text>
+	</record>
+	<record>
+		<text>Do kdy se musím vracet do domova mládeže?</text>
+		<intent>internat_vychazky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vycházky uděluje skupinový vychovatel individuálně dle prospěchu žáka a jeho chování v DM: do 18 let - 21:00. Nad 18 let - 22:30. Prodloužení vycházky žáků starších 18 let může vychovatel dobu vycházky vyjímečně prodloužit do 24:00. Prodloužení vycházky u žáků mladších 18 let může skupinový vychovatel povolit pouze na základě písemné žádosti nezákonného zástupce vychovatel</response_text>
+	</record>
+	<record>
+		<text>Jak fungují vycházky na domově mládeže?</text>
+		<intent>internat_vychazky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vycházky uděluje skupinový vychovatel individuálně dle prospěchu žáka a jeho chování v DM: do 18 let - 21:00. Nad 18 let - 22:30. Prodloužení vycházky žáků starších 18 let může vychovatel dobu vycházky vyjímečně prodloužit do 24:00. Prodloužení vycházky u žáků mladších 18 let může skupinový vychovatel povolit pouze na základě písemné žádosti nezákonného zástupce vychovatel</response_text>
+	</record>
+	<record>
+		<text>Je zde nějaká možnost aby mohl být můj syn déle venku kvůli práci?</text>
+		<intent>internat_vychazky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vycházky uděluje skupinový vychovatel individuálně dle prospěchu žáka a jeho chování v DM: do 18 let - 21:00. Nad 18 let - 22:30. Prodloužení vycházky žáků starších 18 let může vychovatel dobu vycházky vyjímečně prodloužit do 24:00. Prodloužení vycházky u žáků mladších 18 let může skupinový vychovatel povolit pouze na základě písemné žádosti nezákonného zástupce vychovatel</response_text>
+	</record>
+	<record>
+		<text>Je možné abych mohl odejít v noci ven?</text>
+		<intent>internat_vychazky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vycházky uděluje skupinový vychovatel individuálně dle prospěchu žáka a jeho chování v DM: do 18 let - 21:00. Nad 18 let - 22:30. Prodloužení vycházky žáků starších 18 let může vychovatel dobu vycházky vyjímečně prodloužit do 24:00. Prodloužení vycházky u žáků mladších 18 let může skupinový vychovatel povolit pouze na základě písemné žádosti nezákonného zástupce vychovatel</response_text>
+	</record>
+	<record>
+		<text>co se dela na IoT?</text>
+		<intent>iot_o_cem_je</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>IoT je unikátní spojení Elektrotechniky a Informačních technologií. Nejprve se naučíš programovat a vyzkoušíš si první kroky v programování řídících mikrokontrolérů. Postupně pak získáš plno dalších znalostí z elektrotechniky, průmyslových systémů a IoT. Stane se z Tebe junior vývojář a začneš navrhovat a konstruovat vlastní elektronická zařízení! Většinu výuky budeme pracovat zejména s mikrokontroléry ARM, a to od jednoduchých vývojových desek až po vlastní školní platformu.</response_text>
+	</record>
+	<record>
+		<text>o cem je iot?</text>
+		<intent>iot_o_cem_je</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>IoT je unikátní spojení Elektrotechniky a Informačních technologií. Nejprve se naučíš programovat a vyzkoušíš si první kroky v programování řídících mikrokontrolérů. Postupně pak získáš plno dalších znalostí z elektrotechniky, průmyslových systémů a IoT. Stane se z Tebe junior vývojář a začneš navrhovat a konstruovat vlastní elektronická zařízení! Většinu výuky budeme pracovat zejména s mikrokontroléry ARM, a to od jednoduchých vývojových desek až po vlastní školní platformu.</response_text>
+	</record>
+	<record>
+		<text>O čem přesně je IoT?</text>
+		<intent>iot_o_cem_je</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>IoT je unikátní spojení Elektrotechniky a Informačních technologií. Nejprve se naučíš programovat a vyzkoušíš si první kroky v programování řídících mikrokontrolérů. Postupně pak získáš plno dalších znalostí z elektrotechniky, průmyslových systémů a IoT. Stane se z Tebe junior vývojář a začneš navrhovat a konstruovat vlastní elektronická zařízení! Většinu výuky budeme pracovat zejména s mikrokontroléry ARM, a to od jednoduchých vývojových desek až po vlastní školní platformu.</response_text>
+	</record>
+	<record>
+		<text>Kde můžu chytit oběd po termínu?</text>
+		<intent>jidelna_burza</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na objednání obědu po termínu změny je nutné sledovat burzu. Je možné, že nějaký jiný student dal své jídlo do burzy a zpřístupnil ho tak těm lidem, kteří objednáno nemají. Ti si ho mohou následně převzít.  </response_text>
+	</record>
+	<record>
+		<text>Kde objednám oběd když jsem to nestihl?</text>
+		<intent>jidelna_burza</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na objednání obědu po termínu změny je nutné sledovat burzu. Je možné, že nějaký jiný student dal své jídlo do burzy a zpřístupnil ho tak těm lidem, kteří objednáno nemají. Ti si ho mohou následně převzít.  </response_text>
+	</record>
+	<record>
+		<text>Kde si můžu přeobjednat oběd po termínu změny?</text>
+		<intent>jidelna_burza</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na objednání obědu po termínu změny je nutné sledovat burzu. Je možné, že nějaký jiný student dal své jídlo do burzy a zpřístupnil ho tak těm lidem, kteří objednáno nemají. Ti si ho mohou následně převzít.  </response_text>
+	</record>
+	<record>
+		<text>Jaké jsou termíny otevření školní jídelny?</text>
+		<intent>jidelna_cas_otevreni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Čas otevření jídelny: snídaně 6:00 - 7:40; obědy 11:30 - 14:45; večeře 17:15 - 18:50.</response_text>
+	</record>
+	<record>
+		<text>Kdy má jídelna otevřeno?</text>
+		<intent>jidelna_cas_otevreni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Čas otevření jídelny: snídaně 6:00 - 7:40; obědy 11:30 - 14:45; večeře 17:15 - 18:50.</response_text>
+	</record>
+	<record>
+		<text>Od kolika do kolika je školní jídelna otevřená?</text>
+		<intent>jidelna_cas_otevreni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Čas otevření jídelny: snídaně 6:00 - 7:40; obědy 11:30 - 14:45; večeře 17:15 - 18:50.</response_text>
+	</record>
+	<record>
+		<text>od kdy jsou snidane?</text>
+		<intent>jidelna_cas_snidane</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej snídaní je od 6:00 do 7:40.</response_text>
+	</record>
+	<record>
+		<text>do kdy jsou snidane?</text>
+		<intent>jidelna_cas_snidane</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej snídaní je od 6:00 do 7:40.</response_text>
+	</record>
+	<record>
+		<text>kdy jsou snidane?</text>
+		<intent>jidelna_cas_snidane</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej snídaní je od 6:00 do 7:40.</response_text>
+	</record>
+	<record>
+		<text>kdy je vydej snidani?</text>
+		<intent>jidelna_cas_snidane</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej snídaní je od 6:00 do 7:40.</response_text>
+	</record>
+	<record>
+		<text>od kdy je obed?</text>
+		<intent>jidelna_cas_obeda</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej obědů je od 11:30 do 14:45.</response_text>
+	</record>
+	<record>
+		<text>do kdy je obed?</text>
+		<intent>jidelna_cas_obeda</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej obědů je od 11:30 do 14:45.</response_text>
+	</record>
+	<record>
+		<text>kdy je vydej obedu?</text>
+		<intent>jidelna_cas_obeda</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej obědů je od 11:30 do 14:45.</response_text>
+	</record>
+	<record>
+		<text>kdy vydavaji obedy?</text>
+		<intent>jidelna_cas_obeda</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej obědů je od 11:30 do 14:45.</response_text>
+	</record>
+	<record>
+		<text>od kdy jsou vecere?</text>
+		<intent>jidelna_cas_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej večeří je od 17:15 do 18:50.</response_text>
+	</record>
+	<record>
+		<text>vecere je kdy?</text>
+		<intent>jidelna_cas_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej večeří je od 17:15 do 18:50.</response_text>
+	</record>
+	<record>
+		<text>do kdy jsou vecere?</text>
+		<intent>jidelna_cas_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej večeří je od 17:15 do 18:50.</response_text>
+	</record>
+	<record>
+		<text>kdy je vecere?</text>
+		<intent>jidelna_cas_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej večeří je od 17:15 do 18:50.</response_text>
+	</record>
+	<record>
+		<text>Kdy jsou večeře?</text>
+		<intent>jidelna_cas_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Výdej večeří je od 17:15 do 18:50.</response_text>
+	</record>
+	<record>
+		<text>kolik zaplatim za obed?</text>
+		<intent>jidelna_cena_obeda</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obědy stojí 43 korun.</response_text>
+	</record>
+	<record>
+		<text>jaka je cena obeda?</text>
+		<intent>jidelna_cena_obeda</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obědy stojí 43 korun.</response_text>
+	</record>
+	<record>
+		<text>kolik stoji obed?</text>
+		<intent>jidelna_cena_obeda</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obědy stojí 43 korun.</response_text>
+	</record>
+	<record>
+		<text>Kolik stojí obědy?</text>
+		<intent>jidelna_cena_obeda</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obědy stojí 43 korun.</response_text>
+	</record>
+	<record>
+		<text>Kolik zaplatím za večeři ve školní jídelně?</text>
+		<intent>jidelna_cena_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Večeře stojí 39 korun.</response_text>
+	</record>
+	<record>
+		<text>Jaká je cena večeří?</text>
+		<intent>jidelna_cena_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Večeře stojí 39 korun.</response_text>
+	</record>
+	<record>
+		<text>vecere stoji kolik?</text>
+		<intent>jidelna_cena_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Večeře stojí 39 korun.</response_text>
+	</record>
+	<record>
+		<text>kolik stojí večeře?</text>
+		<intent>jidelna_cena_vecere</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Večeře stojí 39 korun.</response_text>
+	</record>
+	<record>
+		<text>Jsou na škole zajištěné obědy pro děti v jídelně?</text>
+		<intent>jidelna_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Školní jídelna je k dispozici a jídlo zde je hotový gastronomický zážitek!</response_text>
+	</record>
+	<record>
+		<text>Je k dispozici jídelna?</text>
+		<intent>jidelna_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Školní jídelna je k dispozici a jídlo zde je hotový gastronomický zážitek!</response_text>
+	</record>
+	<record>
+		<text>jsou tam obedy?</text>
+		<intent>jidelna_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Školní jídelna je k dispozici a jídlo zde je hotový gastronomický zážitek!</response_text>
+	</record>
+	<record>
+		<text>Obědy jsou nejsou ?</text>
+		<intent>jidelna_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Školní jídelna je k dispozici a jídlo zde je hotový gastronomický zážitek!</response_text>
+	</record>
+	<record>
+		<text>Má vaše škola jídelnu ?</text>
+		<intent>jidelna_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Školní jídelna je k dispozici a jídlo zde je hotový gastronomický zážitek!</response_text>
+	</record>
+	<record>
+		<text>Jsou ve škole obědy?</text>
+		<intent>jidelna_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Školní jídelna je k dispozici a jídlo zde je hotový gastronomický zážitek!</response_text>
+	</record>
+	<record>
+		<text>Je k dispozici školní jídelna?</text>
+		<intent>jidelna_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Školní jídelna je k dispozici a jídlo zde je hotový gastronomický zážitek!</response_text>
+	</record>
+	<record>
+		<text>Má škola svojí vlastní školní jídelnu?</text>
+		<intent>jidelna_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ano. Školní jídelna je k dispozici a jídlo zde je hotový gastronomický zážitek!</response_text>
+	</record>
+	<record>
+		<text>Jak to funguje s objednavanim obedu</text>
+		<intent>jidelna_jak_objednat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Možnost objednání jídla je skrze terminály v jídelně, ke kterým se přihlásíte pomocí plzeňské karty nebo školního čipu. Studenti mohou také využít webových stránek jídelny, ke kterým se přihlásí pomocí školních údajů.</response_text>
+	</record>
+	<record>
+		<text>jak si objednam obed?</text>
+		<intent>jidelna_jak_objednat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Možnost objednání jídla je skrze terminály v jídelně, ke kterým se přihlásíte pomocí plzeňské karty nebo školního čipu. Studenti mohou také využít webových stránek jídelny, ke kterým se přihlásí pomocí školních údajů.</response_text>
+	</record>
+	<record>
+		<text>jak si obědnám obed?</text>
+		<intent>jidelna_jak_objednat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Možnost objednání jídla je skrze terminály v jídelně, ke kterým se přihlásíte pomocí plzeňské karty nebo školního čipu. Studenti mohou také využít webových stránek jídelny, ke kterým se přihlásí pomocí školních údajů.</response_text>
+	</record>
+	<record>
+		<text>Jak si ve školní jídelně objednám oběd ?</text>
+		<intent>jidelna_jak_objednat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Možnost objednání jídla je skrze terminály v jídelně, ke kterým se přihlásíte pomocí plzeňské karty nebo školního čipu. Studenti mohou také využít webových stránek jídelny, ke kterým se přihlásí pomocí školních údajů.</response_text>
+	</record>
+	<record>
+		<text>Jak funguje školní jídelna? </text>
+		<intent>jidelna_jak_objednat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Možnost objednání jídla je skrze terminály v jídelně, ke kterým se přihlásíte pomocí plzeňské karty nebo školního čipu. Studenti mohou také využít webových stránek jídelny, ke kterým se přihlásí pomocí školních údajů.</response_text>
+	</record>
+	<record>
+		<text>Vaří dobře ? </text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>jak dobrá je školní jídelna?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Je dobré stravování?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Vaří školní jídelna dobré obědy?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Je tady dobrá jídelna?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>jak vaří v jídelně ?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Jak se vaří ve zdejší jídelně?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Vaří ve školní kantýně dobře?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Vaří dobře?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Vaří jídelna dobře?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Vaří v jídelně dobře?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Vaří ve školní jídelně dobře?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Vaří dobře v jídelně?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Vaří dobře ve školní jídelně?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Jak tady vaří?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>jsou obědy dobré?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Jak zde vaří?</text>
+		<intent>jidelna_jak_vari</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jídelna vaří opravdu dobře. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. </response_text>
+	</record>
+	<record>
+		<text>Kolik je jídel na výběr?</text>
+		<intent>jidelna_vyber_jidla</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obvykle je na výběr ze tří snídaní, tří obědů a dvou večeří. </response_text>
+	</record>
+	<record>
+		<text>Z kolika jídel si mohu vybrat?</text>
+		<intent>jidelna_vyber_jidla</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obvykle je na výběr ze tří snídaní, tří obědů a dvou večeří. </response_text>
+	</record>
+	<record>
+		<text>Je možné vybrat si z více jídel?</text>
+		<intent>jidelna_vyber_jidla</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obvykle je na výběr ze tří snídaní, tří obědů a dvou večeří. </response_text>
+	</record>
+	<record>
+		<text>Z kolika jídel si mohu vybrat?</text>
+		<intent>jidelna_vyber_jidla</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obvykle je na výběr ze tří snídaní, tří obědů a dvou večeří. </response_text>
+	</record>
+	<record>
+		<text>Cena kávy u nás ve škole?</text>
+		<intent>kava_cena</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Cena malé kávy je 10Kč. Cena velké kávy je 15Kč.</response_text>
+	</record>
+	<record>
+		<text>kolik stoji kafe?</text>
+		<intent>kava_cena</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Cena malé kávy je 10Kč. Cena velké kávy je 15Kč.</response_text>
+	</record>
+	<record>
+		<text>Kolik stojí káva na škole?</text>
+		<intent>kava_cena</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Cena malé kávy je 10Kč. Cena velké kávy je 15Kč.</response_text>
+	</record>
+	<record>
+		<text>Jaká je cena kávy ve škole?</text>
+		<intent>kava_cena</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Cena malé kávy je 10Kč. Cena velké kávy je 15Kč.</response_text>
+	</record>
+	<record>
+		<text>Vrácení peněz za klíče od skříňky?</text>
+		<intent>klice_refund</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vrácení peněz za skříňku bohužel není možné. Peníze byli totiž věnovány jako dar pro školu.</response_text>
+	</record>
+	<record>
+		<text>můžu dostat vraceny peníze za klíče od skříňky?</text>
+		<intent>klice_refund</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vrácení peněz za skříňku bohužel není možné. Peníze byli totiž věnovány jako dar pro školu.</response_text>
+	</record>
+	<record>
+		<text>Můžu dostat refund za klíče od skříňky?</text>
+		<intent>klice_refund</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Vrácení peněz za skříňku bohužel není možné. Peníze byli totiž věnovány jako dar pro školu.</response_text>
+	</record>
+	<record>
+		<text>Pořádá škola adaptační kurz?</text>
+		<intent>kurz_adaptacni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Adaptačnímu kurzu se na naší škole říká Nulák a probíhá před začátkem školního roku pro studenty prvních ročníků. Pak zde funguje ještě Fáze. To je seznamovací akce pro nově vzniklé třídní kolektivy během studia.</response_text>
+	</record>
+	<record>
+		<text>Je na škole adaptační kurz?</text>
+		<intent>kurz_adaptacni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Adaptačnímu kurzu se na naší škole říká Nulák a probíhá před začátkem školního roku pro studenty prvních ročníků. Pak zde funguje ještě Fáze. To je seznamovací akce pro nově vzniklé třídní kolektivy během studia.</response_text>
+	</record>
+	<record>
+		<text>Má škola "nulák/ adapťak?"</text>
+		<intent>kurz_adaptacni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Adaptačnímu kurzu se na naší škole říká Nulák a probíhá před začátkem školního roku pro studenty prvních ročníků. Pak zde funguje ještě Fáze. To je seznamovací akce pro nově vzniklé třídní kolektivy během studia.</response_text>
+	</record>
+	<record>
+		<text>jak funguje FÁZE?</text>
+		<intent>kurz_faze</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Fáze je seznamovací akce pro nově vzniklé třídní kolektivy během studia.</response_text>
+	</record>
+	<record>
+		<text>Co to je fáze?</text>
+		<intent>kurz_faze</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Fáze je seznamovací akce pro nově vzniklé třídní kolektivy během studia.</response_text>
+	</record>
+	<record>
+		<text>Co je fáze?</text>
+		<intent>kurz_faze</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Fáze je seznamovací akce pro nově vzniklé třídní kolektivy během studia.</response_text>
+	</record>
+	<record>
+		<text>je na skole lyzarsky kurz?</text>
+		<intent>kurz_lyzarsky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Lyžařský kurz na naší škole funguje, avšak narozdíl od většiny jiných škol se zájemci sbírají z celé školy. To znamená, že jednotlivé třídy lyžařský kurz nemají.</response_text>
+	</record>
+	<record>
+		<text>Je mozne se zucastnit lyzarskeho kurzu během studia?</text>
+		<intent>kurz_lyzarsky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Lyžařský kurz na naší škole funguje, avšak narozdíl od většiny jiných škol se zájemci sbírají z celé školy. To znamená, že jednotlivé třídy lyžařský kurz nemají.</response_text>
+	</record>
+	<record>
+		<text>Je na skole lyzak?</text>
+		<intent>kurz_lyzarsky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Lyžařský kurz na naší škole funguje, avšak narozdíl od většiny jiných škol se zájemci sbírají z celé školy. To znamená, že jednotlivé třídy lyžařský kurz nemají.</response_text>
+	</record>
+	<record>
+		<text>Funguje na škole lyžařský kurz?</text>
+		<intent>kurz_lyzarsky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Lyžařský kurz na naší škole funguje, avšak narozdíl od většiny jiných škol se zájemci sbírají z celé školy. To znamená, že jednotlivé třídy lyžařský kurz nemají.</response_text>
+	</record>
+	<record>
+		<text>jak se prihlasim na lyzak?</text>
+		<intent>kurz_lyzarsky_prihlaseni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Přihlášení na lyžařský kurz je možné u učitele tělesné výchovy.</response_text>
+	</record>
+	<record>
+		<text>jak se prihlasit na lyzarsky kurz?</text>
+		<intent>kurz_lyzarsky_prihlaseni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Přihlášení na lyžařský kurz je možné u učitele tělesné výchovy.</response_text>
+	</record>
+	<record>
+		<text>jak se muzu prihlasit na lyzarsky vycvik?</text>
+		<intent>kurz_lyzarsky_prihlaseni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Přihlášení na lyžařský kurz je možné u učitele tělesné výchovy.</response_text>
+	</record>
+	<record>
+		<text>Je na škole možnost přihlášení se na lyžařský kurz?</text>
+		<intent>kurz_lyzarsky_prihlaseni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Přihlášení na lyžařský kurz je možné u učitele tělesné výchovy.</response_text>
+	</record>
+	<record>
+		<text>Jede se na některé povinné kurzy během vzdělávání na škole?</text>
+		<intent>kurz_sportovni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro všechny studenty třetích ročníků probíhá na škole povinný, několikadenní sportovní kurz.</response_text>
+	</record>
+	<record>
+		<text>ceka me během studia nejaky sportovni kurz?</text>
+		<intent>kurz_sportovni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro všechny studenty třetích ročníků probíhá na škole povinný, několikadenní sportovní kurz.</response_text>
+	</record>
+	<record>
+		<text>ceka me nejaky povinny kurz na skole?</text>
+		<intent>kurz_sportovni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro všechny studenty třetích ročníků probíhá na škole povinný, několikadenní sportovní kurz.</response_text>
+	</record>
+	<record>
+		<text>Jsou na škole nějaké povinné kurzy, které žák musí absolbovat?</text>
+		<intent>kurz_sportovni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro všechny studenty třetích ročníků probíhá na škole povinný, několikadenní sportovní kurz.</response_text>
+	</record>
+	<record>
+		<text>Co mi může bránit v připuštění k maturitě?</text>
+		<intent>maturita_pripusteni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro připuštění k maturitě je nutné řádně dokončit první pololetí ve čtvrtém ročníku. To znamená nemít N nebo 5. Minimálně je to vyžadováno od většiny učitelů.</response_text>
+	</record>
+	<record>
+		<text>Je možnost, že bych nemusel být připuštěn k maturitě?</text>
+		<intent>maturita_pripusteni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro připuštění k maturitě je nutné řádně dokončit první pololetí ve čtvrtém ročníku. To znamená nemít N nebo 5. Minimálně je to vyžadováno od většiny učitelů.</response_text>
+	</record>
+	<record>
+		<text>co musím splnit, abych byl připuštěn k maturitní zkoušce?</text>
+		<intent>maturita_pripusteni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro připuštění k maturitě je nutné řádně dokončit první pololetí ve čtvrtém ročníku. To znamená nemít N nebo 5. Minimálně je to vyžadováno od většiny učitelů.</response_text>
+	</record>
+	<record>
+		<text>Můžu být připuštěn k maturitní zkoušce, i když jsem dostal pětku?</text>
+		<intent>maturita_pripusteni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro připuštění k maturitě je nutné řádně dokončit první pololetí ve čtvrtém ročníku. To znamená nemít N nebo 5. Minimálně je to vyžadováno od většiny učitelů.</response_text>
+	</record>
+	<record>
+		<text>je dovoleno si změnit maturitní práci?</text>
+		<intent>maturita_zmena_mat_prace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Změna maturitní práce je možná po domluvě s učitelem daného předmětu. Doporučuji ovšem změnit maturitní práci co možná nejdříve, zvýšíte tím šanci na úspěch.</response_text>
+	</record>
+	<record>
+		<text>je možná změna maturitní práce?</text>
+		<intent>maturita_zmena_mat_prace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Změna maturitní práce je možná po domluvě s učitelem daného předmětu. Doporučuji ovšem změnit maturitní práci co možná nejdříve, zvýšíte tím šanci na úspěch.</response_text>
+	</record>
+	<record>
+		<text>Mohu si změnit maturitní práci?</text>
+		<intent>maturita_zmena_mat_prace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Změna maturitní práce je možná po domluvě s učitelem daného předmětu. Doporučuji ovšem změnit maturitní práci co možná nejdříve, zvýšíte tím šanci na úspěch.</response_text>
+	</record>
+	<record>
+		<text>Jaké sem jezdí MHD?</text>
+		<intent>mhd</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ke škole jezdí tramvaj linky 2. Zároveň autobusy 12, 29 a 30.</response_text>
+	</record>
+	<record>
+		<text>Je těžké se do školy dostat pomocí MHD?</text>
+		<intent>mhd</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ke škole jezdí tramvaj linky 2. Zároveň autobusy 12, 29 a 30.</response_text>
+	</record>
+	<record>
+		<text>Jak se dostanu z nádraží ke škole?</text>
+		<intent>mhd</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Ke škole jezdí tramvaj linky 2. Zároveň autobusy 12, 29 a 30.</response_text>
+	</record>
+	<record>
+		<text>omluví mi škola absenci, když budu na mimoškolních aktivitách?</text>
+		<intent>mimoskolni_aktivity_uvolneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud jde o akci školy, případně exkurzi a podobně - absence nebude započítána a bude plně omluvena.</response_text>
+	</record>
+	<record>
+		<text>budu uvolněn na mimoškolní aktivity?</text>
+		<intent>mimoskolni_aktivity_uvolneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud jde o akci školy, případně exkurzi a podobně - absence nebude započítána a bude plně omluvena.</response_text>
+	</record>
+	<record>
+		<text>Bude mě škola uvolňovat na mimoškolní aktivity?</text>
+		<intent>mimoskolni_aktivity_uvolneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud jde o akci školy, případně exkurzi, reprezentování školy aj. - absence nebude započítána a bude plně omluvena.</response_text>
+	</record>
+	<record>
+		<text>musim neco umet nez prijdu na vasi skolu?</text>
+		<intent>naroky_na_studium</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Všechny potřebné znalosti naučíme studenty u nás na škole.</response_text>
+	</record>
+	<record>
+		<text>Jsou nejake znalosti co musim znat, abych mohl nastoupit na vasi skolu?</text>
+		<intent>naroky_na_studium</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Všechny potřebné znalosti naučíme studenty u nás na škole.</response_text>
+	</record>
+	<record>
+		<text>Musí můj syn mít nějaké speciální znalosti, aby nastoupil na vaší školu?</text>
+		<intent>naroky_na_studium</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Všechny potřebné znalosti naučíme studenty u nás na škole.</response_text>
+	</record>
+	<record>
+		<text>Mohu při výuce používat tablet / notebook?</text>
+		<intent>notebook_tablet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Záleží na domluvě s učitelem daného předmětu.</response_text>
+	</record>
+	<record>
+		<text>mohu během výuky používat PC?</text>
+		<intent>notebook_tablet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Záleží na domluvě s učitelem daného předmětu.</response_text>
+	</record>
+	<record>
+		<text>Mohu při hodinách používat počítač?</text>
+		<intent>notebook_tablet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Záleží na domluvě s učitelem daného předmětu.</response_text>
+	</record>
+	<record>
+		<text>Jak se využívají ve škole ICT technologie? (počítače, tablety, chytré technologie)</text>
+		<intent>nove_technologie</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola disponuje velice moderním vybavením a pomáhá tak žákům při výuce.</response_text>
+	</record>
+	<record>
+		<text>Je škola vybavena novodobými technologiemi pro zlepšení studia na škole?</text>
+		<intent>nove_technologie</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola disponuje velice moderním vybavením a pomáhá tak žákům při výuce.</response_text>
+	</record>
+	<record>
+		<text>Jakými technologiemi vaše škole disponuje?</text>
+		<intent>nove_technologie</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola disponuje velice moderním vybavením a pomáhá tak žákům při výuce.</response_text>
+	</record>
+	<record>
+		<text>Jak daleko je Penny?</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>Jak daleko je od školy Billa?</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>Jak daleko je supermarket?</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>je v okolí obchod?</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>je v okolí školy supermarket?</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>Je poblíž areálu školy nějaký supermarket?</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>je blizko skoly nejaky obchod?</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>je v okoli obchod?</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>Je poblíž penny ?
+</text>
+		<intent>obchod_jak_daleko</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze.</response_text>
+	</record>
+	<record>
+		<text>Jaký obor je nejvíce oblíbený na vaší škole?</text>
+		<intent>obory_nejzadanejsi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Nejvíce studentů se hlásí na obor IT. Kapacita oboru je každoročně 120 žáků.</response_text>
+	</record>
+	<record>
+		<text>Na jaký obor se hlásí nejvíce studentů?</text>
+		<intent>obory_nejzadanejsi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Nejvíce studentů se hlásí na obor IT. Kapacita oboru je každoročně 120 žáků.</response_text>
+	</record>
+	<record>
+		<text>Jaký obor je nejvíce oblíbený a žádaný? </text>
+		<intent>obory_nejzadanejsi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Nejvíce studentů se hlásí na obor IT. Kapacita oboru je každoročně 120 žáků.</response_text>
+	</record>
+	<record>
+		<text>dostaneme ve škole balík office?</text>
+		<intent>office</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studenti získají přihlašovací údaje na balíček office po celou dobu studia.</response_text>
+	</record>
+	<record>
+		<text>dostaneme na škole ke studiu office?</text>
+		<intent>office</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studenti získají přihlašovací údaje na balíček office po celou dobu studia.</response_text>
+	</record>
+	<record>
+		<text>dostaneme na skole udaje od microsoft office?</text>
+		<intent>office</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studenti získají přihlašovací údaje na balíček office po celou dobu studia.</response_text>
+	</record>
+	<record>
+		<text>Dostaneme Office 365 ke studiu od školy?</text>
+		<intent>office</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studenti získají přihlašovací údaje na balíček office po celou dobu studia.</response_text>
+	</record>
+	<record>
+		<text>Můžu o přestávce nebo hodině opustit budovu školy ?</text>
+		<intent>opusteni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žák nesmí v době vyučování (včetně přestávek) opouštět školní budovu bez svolení učitele. Zákaz se 
+nevztahuje na prostory školních atrií. Pokud má žák volnou vyučovací hodinu, může budovu školy opustit v této hodině pouze se souhlasem třídního učitele. U nezletilých žáků je navíc podmínkou předchozí odevzdání písemného souhlasu zákonného zástupce s opuštěním budovy školy třídnímu učiteli. Souhlas s opuštěním budovy školy je potvrzen podpisem třídního učitele v žákovském průkazu na příslušný školní rok.</response_text>
+	</record>
+	<record>
+		<text>můžu si jít o velké přestávce nakoupit?</text>
+		<intent>opusteni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žák nesmí v době vyučování (včetně přestávek) opouštět školní budovu bez svolení učitele. Zákaz se 
+nevztahuje na prostory školních atrií. Pokud má žák volnou vyučovací hodinu, může budovu školy opustit v této hodině pouze se souhlasem třídního učitele. U nezletilých žáků je navíc podmínkou předchozí odevzdání písemného souhlasu zákonného zástupce s opuštěním budovy školy třídnímu učiteli. Souhlas s opuštěním budovy školy je potvrzen podpisem třídního učitele v žákovském průkazu na příslušný školní rok.</response_text>
+	</record>
+	<record>
+		<text>můžu o přestávce odejít ven?</text>
+		<intent>opusteni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žák nesmí v době vyučování (včetně přestávek) opouštět školní budovu bez svolení učitele. Zákaz se 
+nevztahuje na prostory školních atrií. Pokud má žák volnou vyučovací hodinu, může budovu školy opustit v této hodině pouze se souhlasem třídního učitele. U nezletilých žáků je navíc podmínkou předchozí odevzdání písemného souhlasu zákonného zástupce s opuštěním budovy školy třídnímu učiteli. Souhlas s opuštěním budovy školy je potvrzen podpisem třídního učitele v žákovském průkazu na příslušný školní rok.</response_text>
+	</record>
+	<record>
+		<text>Můžu o volné hodině opustit školu?</text>
+		<intent>opusteni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žák nesmí v době vyučování (včetně přestávek) opouštět školní budovu bez svolení učitele. Zákaz se 
+nevztahuje na prostory školních atrií. Pokud má žák volnou vyučovací hodinu, může budovu školy opustit v této hodině pouze se souhlasem třídního učitele. U nezletilých žáků je navíc podmínkou předchozí odevzdání písemného souhlasu zákonného zástupce s opuštěním budovy školy třídnímu učiteli. Souhlas s opuštěním budovy školy je potvrzen podpisem třídního učitele v žákovském průkazu na příslušný školní rok.</response_text>
+	</record>
+	<record>
+		<text>Je v okolí intru parkoviště?</text>
+		<intent>parkoviste_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má vlastní parkoviště. Neslouží ovšem pro studenty.</response_text>
+	</record>
+	<record>
+		<text>má škola parkoviště?</text>
+		<intent>parkoviste_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má vlastní parkoviště. Neslouží ovšem pro studenty.</response_text>
+	</record>
+	<record>
+		<text>Je u školy parkoviště?</text>
+		<intent>parkoviste_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má vlastní parkoviště. Neslouží ovšem pro studenty.</response_text>
+	</record>
+	<record>
+		<text>Má škola parkoviště pro studenty?</text>
+		<intent>parkoviste_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má vlastní parkoviště. Neslouží ovšem pro studenty.</response_text>
+	</record>
+	<record>
+		<text>Fakt je tahle škola tak prestižní jak se řiká?</text>
+		<intent>prestizni_skola</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Našim cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty. Dáváme šanci všem, produkovat chceme prioritně kvalitu.</response_text>
+	</record>
+	<record>
+		<text>Je škola opravdu v tak dobrém stavu jak se říká?</text>
+		<intent>prestizni_skola</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Našim cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty. Dáváme šanci všem, produkovat chceme prioritně kvalitu.</response_text>
+	</record>
+	<record>
+		<text>Je škola v dobrém stavu?</text>
+		<intent>prestizni_skola</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Našim cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty. Dáváme šanci všem, produkovat chceme prioritně kvalitu.</response_text>
+	</record>
+	<record>
+		<text>Řiká se že tahle škola je ztráta času, je to pravda?</text>
+		<intent>prestizni_skola</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Našim cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty. Dáváme šanci všem, produkovat chceme prioritně kvalitu.</response_text>
+	</record>
+	<record>
+		<text>Lze ze školy přestoupit na jinou?</text>
+		<intent>prestup_skola</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Podle školského zákona může žák v průběhu středního vzdělávání požádat o přestup do jiné střední školy, změnit obor nebo přerušit studium. Žádost o přestup musí být písemná a je-li vám méně než 18 let, musí ji podepsat i vaši rodiče. Při přestupu můžete také absolvovat rozdílovou zkoušku, ve které prokazujete své znalosti z minulého studia. O tom, zda vás nová střední škola přijme a do jaké ročníku budete umístěn, rozhoduje její ředitel. </response_text>
+	</record>
+	<record>
+		<text>můžu přestoupit jinam?</text>
+		<intent>prestup_skola</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Podle školského zákona může žák v průběhu středního vzdělávání požádat o přestup do jiné střední školy, změnit obor nebo přerušit studium. Žádost o přestup musí být písemná a je-li vám méně než 18 let, musí ji podepsat i vaši rodiče. Při přestupu můžete také absolvovat rozdílovou zkoušku, ve které prokazujete své znalosti z minulého studia. O tom, zda vás nová střední škola přijme a do jaké ročníku budete umístěn, rozhoduje její ředitel. </response_text>
+	</record>
+	<record>
+		<text>Může moje dcera přestoupit na jinou školu?</text>
+		<intent>prestup_skola</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Podle školského zákona může žák v průběhu středního vzdělávání požádat o přestup do jiné střední školy, změnit obor nebo přerušit studium. Žádost o přestup musí být písemná a je-li vám méně než 18 let, musí ji podepsat i vaši rodiče. Při přestupu můžete také absolvovat rozdílovou zkoušku, ve které prokazujete své znalosti z minulého studia. O tom, zda vás nová střední škola přijme a do jaké ročníku budete umístěn, rozhoduje její ředitel. </response_text>
+	</record>
+	<record>
+		<text>Musí děti nosit na škole přezůvky ? </text>
+		<intent>prezuvky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V naší škole se přezuvky nenosí.</response_text>
+	</record>
+	<record>
+		<text>Musím nosit ve škole přezuvky ?</text>
+		<intent>prezuvky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V naší škole se přezuvky nenosí.</response_text>
+	</record>
+	<record>
+		<text>Jak je to na škole s přezouváním?</text>
+		<intent>prezuvky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V naší škole se přezuvky nenosí.</response_text>
+	</record>
+	<record>
+		<text>muzu na vasi skolu dat obě přihlášky?</text>
+		<intent>prijmacky_dve_prihlasky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V případě podání obou přihlášek na naší školu budete bodově zvýhodněni a mít tak větší šanci se na školu dostat.</response_text>
+	</record>
+	<record>
+		<text>je mozne si na skolu poslat obe prihlasky?</text>
+		<intent>prijmacky_dve_prihlasky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V případě podání obou přihlášek na naší školu budete bodově zvýhodněni a mít tak větší šanci se na školu dostat.</response_text>
+	</record>
+	<record>
+		<text>Mohu si na vaší školu podat obě přihlášky?</text>
+		<intent>prijmacky_dve_prihlasky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V případě podání obou přihlášek na naší školu budete bodově zvýhodněni a mít tak větší šanci se na školu dostat.</response_text>
+	</record>
+	<record>
+		<text>Kdy mi přijde pozvánka ke zkoušce ?</text>
+		<intent>prijmacky_kdy_pozvanka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pozvánky rozesíláme minimálně 14 dní před konáním zkoušky.</response_text>
+	</record>
+	<record>
+		<text>kdy mi může přijít pozvánka k příjmačkám?</text>
+		<intent>prijmacky_kdy_pozvanka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pozvánky rozesíláme minimálně 14 dní před konáním zkoušky.</response_text>
+	</record>
+	<record>
+		<text>Kdy mi přijde pozvánka ke konání příjmací zkoušky?</text>
+		<intent>prijmacky_kdy_pozvanka</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pozvánky rozesíláme minimálně 14 dní před konáním zkoušky.</response_text>
+	</record>
+	<record>
+		<text>kde a kdy zjistim vysledky prijmacek?</text>
+		<intent>prijmacky_kdy_vysledky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jakmile ředitel školy ukončí hodnocení přijímacího řízení a zveřejní seznam přijatých uchazečů do 2 pracovních dnů od zpřístupnění hodnocení Cermatem. Výsledky se dozvíte na našich stránkách.</response_text>
+	</record>
+	<record>
+		<text>Kde zjistím, jak jsem u zkoušky dopadl?</text>
+		<intent>prijmacky_kdy_vysledky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jakmile ředitel školy ukončí hodnocení přijímacího řízení a zveřejní seznam přijatých uchazečů do 2 pracovních dnů od zpřístupnění hodnocení Cermatem. Výsledky se dozvíte na našich stránkách.</response_text>
+	</record>
+	<record>
+		<text>kdy zjistim jak jsem dopadl na prijmackach?</text>
+		<intent>prijmacky_kdy_vysledky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jakmile ředitel školy ukončí hodnocení přijímacího řízení a zveřejní seznam přijatých uchazečů do 2 pracovních dnů od zpřístupnění hodnocení Cermatem. Výsledky se dozvíte na našich stránkách.</response_text>
+	</record>
+	<record>
+		<text>Kdy se dozvím výsledky přijímacích zkoušek?</text>
+		<intent>prijmacky_kdy_vysledky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Jakmile ředitel školy ukončí hodnocení přijímacího řízení a zveřejní seznam přijatých uchazečů do 2 pracovních dnů od zpřístupnění hodnocení Cermatem. Výsledky se dozvíte na našich stránkách.</response_text>
+	</record>
+	<record>
+		<text>Kolik přihlášek můžu v 1. kole podat?</text>
+		<intent>prijmacky_kolik_prihlasek_1_kolo</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dvě. Při podání obou přihlášek na naší školu budete bodově zvýhodněni v rámci výsledků přijímacích zkoušek.</response_text>
+	</record>
+	<record>
+		<text>kolik prihlasek muzu podat v prvnim kole?</text>
+		<intent>prijmacky_kolik_prihlasek_1_kolo</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dvě. Při podání obou přihlášek na naší školu budete bodově zvýhodněni v rámci výsledků přijímacích zkoušek.</response_text>
+	</record>
+	<record>
+		<text>kolik prihlasek muzu poslat během prvniho kola prijmacich zkousek?</text>
+		<intent>prijmacky_kolik_prihlasek_1_kolo</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dvě. Při podání obou přihlášek na naší školu budete bodově zvýhodněni v rámci výsledků přijímacích zkoušek.</response_text>
+	</record>
+	<record>
+		<text>kolik přihlášek můžu ve druhém kole podat?</text>
+		<intent>prijmacky_kolik_prihlasek_2_kolo</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Počet přihlášek, které můžete podat, není v druhém kole omezen.</response_text>
+	</record>
+	<record>
+		<text>kolik přihlášek ve 2. kole můžu poslat?</text>
+		<intent>prijmacky_kolik_prihlasek_2_kolo</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Počet přihlášek, které můžete podat, není v druhém kole omezen.</response_text>
+	</record>
+	<record>
+		<text>Kolik přihlášek mohu podat ve druhém kole?</text>
+		<intent>prijmacky_kolik_prihlasek_2_kolo</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Počet přihlášek, které můžete podat, není v druhém kole omezen.</response_text>
+	</record>
+	<record>
+		<text>Co mám dělat když se nemohu zúčastnit přijímacích zkoušek?</text>
+		<intent>prijmacky_nemozna_ucast</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pakliže se uchazeči nemohou v řádném termínu dostavit ke konání testů (např. z důvodu nemoci apod.), mohou se omluvit řediteli střední školy. Pokud ředitel školy omluvu uzná, uchazeči mohou konat zkoušku v náhradním termínu.</response_text>
+	</record>
+	<record>
+		<text>Co mám dělat, když se nemohu zúčastnit přijímaček?</text>
+		<intent>prijmacky_nemozna_ucast</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pakliže se uchazeči nemohou v řádném termínu dostavit ke konání testů (např. z důvodu nemoci apod.), mohou se omluvit řediteli střední školy. Pokud ředitel školy omluvu uzná, uchazeči mohou konat zkoušku v náhradním termínu.</response_text>
+	</record>
+	<record>
+		<text>Jak mám postupovat, když se nemohu dostavit na přijímací zkoušky?</text>
+		<intent>prijmacky_nemozna_ucast</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pakliže se uchazeči nemohou v řádném termínu dostavit ke konání testů (např. z důvodu nemoci apod.), mohou se omluvit řediteli střední školy. Pokud ředitel školy omluvu uzná, uchazeči mohou konat zkoušku v náhradním termínu.</response_text>
+	</record>
+	<record>
+		<text>co když jsem se v prvnim ani druhem kole nikam nedostal?</text>
+		<intent>prijmacky_neuspesne_odvolani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Střední školy, které po prvním kole nenaplní první ročníky novými žáky, vyhlásí druhé kolo, případně i další kola přijímacího řízení. Tuto informaci bezprostředně oznamují místně příslušnému krajskému úřadu i s počty volných míst do jednotlivých oborů. Přehledy o volných místech ve středních školách a o nenaplněných oborech najdete na webových stránkách krajských úřadů a na webových stránkách jednotlivých středních škol.</response_text>
+	</record>
+	<record>
+		<text>co mam delat, když jsem se na vasi skolu nedostal?</text>
+		<intent>prijmacky_neuspesne_odvolani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Střední školy, které po prvním kole nenaplní první ročníky novými žáky, vyhlásí druhé kolo, případně i další kola přijímacího řízení. Tuto informaci bezprostředně oznamují místně příslušnému krajskému úřadu i s počty volných míst do jednotlivých oborů. Přehledy o volných místech ve středních školách a o nenaplněných oborech najdete na webových stránkách krajských úřadů a na webových stránkách jednotlivých středních škol.</response_text>
+	</record>
+	<record>
+		<text>Co když se dítě nedostane nikam, ani na odvolání?</text>
+		<intent>prijmacky_neuspesne_odvolani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Střední školy, které po prvním kole nenaplní první ročníky novými žáky, vyhlásí druhé kolo, případně i další kola přijímacího řízení. Tuto informaci bezprostředně oznamují místně příslušnému krajskému úřadu i s počty volných míst do jednotlivých oborů. Přehledy o volných místech ve středních školách a o nenaplněných oborech najdete na webových stránkách krajských úřadů a na webových stránkách jednotlivých středních škol.</response_text>
+	</record>
+	<record>
+		<text>Kolik bude termínů na přijímací zkoušku?</text>
+		<intent>prijmacky_pocet_terminu</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud uchazeči podají dvě přihlášky do oborů s jednotnou přijímací zkouškou, mohou testy konat ve dvou termínech, a to v 1. termínu ve škole, kterou uvedli na přihlášce na prvním místě, a v 2.</response_text>
+	</record>
+	<record>
+		<text>kolikrat bude mozne psat prijimaci zkousku?</text>
+		<intent>prijmacky_pocet_terminu</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud uchazeči podají dvě přihlášky do oborů s jednotnou přijímací zkouškou, mohou testy konat ve dvou termínech, a to v 1. termínu ve škole, kterou uvedli na přihlášce na prvním místě, a v 2.</response_text>
+	</record>
+	<record>
+		<text>Kolik bude termínů na přijímací zkoušku?</text>
+		<intent>prijmacky_pocet_terminu</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud uchazeči podají dvě přihlášky do oborů s jednotnou přijímací zkouškou, mohou testy konat ve dvou termínech, a to v 1. termínu ve škole, kterou uvedli na přihlášce na prvním místě, a v 2.</response_text>
+	</record>
+	<record>
+		<text>Co musím splňovat, abych mohl psát příjmací zkoušky?</text>
+		<intent>prijmacky_pozadavky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žadatel musí mít řádně ukončené základní vzdělání.</response_text>
+	</record>
+	<record>
+		<text>má škola nějaké požadavky na uchazeče o studium?</text>
+		<intent>prijmacky_pozadavky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žadatel musí mít řádně ukončené základní vzdělání.</response_text>
+	</record>
+	<record>
+		<text>Jaké jsou požadavky na přijímací zkoušky?</text>
+		<intent>prijmacky_pozadavky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žadatel musí mít řádně ukončené základní vzdělání.</response_text>
+	</record>
+	<record>
+		<text>z jakych predmetu se konaji prijmaci zkousky na skolu?</text>
+		<intent>prijmacky_z_ceho</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Přijímací zkoušky se konají z českého jazyka a matematiky.</response_text>
+	</record>
+	<record>
+		<text>z ceho se pisou prijmacky?</text>
+		<intent>prijmacky_z_ceho</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Přijímací zkoušky se konají z českého jazyka a matematiky.</response_text>
+	</record>
+	<record>
+		<text>Z čeho se dělají přijímací zkoušky?</text>
+		<intent>prijmacky_z_ceho</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Přijímací zkoušky se konají z českého jazyka a matematiky.</response_text>
+	</record>
+	<record>
+		<text>kde seženu zápisový lístek?</text>
+		<intent>prijmacky_zapisovy_listek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zápisový lístek obdržíte na základní škole, kterou navštěvujete, a to nejpozději do 15. března nebo u oborů s talentovou zkouškou do 30. listopadu. Pokud nejste žákem základní školy, zápisový lístek vám vydá krajský úřad příslušný podle místa vašeho trvalého bydliště.</response_text>
+	</record>
+	<record>
+		<text>Kdo mi lístek vydá?</text>
+		<intent>prijmacky_zapisovy_listek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zápisový lístek obdržíte na základní škole, kterou navštěvujete, a to nejpozději do 15. března nebo u oborů s talentovou zkouškou do 30. listopadu. Pokud nejste žákem základní školy, zápisový lístek vám vydá krajský úřad příslušný podle místa vašeho trvalého bydliště.</response_text>
+	</record>
+	<record>
+		<text>Kdo mi vydá zápisový lístek?</text>
+		<intent>prijmacky_zapisovy_listek</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zápisový lístek obdržíte na základní škole, kterou navštěvujete, a to nejpozději do 15. března nebo u oborů s talentovou zkouškou do 30. listopadu. Pokud nejste žákem základní školy, zápisový lístek vám vydá krajský úřad příslušný podle místa vašeho trvalého bydliště.</response_text>
+	</record>
+	<record>
+		<text>mohu si vzít zpátky už odeslaný zápisový lístek?</text>
+		<intent>prijmacky_zapisovy_listek_zpatky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zápisový lístek lze uplatnit jen jednou a nelze ho vzít zpět. To neplatí v případech kdy: uchazeč chce uplatnit na střední škole, kde byl přijat na základě kladného odvolání; uchazeč již uplatnil zápisový lístek v rámci přijímacího řízení do oborů s talentovou zkouškou a následně byl přijat do oboru vzdělání na ,,klasické" střední škole.</response_text>
+	</record>
+	<record>
+		<text>můžu si vzít zápisový lístek zpátky?</text>
+		<intent>prijmacky_zapisovy_listek_zpatky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zápisový lístek lze uplatnit jen jednou a nelze ho vzít zpět. To neplatí v případech kdy: uchazeč chce uplatnit na střední škole, kde byl přijat na základě kladného odvolání; uchazeč již uplatnil zápisový lístek v rámci přijímacího řízení do oborů s talentovou zkouškou a následně byl přijat do oboru vzdělání na ,,klasické" střední škole.</response_text>
+	</record>
+	<record>
+		<text>mohu požádat školu o vrácení zápisového lístku?</text>
+		<intent>prijmacky_zapisovy_listek_zpatky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zápisový lístek lze uplatnit jen jednou a nelze ho vzít zpět. To neplatí v případech kdy: uchazeč chce uplatnit na střední škole, kde byl přijat na základě kladného odvolání; uchazeč již uplatnil zápisový lístek v rámci přijímacího řízení do oborů s talentovou zkouškou a následně byl přijat do oboru vzdělání na ,,klasické" střední škole.</response_text>
+	</record>
+	<record>
+		<text>Jde si vzít zápisový lístek zpátky?</text>
+		<intent>prijmacky_zapisovy_listek_zpatky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Zápisový lístek lze uplatnit jen jednou a nelze ho vzít zpět. To neplatí v případech kdy: uchazeč chce uplatnit na střední škole, kde byl přijat na základě kladného odvolání; uchazeč již uplatnil zápisový lístek v rámci přijímacího řízení do oborů s talentovou zkouškou a následně byl přijat do oboru vzdělání na ,,klasické" střední škole.</response_text>
+	</record>
+	<record>
+		<text>mám plný disk, co ted?</text>
+		<intent>problem_plny_disk</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud jste disk nezaplnili a i přesto vám nezbývá žádné volné místo můžete kontaktovat Bc. Sobotku, který má tyto věci na starosti. E-mail: sobotka@spseplzen.cz</response_text>
+	</record>
+	<record>
+		<text>mám zaplněný disk i když tam nic není, co můžu dělat?</text>
+		<intent>problem_plny_disk</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud jste disk nezaplnili a i přesto vám nezbývá žádné volné místo můžete kontaktovat Bc. Sobotku, který má tyto věci na starosti. E-mail: sobotka@spseplzen.cz</response_text>
+	</record>
+	<record>
+		<text>Co dělat když mám plný disk</text>
+		<intent>problem_plny_disk</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pokud jste disk nezaplnili a i přesto vám nezbývá žádné volné místo můžete kontaktovat Bc. Sobotku, který má tyto věci na starosti. E-mail: sobotka@spseplzen.cz</response_text>
+	</record>
+	<record>
+		<text>Jaká je spolupráce s pedagogickou-psychologickou poradnou apod.?</text>
+		<intent>psycholog</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má svého vlastního psychologa, který je žákům k dispozici.</response_text>
+	</record>
+	<record>
+		<text>existuje možnost návštěvy školního psychologa?</text>
+		<intent>psycholog</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má svého vlastního psychologa, který je žákům k dispozici.</response_text>
+	</record>
+	<record>
+		<text>existuje možnost navštívit psychologa ve škole?</text>
+		<intent>psycholog</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má svého vlastního psychologa, který je žákům k dispozici.</response_text>
+	</record>
+	<record>
+		<text>Věnuje se škola psychickému zdraví žáků?</text>
+		<intent>psycholog</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má svého vlastního psychologa, který je žákům k dispozici.</response_text>
+	</record>
+	<record>
+		<text>Kde naleznu rozvrh tříd?</text>
+		<intent>rozvrh</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rozvrh naleznete na bakalářích. Prípadně můžete nahlédnout do rozvrhu všech tříd před vrátnicí naší školy.</response_text>
+	</record>
+	<record>
+		<text>Kde najdu rozvrh?</text>
+		<intent>rozvrh</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rozvrh naleznete na bakalářích. Prípadně můžete nahlédnout do rozvrhu všech tříd před vrátnicí naší školy.</response_text>
+	</record>
+	<record>
+		<text>existuje možnost zjistit rozvrh, když nemám přístup na bakaláře?</text>
+		<intent>rozvrh</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rozvrh naleznete na bakalářích. Prípadně můžete nahlédnout do rozvrhu všech tříd před vrátnicí naší školy.</response_text>
+	</record>
+	<record>
+		<text>Kde zjistím rozvrh?</text>
+		<intent>rozvrh</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rozvrh naleznete na bakalářích. Prípadně můžete nahlédnout do rozvrhu všech tříd před vrátnicí naší školy.</response_text>
+	</record>
+	<record>
+		<text>Do kdy je otevřený sekretariát?</text>
+		<intent>sekretariat_cas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát naší školy má úřední hodiny od pondělí do čtvrtka vždy od 7:15 do 12:00.</response_text>
+	</record>
+	<record>
+		<text>Kdy má otevřeno sekretariát?</text>
+		<intent>sekretariat_cas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát naší školy má úřední hodiny od pondělí do čtvrtka vždy od 7:15 do 12:00.</response_text>
+	</record>
+	<record>
+		<text>kdy se muzu dostat na sekretariat?</text>
+		<intent>sekretariat_cas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát naší školy má úřední hodiny od pondělí do čtvrtka vždy od 7:15 do 12:00.</response_text>
+	</record>
+	<record>
+		<text>od kdy se otvira sekretariat?</text>
+		<intent>sekretariat_cas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát naší školy má úřední hodiny od pondělí do čtvrtka vždy od 7:15 do 12:00.</response_text>
+	</record>
+	<record>
+		<text>Kdy se můžu dostat na sekretariát?</text>
+		<intent>sekretariat_cas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát naší školy má úřední hodiny od pondělí do čtvrtka vždy od 7:15 do 12:00.</response_text>
+	</record>
+	<record>
+		<text>Kam se mohu obrátit pro informace?</text>
+		<intent>sekretariat_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro informace o škole a všech informací s ní spojených jsem tu připraven já. Pokud vám ovšem nebudu schopen odpovědět tak se vždy můžete obrátit na sekretariát naší školy. </response_text>
+	</record>
+	<record>
+		<text>Koho mohu kontaktovat pro jakékoli informace?</text>
+		<intent>sekretariat_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro informace o škole a všech informací s ní spojených jsem tu připraven já. Pokud vám ovšem nebudu schopen odpovědět tak se vždy můžete obrátit na sekretariát naší školy. </response_text>
+	</record>
+	<record>
+		<text>Koho mám kontaktovat v případě že bych potřeboval další informace?</text>
+		<intent>sekretariat_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro informace o škole a všech informací s ní spojených jsem tu připraven já. Pokud vám ovšem nebudu schopen odpovědět tak se vždy můžete obrátit na sekretariát naší školy. </response_text>
+	</record>
+	<record>
+		<text>Jak se na škole vypořádavají s šikanou?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>jsou zaci na skole lgbt friendly?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>Podporuje škola LGBT+ komunitu?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>jak to je na skole s lgbt komunitou?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>Podporujete žáky z LGBT+ komunity?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>objevuje se na škole xenofobie?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>řeší škola šikanu?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>řeší škola případnou šikanu?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>Jak škola nakládá s případnými problémy s šikanou?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>s jakými výsledky řeší škola případnou šikanu?</text>
+		<intent>sikana</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá.</response_text>
+	</record>
+	<record>
+		<text>Adresa školy?</text>
+		<intent>skola_adresa</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Koterovská 85, 326 00 Plzeň</response_text>
+	</record>
+	<record>
+		<text>jaká je vaše adresa?</text>
+		<intent>skola_adresa</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Koterovská 85, 326 00 Plzeň</response_text>
+	</record>
+	<record>
+		<text>jaká je adresa?</text>
+		<intent>skola_adresa</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Koterovská 85, 326 00 Plzeň</response_text>
+	</record>
+	<record>
+		<text>Jaká je adresa školy?</text>
+		<intent>skola_adresa</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Koterovská 85, 326 00 Plzeň</response_text>
+	</record>
+	<record>
+		<text>Budovy školy?</text>
+		<intent>skola_budovy_kolik</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má 3 pavilony, 2 tělocvičny a dílny.</response_text>
+	</record>
+	<record>
+		<text>kolik má škola budov?</text>
+		<intent>skola_budovy_kolik</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má 3 pavilony, 2 tělocvičny a dílny.</response_text>
+	</record>
+	<record>
+		<text>Kolik je budov školy?</text>
+		<intent>skola_budovy_kolik</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola má 3 pavilony, 2 tělocvičny a dílny.</response_text>
+	</record>
+	<record>
+		<text>je možnost si na škole udělat maturitu?</text>
+		<intent>skola_maturita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Všechny obory na naší škole jsou zakončeny maturitní zkouškou.</response_text>
+	</record>
+	<record>
+		<text>mohu si na vaší škole udělat výuční list?</text>
+		<intent>skola_maturita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Všechny obory na naší škole jsou zakončeny maturitní zkouškou.</response_text>
+	</record>
+	<record>
+		<text>existuje možnost získat výuční list?</text>
+		<intent>skola_maturita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Všechny obory na naší škole jsou zakončeny maturitní zkouškou.</response_text>
+	</record>
+	<record>
+		<text>Je škola zakončena maturitní zkouškou?</text>
+		<intent>skola_maturita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Všechny obory na naší škole jsou zakončeny maturitní zkouškou.</response_text>
+	</record>
+	<record>
+		<text>Je škola s maturitou?</text>
+		<intent>skola_maturita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Všechny obory na naší škole jsou zakončeny maturitní zkouškou.</response_text>
+	</record>
+	<record>
+		<text>Jak probíhá studium na SPŠE?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Je jednoduché tuhle školu studovat?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Je ta škola těžká?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Je studium na SPŠE Plzeň těžké?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Je škola moc těžká?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Nevypadne hned v prváku ?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Je tato škola těžká?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Je tato škola opravdu těžká?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Je tato škola těžká?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Jak se na škole studuje?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Na co se připravit po nástupu do školy?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Jsou na studenty SPŠE kladeny větší nároky?</text>
+		<intent>skola_narocnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy.</response_text>
+	</record>
+	<record>
+		<text>Jak se orientuju ve škole?</text>
+		<intent>skola_orientace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Funguje zde přehledný systém číslování. Například: 1308 -&gt; 1(pavilon), 3(patro), 08(místnost)</response_text>
+	</record>
+	<record>
+		<text>jak mám pochopit systém číslování učeben?</text>
+		<intent>skola_orientace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Funguje zde přehledný systém číslování. Například: 1308 -&gt; 1(pavilon), 3(patro), 08(místnost)</response_text>
+	</record>
+	<record>
+		<text>Orientace pohybu ve škole?</text>
+		<intent>skola_orientace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Funguje zde přehledný systém číslování. Například: 1308 -&gt; 1(pavilon), 3(patro), 08(místnost)</response_text>
+	</record>
+	<record>
+		<text>Jak funguje označení učeben?</text>
+		<intent>skola_orientace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Funguje zde přehledný systém číslování. Například: 1308 -&gt; 1(pavilon), 3(patro), 08(místnost)</response_text>
+	</record>
+	<record>
+		<text>kolik lidí je na škole?</text>
+		<intent>skola_pocetLidi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>sekretariat</response_text>
+	</record>
+	<record>
+		<text>kolik má škola lidí?</text>
+		<intent>skola_pocetLidi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>sekretariat</response_text>
+	</record>
+	<record>
+		<text>kolik je na škole lidí?</text>
+		<intent>skola_pocetLidi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>sekretariat</response_text>
+	</record>
+	<record>
+		<text>kolik je lidí na škole?</text>
+		<intent>skola_pocetLidi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>sekretariat</response_text>
+	</record>
+	<record>
+		<text>podporuje škola seberozvoj?</text>
+		<intent>skola_seberozvoj</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rozhodně! Naši učitelé podporují nadané žáky a snaží se jim na této cestě pomoci.</response_text>
+	</record>
+	<record>
+		<text>podporuje škola nadané žáky?</text>
+		<intent>skola_seberozvoj</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rozhodně! Naši učitelé podporují nadané žáky a snaží se jim na této cestě pomoci.</response_text>
+	</record>
+	<record>
+		<text>Je zde dobré prostředí pro seberozvoj?</text>
+		<intent>skola_seberozvoj</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rozhodně! Naši učitelé podporují nadané žáky a snaží se jim na této cestě pomoci.</response_text>
+	</record>
+	<record>
+		<text>existuje možnost navštívit školu v přírodě?</text>
+		<intent>skola_v_prirode</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola nenabízí školu v přírodě.</response_text>
+	</record>
+	<record>
+		<text>Je na škole škola v přírodě?</text>
+		<intent>skola_v_prirode</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola nenabízí školu v přírodě.</response_text>
+	</record>
+	<record>
+		<text>Pořádá škola školu v přírodě?</text>
+		<intent>skola_v_prirode</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola nenabízí školu v přírodě.</response_text>
+	</record>
+	<record>
+		<text>Jak můžu trávit přestávky?</text>
+		<intent>skola_volnyCas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Můžete navštívit například bufet. V  jarních a letních měsících jsou otevřeny také atria mezi pavilony.</response_text>
+	</record>
+	<record>
+		<text>můžu zde nějak trávit přestávky?</text>
+		<intent>skola_volnyCas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Můžete navštívit například bufet. V  jarních a letních měsících jsou otevřeny také atria mezi pavilony.</response_text>
+	</record>
+	<record>
+		<text>existuje zde nejaká možnost, jak trávit přestávky?</text>
+		<intent>skola_volnyCas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Můžete navštívit například bufet. V  jarních a letních měsících jsou otevřeny také atria mezi pavilony.</response_text>
+	</record>
+	<record>
+		<text>jak zde mohou žáci trávit přestávky?</text>
+		<intent>skola_volnyCas</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Můžete navštívit například bufet. V  jarních a letních měsících jsou otevřeny také atria mezi pavilony.</response_text>
+	</record>
+	<record>
+		<text>je tam wifi pro studenty?</text>
+		<intent>skola_wifi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola využívá sítě eduroam. Žáci dostávají každý rok přihlašovací údaje prostřednictvím mailu.</response_text>
+	</record>
+	<record>
+		<text>existuje na skole moznost pripojit se na skolni wifi?</text>
+		<intent>skola_wifi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola využívá sítě eduroam. Žáci dostávají každý rok přihlašovací údaje prostřednictvím mailu.</response_text>
+	</record>
+	<record>
+		<text>Má škola svojí vlastní WIFI pro své studenty? </text>
+		<intent>skola_wifi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola využívá sítě eduroam. Žáci dostávají každý rok přihlašovací údaje prostřednictvím mailu.</response_text>
+	</record>
+	<record>
+		<text>Je ve vaší škole WIFI?</text>
+		<intent>skola_wifi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola využívá sítě eduroam. Žáci dostávají každý rok přihlašovací údaje prostřednictvím mailu.</response_text>
+	</record>
+	<record>
+		<text>Je tady školní wifi?</text>
+		<intent>skola_wifi</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola využívá sítě eduroam. Žáci dostávají každý rok přihlašovací údaje prostřednictvím mailu.</response_text>
+	</record>
+	<record>
+		<text>jaka tam je wifi?</text>
+		<intent>skola_wifi_kvalita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rychlost připojení je pro nás vším! Jsme vysoce prestižní elektrotechnická škola a odpovídá tomu i naše vysokorychlostní připojení k internetu.</response_text>
+	</record>
+	<record>
+		<text>je na skole dobra wifina?</text>
+		<intent>skola_wifi_kvalita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rychlost připojení je pro nás vším! Jsme vysoce prestižní elektrotechnická škola a odpovídá tomu i naše vysokorychlostní připojení k internetu.</response_text>
+	</record>
+	<record>
+		<text>Je zde kvalitní připojení wifi?</text>
+		<intent>skola_wifi_kvalita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rychlost připojení je pro nás vším! Jsme vysoce prestižní elektrotechnická škola a odpovídá tomu i naše vysokorychlostní připojení k internetu.</response_text>
+	</record>
+	<record>
+		<text>Jak dobré je internetové připojení?</text>
+		<intent>skola_wifi_kvalita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Rychlost připojení je pro nás vším! Jsme vysoce prestižní elektrotechnická škola a odpovídá tomu i naše vysokorychlostní připojení k internetu.</response_text>
+	</record>
+	<record>
+		<text>Jak vysoké je školné? </text>
+		<intent>skolne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se školné neplatí.</response_text>
+	</record>
+	<record>
+		<text>platí se skolne?</text>
+		<intent>skolne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se školné neplatí.</response_text>
+	</record>
+	<record>
+		<text>Je na škole školné?</text>
+		<intent>skolne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se školné neplatí.</response_text>
+	</record>
+	<record>
+		<text>Kolik stojí školné? </text>
+		<intent>skolne</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se školné neplatí.</response_text>
+	</record>
+	<record>
+		<text>existuje moznost mit ve skole místo na věci?</text>
+		<intent>skrinka_scam</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Za dar škole v hodnotě 1000 Kč dostanete klíče od vlastní skříňku na celou dobu studia. Nemáte nárok na vrácení peněz.</response_text>
+	</record>
+	<record>
+		<text>jsou dostupne ve skole skrinky?</text>
+		<intent>skrinka_scam</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Za dar škole v hodnotě 1000 Kč dostanete klíče od vlastní skříňku na celou dobu studia. Nemáte nárok na vrácení peněz.</response_text>
+	</record>
+	<record>
+		<text>Je možné mít svou skříňku na oblečení ?</text>
+		<intent>skrinka_scam</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Za dar škole v hodnotě 1000 Kč dostanete klíče od vlastní skříňku na celou dobu studia. Nemáte nárok na vrácení peněz.</response_text>
+	</record>
+	<record>
+		<text>Jsou ve škole dostupné šatní skřínky ?</text>
+		<intent>skrinka_scam</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Za dar škole v hodnotě 1000 Kč dostanete klíče od vlastní skříňku na celou dobu studia. Nemáte nárok na vrácení peněz.</response_text>
+	</record>
+	<record>
+		<text>Jak na škole funguje stravování?</text>
+		<intent>stravovani_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci mohou ke stravování využít služeb školní jídelny, bufetu a blízkých obchodů.</response_text>
+	</record>
+	<record>
+		<text>Jaká je možnost stravování na této škole?</text>
+		<intent>stravovani_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci mohou ke stravování využít služeb školní jídelny, bufetu a blízkých obchodů.</response_text>
+	</record>
+	<record>
+		<text>Je možnost stravování?</text>
+		<intent>stravovani_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci mohou ke stravování využít služeb školní jídelny, bufetu a blízkých obchodů.</response_text>
+	</record>
+	<record>
+		<text>Jakým způsobem se žáci stravují?</text>
+		<intent>stravovani_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci mohou ke stravování využít služeb školní jídelny, bufetu a blízkých obchodů.</response_text>
+	</record>
+	<record>
+		<text>muzu si dat pauzu od studia?</text>
+		<intent>studium_preruseni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci, jimž už bylo 18 let, mohou zažádat o přerušení studia sami, pokud ještě plnoletosti nedosáhli, musí tak učinit rodiče. V takovém případě by však měla žádost obsahovat i souhlas žáka nebo žákyně. Žádost o přerušení studia na střední škole je nutné podat písemnou formou a adresovat jí řediteli školy. Doplňme, že po návratu pokračuje žák či žákyně v ročníku, během něhož bylo vzdělávání přerušeno. Lze sice zahájit i ve vyšším ročníku, nicméně je třeba prokázat příslušné znalosti.</response_text>
+	</record>
+	<record>
+		<text>muzu prerusit studium?</text>
+		<intent>studium_preruseni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci, jimž už bylo 18 let, mohou zažádat o přerušení studia sami, pokud ještě plnoletosti nedosáhli, musí tak učinit rodiče. V takovém případě by však měla žádost obsahovat i souhlas žáka nebo žákyně. Žádost o přerušení studia na střední škole je nutné podat písemnou formou a adresovat jí řediteli školy. Doplňme, že po návratu pokračuje žák či žákyně v ročníku, během něhož bylo vzdělávání přerušeno. Lze sice zahájit i ve vyšším ročníku, nicméně je třeba prokázat příslušné znalosti.</response_text>
+	</record>
+	<record>
+		<text>jak mohu přerušit studium?</text>
+		<intent>studium_preruseni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci, jimž už bylo 18 let, mohou zažádat o přerušení studia sami, pokud ještě plnoletosti nedosáhli, musí tak učinit rodiče. V takovém případě by však měla žádost obsahovat i souhlas žáka nebo žákyně. Žádost o přerušení studia na střední škole je nutné podat písemnou formou a adresovat jí řediteli školy. Doplňme, že po návratu pokračuje žák či žákyně v ročníku, během něhož bylo vzdělávání přerušeno. Lze sice zahájit i ve vyšším ročníku, nicméně je třeba prokázat příslušné znalosti.</response_text>
+	</record>
+	<record>
+		<text>Jak přerušit studium?</text>
+		<intent>studium_preruseni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Žáci, jimž už bylo 18 let, mohou zažádat o přerušení studia sami, pokud ještě plnoletosti nedosáhli, musí tak učinit rodiče. V takovém případě by však měla žádost obsahovat i souhlas žáka nebo žákyně. Žádost o přerušení studia na střední škole je nutné podat písemnou formou a adresovat jí řediteli školy. Doplňme, že po návratu pokračuje žák či žákyně v ročníku, během něhož bylo vzdělávání přerušeno. Lze sice zahájit i ve vyšším ročníku, nicméně je třeba prokázat příslušné znalosti.</response_text>
+	</record>
+	<record>
+		<text>jak muzu skoncit se studiem na skole?</text>
+		<intent>studium_ukonceni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>K ukončení studia stačí oznámit ve škole, že ukončujete studium a následující den po doručení dopisu řediteli přestáváte být žákem školy. Nic těžkého!</response_text>
+	</record>
+	<record>
+		<text>muzu ukoncit studium?</text>
+		<intent>studium_ukonceni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>K ukončení studia stačí oznámit ve škole, že ukončujete studium a následující den po doručení dopisu řediteli přestáváte být žákem školy. Nic těžkého!</response_text>
+	</record>
+	<record>
+		<text>jak skoncit studium?</text>
+		<intent>studium_ukonceni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>K ukončení studia stačí oznámit ve škole, že ukončujete studium a následující den po doručení dopisu řediteli přestáváte být žákem školy. Nic těžkého!</response_text>
+	</record>
+	<record>
+		<text>Jak ukončit studium?</text>
+		<intent>studium_ukonceni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>K ukončení studia stačí oznámit ve škole, že ukončujete studium a následující den po doručení dopisu řediteli přestáváte být žákem školy. Nic těžkého!</response_text>
+	</record>
+	<record>
+		<text>jak velke jsou tridy?</text>
+		<intent>tridy_kapacita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Každá třída se liší její kapacitou. Nestává se zde ovšem to, že by žáci byli v menší třídě, než potřebují.</response_text>
+	</record>
+	<record>
+		<text>jakou tridy mají kapacitu?</text>
+		<intent>tridy_kapacita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Každá třída se liší její kapacitou. Nestává se zde ovšem to, že by žáci byli v menší třídě, než potřebují.</response_text>
+	</record>
+	<record>
+		<text>kolik lidi se vejde do tridy?</text>
+		<intent>tridy_kapacita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Každá třída se liší její kapacitou. Nestává se zde ovšem to, že by žáci byli v menší třídě, než potřebují.</response_text>
+	</record>
+	<record>
+		<text>Jakou kapacitu mají třídy?</text>
+		<intent>tridy_kapacita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Každá třída se liší její kapacitou. Nestává se zde ovšem to, že by žáci byli v menší třídě, než potřebují.</response_text>
+	</record>
+	<record>
+		<text>Kolik je většinou žáků ve třídě?</text>
+		<intent>tridy_pocet_zaku</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V prvním ročníku jsou obvyklé třídy okolo 28 lidí. V dalších ročnících se to mnohdy liší.</response_text>
+	</record>
+	<record>
+		<text>po kolika jlidech jsou tridy?</text>
+		<intent>tridy_pocet_zaku</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V prvním ročníku jsou obvyklé třídy okolo 28 lidí. V dalších ročnících se to mnohdy liší.</response_text>
+	</record>
+	<record>
+		<text>Jak početné jsou třídy ?</text>
+		<intent>tridy_pocet_zaku</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V prvním ročníku jsou obvyklé třídy okolo 28 lidí. V dalších ročnících se to mnohdy liší.</response_text>
+	</record>
+	<record>
+		<text>Jak početné jsou třídy v této škole?</text>
+		<intent>tridy_pocet_zaku</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>V prvním ročníku jsou obvyklé třídy okolo 28 lidí. V dalších ročnících se to mnohdy liší.</response_text>
+	</record>
+	<record>
+		<text>přes co muzu napsat uciteli?</text>
+		<intent>ucitele_forma_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro komunikaci s učiteli je možné využít školní email (prijmeni@spseplzen.cz) případně můžete využít MSTeams nebo si domluvit konzultaci.</response_text>
+	</record>
+	<record>
+		<text>jak mohou rodiče komunikovat s učiteli?</text>
+		<intent>ucitele_forma_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro komunikaci s učiteli je možné využít školní email (prijmeni@spseplzen.cz) případně můžete využít MSTeams nebo si domluvit konzultaci.</response_text>
+	</record>
+	<record>
+		<text>Jak komunikuji ucitele s zaky?</text>
+		<intent>ucitele_forma_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro komunikaci s učiteli je možné využít školní email (prijmeni@spseplzen.cz) případně můžete využít MSTeams nebo si domluvit konzultaci.</response_text>
+	</record>
+	<record>
+		<text>jakou formou probíhá komunikace učitelů s rodiči žáků?</text>
+		<intent>ucitele_forma_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Pro komunikaci s učiteli je možné využít školní email (prijmeni@spseplzen.cz) případně můžete využít MSTeams nebo si domluvit konzultaci.</response_text>
+	</record>
+	<record>
+		<text>Jsou žáci spokojeni s učitely? </text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>Jací jsou učitelé?</text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>Jaký jsou učitelé na škole?</text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>Co učitelé, jsou v poho?</text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>jaký jsou učitelé?</text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>Jací jsou tam učitelé?</text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>Jsou tam drsní učitelé ?</text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>Dá se s učiteli mluvit jako s lidmi ?</text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>Jací jsou tu učitelé?</text>
+		<intent>ucitele_info</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou plně soustředěni na svojí práci a snaží se jí dělat co možná nejlépe. Z dotazníkového šetření na tuto otázku vyplynulo, že až 89,4% dotázaných je spokojeno s učiteli na škole.</response_text>
+	</record>
+	<record>
+		<text>Jsou učitelé cizých jazyků dostatečně kompetentní?</text>
+		<intent>ucitele_kompetence</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dostatečně kompetentní učitelé jsou na naší škole samozřejmostí. Jsme jedničky v Plzeňském kraji ve vzdělávání v oblasti IT a elektrotechniky, to není náhoda. ;) </response_text>
+	</record>
+	<record>
+		<text>jsou na vaší škole kompetentní učitelé?</text>
+		<intent>ucitele_kompetence</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dostatečně kompetentní učitelé jsou na naší škole samozřejmostí. Jsme jedničky v Plzeňském kraji ve vzdělávání v oblasti IT a elektrotechniky, to není náhoda. ;) </response_text>
+	</record>
+	<record>
+		<text>Jsou učitelé dostatečně kompetentní?</text>
+		<intent>ucitele_kompetence</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dostatečně kompetentní učitelé jsou na naší škole samozřejmostí. Jsme jedničky v Plzeňském kraji ve vzdělávání v oblasti IT a elektrotechniky, to není náhoda. ;) </response_text>
+	</record>
+	<record>
+		<text>Jsou učitele kompetentní ? </text>
+		<intent>ucitele_kompetence</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dostatečně kompetentní učitelé jsou na naší škole samozřejmostí. Jsme jedničky v Plzeňském kraji ve vzdělávání v oblasti IT a elektrotechniky, to není náhoda. ;) </response_text>
+	</record>
+	<record>
+		<text>přes co muzu napsat uciteli?</text>
+		<intent>ucitele_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>S učiteli se dá komunikovat prostřednictvím MS Teams a školního mailu. (prijmeni@spseplzen.cz)</response_text>
+	</record>
+	<record>
+		<text>jak mohou rodiče komunikovat s učiteli?</text>
+		<intent>ucitele_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>S učiteli se dá komunikovat prostřednictvím MS Teams a školního mailu. (prijmeni@spseplzen.cz)</response_text>
+	</record>
+	<record>
+		<text>Jak komunikuji ucitele s zaky?</text>
+		<intent>ucitele_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>S učiteli se dá komunikovat prostřednictvím MS Teams a školního mailu. (prijmeni@spseplzen.cz)</response_text>
+	</record>
+	<record>
+		<text>jakou formou probíhá komunikace učitelů s rodiči žáků?</text>
+		<intent>ucitele_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>S učiteli se dá komunikovat prostřednictvím MS Teams a školního mailu. (prijmeni@spseplzen.cz)</response_text>
+	</record>
+	<record>
+		<text>Jak funguje komunikace mezi žáky a učiteli ?</text>
+		<intent>ucitele_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>S učiteli se dá komunikovat prostřednictvím MS Teams a školního mailu. (prijmeni@spseplzen.cz)</response_text>
+	</record>
+	<record>
+		<text>Jaká je dálková komunikace s učiteli? (mail...)</text>
+		<intent>ucitele_komunikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>S učiteli se dá komunikovat prostřednictvím MS Teams a školního mailu. (prijmeni@spseplzen.cz)</response_text>
+	</record>
+	<record>
+		<text>jak často můžu komunikovat s učiteli, je-li to třeba?</text>
+		<intent>ucitele_komunikace_frekvence</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Frekvence komunikace s učiteli je různá. Každý rok se dvakrát konají třídní schůzky a dále je to individuálně. Pokud má žák problémy se studiem, třídní učitel obvykle kontaktuje zákonného zástupce žáka se snahou vyřešit tento problém.</response_text>
+	</record>
+	<record>
+		<text>jak častá je komunikace se školou?</text>
+		<intent>ucitele_komunikace_frekvence</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Frekvence komunikace s učiteli je různá. Každý rok se dvakrát konají třídní schůzky a dále je to individuálně. Pokud má žák problémy se studiem, třídní učitel obvykle kontaktuje zákonného zástupce žáka se snahou vyřešit tento problém.</response_text>
+	</record>
+	<record>
+		<text>jak často komunikuji ucitele s zaky?</text>
+		<intent>ucitele_komunikace_frekvence</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Frekvence komunikace s učiteli je různá. Každý rok se dvakrát konají třídní schůzky a dále je to individuálně. Pokud má žák problémy se studiem, třídní učitel obvykle kontaktuje zákonného zástupce žáka se snahou vyřešit tento problém.</response_text>
+	</record>
+	<record>
+		<text>Jak častá je komunikace učitelů s rodiči žáků?</text>
+		<intent>ucitele_komunikace_frekvence</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Frekvence komunikace s učiteli je různá. Každý rok se dvakrát konají třídní schůzky a dále je to individuálně. Pokud má žák problémy se studiem, třídní učitel obvykle kontaktuje zákonného zástupce žáka se snahou vyřešit tento problém.</response_text>
+	</record>
+	<record>
+		<text>Jsou zde konzultační hodiny s učiteli?</text>
+		<intent>ucitele_konzultace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Fungují zde třídní schůzky, případně se s učiteli můžete domluvit na konzultaci.</response_text>
+	</record>
+	<record>
+		<text>Je možné hovořit přímo s učiteli, kteří budou mé dítě učit?</text>
+		<intent>ucitele_konzultace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Fungují zde třídní schůzky, případně se s učiteli můžete domluvit na konzultaci.</response_text>
+	</record>
+	<record>
+		<text>je mozna konzultace?</text>
+		<intent>ucitele_konzultace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Fungují zde třídní schůzky, případně se s učiteli můžete domluvit na konzultaci.</response_text>
+	</record>
+	<record>
+		<text>Je možná konzultace s učiteli, kteří mé dítě učí?</text>
+		<intent>ucitele_konzultace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Fungují zde třídní schůzky, případně se s učiteli můžete domluvit na konzultaci.</response_text>
+	</record>
+	<record>
+		<text>Jsou učitelé na této škole pro svou práci aprobovaní?</text>
+		<intent>ucitele_kvalifikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou to, co dělá naší školu prestižní. Tudíž není možnost, aby zde byli nedostatečně kvalifikovaní učitelé.</response_text>
+	</record>
+	<record>
+		<text>mají učitelé dostatečně vysokou kvalifikaci, aby mohli svůj předmět vyučovat?</text>
+		<intent>ucitele_kvalifikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou to, co dělá naší školu prestižní. Tudíž není možnost, aby zde byli nedostatečně kvalifikovaní učitelé.</response_text>
+	</record>
+	<record>
+		<text>existuje moznost, ze by zde nebyli dostatečně kvalifikovaní učitelé?</text>
+		<intent>ucitele_kvalifikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou to, co dělá naší školu prestižní. Tudíž není možnost, aby zde byli nedostatečně kvalifikovaní učitelé.</response_text>
+	</record>
+	<record>
+		<text>Jsou učitelé na této škole dostatečně kvalifikovaní?</text>
+		<intent>ucitele_kvalifikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou to, co dělá naší školu prestižní. Tudíž není možnost, aby zde byli nedostatečně kvalifikovaní učitelé.</response_text>
+	</record>
+	<record>
+		<text>Není zde možnost, že by někteří učitelé byli nedostatečně kvalifikováni?</text>
+		<intent>ucitele_kvalifikace</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé zde jsou to, co dělá naší školu prestižní. Tudíž není možnost, aby zde byli nedostatečně kvalifikovaní učitelé.</response_text>
+	</record>
+	<record>
+		<text>Jsou zde velmi kvalitní a specializovaní učitelé?</text>
+		<intent>ucitele_kvalita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Kvalitní učitelé jsou to, co z naší školy dělá tu prestižní. Dlouhodobě poskytujeme nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>Jsou na SPŠE kvalitní učitelé?</text>
+		<intent>ucitele_kvalita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Kvalitní učitelé jsou to, co z naší školy dělá tu prestižní. Dlouhodobě poskytujeme nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>máte na škole kvalitní učitele?</text>
+		<intent>ucitele_kvalita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Kvalitní učitelé jsou to, co z naší školy dělá tu prestižní. Dlouhodobě poskytujeme nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>Jsou na škole kvalitní učitelé?</text>
+		<intent>ucitele_kvalita</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Kvalitní učitelé jsou to, co z naší školy dělá tu prestižní. Dlouhodobě poskytujeme nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>fungují učitelé podle školního řádu?</text>
+		<intent>ucitele_skolni_rad</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé se snaží předcházet problémům a postupovat v souladu se školním řádem jak jen to jde. Nemám žádné informace o tom, že by to snad mohlo být jinak. Tudíž je krajně nepravděpodobné, že by zdejší učitelé nejednali podle školního řádu.</response_text>
+	</record>
+	<record>
+		<text>dodržují učitele školní řád a jednají podle něj?</text>
+		<intent>ucitele_skolni_rad</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé se snaží předcházet problémům a postupovat v souladu se školním řádem jak jen to jde. Nemám žádné informace o tom, že by to snad mohlo být jinak. Tudíž je krajně nepravděpodobné, že by zdejší učitelé nejednali podle školního řádu.</response_text>
+	</record>
+	<record>
+		<text>neporušují učitele školní řád?</text>
+		<intent>ucitele_skolni_rad</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé se snaží předcházet problémům a postupovat v souladu se školním řádem jak jen to jde. Nemám žádné informace o tom, že by to snad mohlo být jinak. Tudíž je krajně nepravděpodobné, že by zdejší učitelé nejednali podle školního řádu.</response_text>
+	</record>
+	<record>
+		<text>Postupují učitelé v souladu se školním řádem?</text>
+		<intent>ucitele_skolni_rad</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé se snaží předcházet problémům a postupovat v souladu se školním řádem jak jen to jde. Nemám žádné informace o tom, že by to snad mohlo být jinak. Tudíž je krajně nepravděpodobné, že by zdejší učitelé nejednali podle školního řádu.</response_text>
+	</record>
+	<record>
+		<text>Kdo cizí jazyky učí? </text>
+		<intent>ucitele_specialiste</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole jsou jedničky ve svém oboru. Cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty.</response_text>
+	</record>
+	<record>
+		<text>učí odborné předměty specialisté?</text>
+		<intent>ucitele_specialiste</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole jsou jedničky ve svém oboru. Cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty.</response_text>
+	</record>
+	<record>
+		<text>učí cizí jazyky specialiste? </text>
+		<intent>ucitele_specialiste</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole jsou jedničky ve svém oboru. Cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty.</response_text>
+	</record>
+	<record>
+		<text>jsou učitelé dostatečně specializovaní pro obor, který učí?</text>
+		<intent>ucitele_specialiste</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole jsou jedničky ve svém oboru. Cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty.</response_text>
+	</record>
+	<record>
+		<text>učí cizí jazyky rodilí mluvčí?</text>
+		<intent>ucitele_specialiste</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole jsou jedničky ve svém oboru. Cílem je, aby absolvent naší školy byl nejen dobrý odborník, vybavený všestrannými jazykovými kompetencemi, ale i dobrý člověk, respektující morální hodnoty.</response_text>
+	</record>
+	<record>
+		<text>Je personál školy vstřícný?</text>
+		<intent>ucitele_vstricnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole se maximálně snaží vyjít vstříct všem žákům bez rozdílu.</response_text>
+	</record>
+	<record>
+		<text>lze se domluvit s učiteli na lidské úrovni?</text>
+		<intent>ucitele_vstricnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole se maximálně snaží vyjít vstříct všem žákům bez rozdílu.</response_text>
+	</record>
+	<record>
+		<text>Jaký přístup mají profesoři k žákům ?</text>
+		<intent>ucitele_vstricnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole se maximálně snaží vyjít vstříct všem žákům bez rozdílu.</response_text>
+	</record>
+	<record>
+		<text>Jaký je přístup učitelů k žákum?</text>
+		<intent>ucitele_vstricnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole se maximálně snaží vyjít vstříct všem žákům bez rozdílu.</response_text>
+	</record>
+	<record>
+		<text>Má učitelský sbor dobrý přístup ke studentům?</text>
+		<intent>ucitele_vstricnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole se maximálně snaží vyjít vstříct všem žákům bez rozdílu.</response_text>
+	</record>
+	<record>
+		<text>Jsou na této škole vstřícní a příjemní učitelé?</text>
+		<intent>ucitele_vstricnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole se maximálně snaží vyjít vstříct všem žákům bez rozdílu.</response_text>
+	</record>
+	<record>
+		<text>Jsou učitelé na této škole zaujatí jen svým oborem ?</text>
+		<intent>ucitele_vstricnost</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učitelé na naší škole se maximálně snaží vyjít vstříct všem žákům bez rozdílu.</response_text>
+	</record>
+	<record>
+		<text>mají učitelé zkušenost s velmi inteligentními žáky?</text>
+		<intent>ucitele_nadani_zaci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naši pedagogové přistupují ke každému žáku individuálně a snaží se tak maximálně rozvíjet jeho potenciál.</response_text>
+	</record>
+	<record>
+		<text>pomáhají učitelé rozvíjet potenciál nadaných žáků?</text>
+		<intent>ucitele_nadani_zaci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naši pedagogové přistupují ke každému žáku individuálně a snaží se tak maximálně rozvíjet jeho potenciál.</response_text>
+	</record>
+	<record>
+		<text>mají učitele zkušenost s nadanými žáky?</text>
+		<intent>ucitele_nadani_zaci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naši pedagogové přistupují ke každému žáku individuálně a snaží se tak maximálně rozvíjet jeho potenciál.</response_text>
+	</record>
+	<record>
+		<text>Mají učitelé zkušenosti s mimořádně nadanými žáky?</text>
+		<intent>ucitele_nadani_zaci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naši pedagogové přistupují ke každému žáku individuálně a snaží se tak maximálně rozvíjet jeho potenciál.</response_text>
+	</record>
+	<record>
+		<text>jak vypadá bufet?</text>
+		<intent>umisteni_bufet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Bufet se nachází  v přízemí druhého pavilonu, poslední dveře vlevo.</response_text>
+	</record>
+	<record>
+		<text>kde najdeme bufet?</text>
+		<intent>umisteni_bufet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Bufet se nachází  v přízemí druhého pavilonu, poslední dveře vlevo.</response_text>
+	</record>
+	<record>
+		<text>mate nekde ve skole bufet?</text>
+		<intent>umisteni_bufet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Bufet se nachází  v přízemí druhého pavilonu, poslední dveře vlevo.</response_text>
+	</record>
+	<record>
+		<text>kde je bufet?</text>
+		<intent>umisteni_bufet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Bufet se nachází  v přízemí druhého pavilonu, poslední dveře vlevo.</response_text>
+	</record>
+	<record>
+		<text>Kde naleznu školní jídelnu?</text>
+		<intent>umisteni_jidelna</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Školní jídelna se nachází naproti budovám školy.</response_text>
+	</record>
+	<record>
+		<text>kde je jidelna?</text>
+		<intent>umisteni_jidelna</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Školní jídelna se nachází naproti budovám školy.</response_text>
+	</record>
+	<record>
+		<text>Informace o poloze školní jídelny?</text>
+		<intent>umisteni_jidelna</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Školní jídelna se nachází naproti budovám školy.</response_text>
+	</record>
+	<record>
+		<text>Kde se nachází školní jídelna?</text>
+		<intent>umisteni_jidelna</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Školní jídelna se nachází naproti budovám školy.</response_text>
+	</record>
+	<record>
+		<text>Kde najdu sekretariát?</text>
+		<intent>umisteni_sekretariat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát se nachází v prvním pavilonu v přízemí. Na konci chodby vlevo.</response_text>
+	</record>
+	<record>
+		<text>kde muzu najit sekretariat</text>
+		<intent>umisteni_sekretariat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát se nachází v prvním pavilonu v přízemí. Na konci chodby vlevo.</response_text>
+	</record>
+	<record>
+		<text>kde najdu sekretarku?</text>
+		<intent>umisteni_sekretariat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát se nachází v prvním pavilonu v přízemí. Na konci chodby vlevo.</response_text>
+	</record>
+	<record>
+		<text>Kde je sekretariát?</text>
+		<intent>umisteni_sekretariat</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Sekretariát se nachází v prvním pavilonu v přízemí. Na konci chodby vlevo.</response_text>
+	</record>
+	<record>
+		<text>kde najdu VR učebnu?</text>
+		<intent>umisteni_VR</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učebna VR se nachází v budově dílen. Dále budete nasměrováni ukazateli v budově.</response_text>
+	</record>
+	<record>
+		<text>kde muzu najit VR mistnost?</text>
+		<intent>umisteni_VR</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učebna VR se nachází v budově dílen. Dále budete nasměrováni ukazateli v budově.</response_text>
+	</record>
+	<record>
+		<text>kde je učebna virtuální reality?</text>
+		<intent>umisteni_VR</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učebna VR se nachází v budově dílen. Dále budete nasměrováni ukazateli v budově.</response_text>
+	</record>
+	<record>
+		<text>Kde je učebna VR?</text>
+		<intent>umisteni_VR</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Učebna VR se nachází v budově dílen. Dále budete nasměrováni ukazateli v budově.</response_text>
+	</record>
+	<record>
+		<text>Kudy k hlavnímu vchodu?</text>
+		<intent>umisteni_vratnice</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Hlavní vchod se nachází v prvním pavilonu. (budova školy nejblíže od domova mládeže)</response_text>
+	</record>
+	<record>
+		<text>kde je vratnice?</text>
+		<intent>umisteni_vratnice</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Hlavní vchod se nachází v prvním pavilonu. (budova školy nejblíže od domova mládeže)</response_text>
+	</record>
+	<record>
+		<text>kde najdu vratnici?</text>
+		<intent>umisteni_vratnice</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Hlavní vchod se nachází v prvním pavilonu. (budova školy nejblíže od domova mládeže)</response_text>
+	</record>
+	<record>
+		<text>kde je hlavni vstup do skoly?</text>
+		<intent>umisteni_vratnice</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Hlavní vchod se nachází v prvním pavilonu. (budova školy nejblíže od domova mládeže)</response_text>
+	</record>
+	<record>
+		<text>kde najdu vstup do skoly?</text>
+		<intent>umisteni_vratnice</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Hlavní vchod se nachází v prvním pavilonu. (budova školy nejblíže od domova mládeže)</response_text>
+	</record>
+	<record>
+		<text>Kde je hlavní vchod?</text>
+		<intent>umisteni_vratnice</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Hlavní vchod se nachází v prvním pavilonu. (budova školy nejblíže od domova mládeže)</response_text>
+	</record>
+	<record>
+		<text>Jaké mám uplatnění po škole?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>co muzu delat po studiu na tehle skole?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Jaké mám možnosti po dokončení studia?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Na jakou školu mohu pokračovat dál?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Co můžu dělat po škole?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Jak jsou na tom absolventi s hledáním práce?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Jaké mají studenti, kteří vystupují vaši školu uplatnění na trhu práce?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Jak se po škole mohu uplatnit?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Jaké budu mít po škole uplatnění?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Jaký uplatneni budu mit po dokonceni skoly</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>Jaké mám šanci na nalezení práce po dokončení této školy?</text>
+		<intent>uplatneni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost.</response_text>
+	</record>
+	<record>
+		<text>jsou ucebny moderne vybaveny?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Vybavení učeben je dostatečné pro vaše studenty?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Má škola dostatečně dobré vybavení pro studenty? </text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Má škola dostatečně četné vybavení pro studenty?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Má tato škola moderní vybavení ?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Disponuje škola kvalitními učebními pomůckami?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Je na této škole moderní vybavení?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Má škola moderní vybavení?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Jaké vybavení má škola k dispozici?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Jaké je vybavení školy?</text>
+		<intent>vybaveni_skoly</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru.</response_text>
+	</record>
+	<record>
+		<text>Je na škole počítače, které zvládnou všechny programy potřebné k výuce?</text>
+		<intent>vybaveni_skoly_PC</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola disponuje moderními a kvalitními počítači.</response_text>
+	</record>
+	<record>
+		<text>jsou tam dobry PC?</text>
+		<intent>vybaveni_skoly_PC</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola disponuje moderními a kvalitními počítači.</response_text>
+	</record>
+	<record>
+		<text>Jsou tu dostatečně výkonné ppčítače?</text>
+		<intent>vybaveni_skoly_PC</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola disponuje moderními a kvalitními počítači.</response_text>
+	</record>
+	<record>
+		<text>jsou tam dobré počítače?</text>
+		<intent>vybaveni_skoly_PC</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Škola disponuje moderními a kvalitními počítači.</response_text>
+	</record>
+	<record>
+		<text>Jak je to s pájením, naučí mě to škola?</text>
+		<intent>vyuka_pajeni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se může naučit pájet každý! Máme zde kvalitní učitele, kteří mají rádi svojí práci a rádi vám vše vysvětlí.</response_text>
+	</record>
+	<record>
+		<text>naučí mě škola kvalitně pájet?</text>
+		<intent>vyuka_pajeni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se může naučit pájet každý! Máme zde kvalitní učitele, kteří mají rádi svojí práci a rádi vám vše vysvětlí.</response_text>
+	</record>
+	<record>
+		<text>naucime se s pajkou?</text>
+		<intent>vyuka_pajeni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se může naučit pájet každý! Máme zde kvalitní učitele, kteří mají rádi svojí práci a rádi vám vše vysvětlí.</response_text>
+	</record>
+	<record>
+		<text>Budeme se učit pájet?</text>
+		<intent>vyuka_pajeni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se může naučit pájet každý! Máme zde kvalitní učitele, kteří mají rádi svojí práci a rádi vám vše vysvětlí.</response_text>
+	</record>
+	<record>
+		<text>učí se u vás na škole stříhání videí?</text>
+		<intent>vyuka_strihani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se multimédia samozřejmě vyučují. Máme zde kvalitní učitele, kteří milují svojí práci a rádi vás vše naučí.</response_text>
+	</record>
+	<record>
+		<text>učí se na škole multimedia?</text>
+		<intent>vyuka_strihani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se multimédia samozřejmě vyučují. Máme zde kvalitní učitele, kteří milují svojí práci a rádi vás vše naučí.</response_text>
+	</record>
+	<record>
+		<text>budeme se učit dělat videa?</text>
+		<intent>vyuka_strihani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se multimédia samozřejmě vyučují. Máme zde kvalitní učitele, kteří milují svojí práci a rádi vás vše naučí.</response_text>
+	</record>
+	<record>
+		<text>Budeme se učit stříhat fotky a videa?</text>
+		<intent>vyuka_strihani</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole se multimédia samozřejmě vyučují. Máme zde kvalitní učitele, kteří milují svojí práci a rádi vás vše naučí.</response_text>
+	</record>
+	<record>
+		<text>je nutné využívat moodle, MSteams nebo filr?</text>
+		<intent>vyukove_materialy</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Využívání Filr, Moodle a MSTeams vždy záleží na konkrétním učiteli. Pokud se rozhodne nějakou z těchto platforem využít, žáci jsou povinni se přizpůsobit.</response_text>
+	</record>
+	<record>
+		<text>je důležitý používat filr?</text>
+		<intent>vyukove_materialy</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Využívání Filr, Moodle a MSTeams vždy záleží na konkrétním učiteli. Pokud se rozhodne nějakou z těchto platforem využít, žáci jsou povinni se přizpůsobit.</response_text>
+	</record>
+	<record>
+		<text>musím používat moodle ke studiu?</text>
+		<intent>vyukove_materialy</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Využívání Filr, Moodle a MSTeams vždy záleží na konkrétním učiteli. Pokud se rozhodne nějakou z těchto platforem využít, žáci jsou povinni se přizpůsobit.</response_text>
+	</record>
+	<record>
+		<text>Je důležité používat FILR, Moodle nebo Teamsy?</text>
+		<intent>vyukove_materialy</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Využívání Filr, Moodle a MSTeams vždy záleží na konkrétním učiteli. Pokud se rozhodne nějakou z těchto platforem využít, žáci jsou povinni se přizpůsobit.</response_text>
+	</record>
+	<record>
+		<text>máte na škole moderní vzdělávací metody?</text>
+		<intent>vzdelavaci_metody</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dlouhodobě poskytujeme moderní a zároveň nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>fungují na škole moderní vzdělávací metody?</text>
+		<intent>vzdelavaci_metody</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dlouhodobě poskytujeme moderní a zároveň nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>jaké má škola metody vzdělávání?</text>
+		<intent>vzdelavaci_metody</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dlouhodobě poskytujeme moderní a zároveň nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>Nemá škola zastaralé metody vzdělávání?</text>
+		<intent>vzdelavaci_metody</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dlouhodobě poskytujeme moderní a zároveň nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>má škola moderní vzělávací metody?</text>
+		<intent>vzdelavaci_metody</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Dlouhodobě poskytujeme moderní a zároveň nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji.</response_text>
+	</record>
+	<record>
+		<text>Je škola zabezpečená?</text>
+		<intent>zabezpeceni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola využívá nejmodernějších metod zabezpečení k ochraně všech návštěvníků školy a majetku.</response_text>
+	</record>
+	<record>
+		<text>je na škole nějaké zabezpečení proti teroristickým útokům?</text>
+		<intent>zabezpeceni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola využívá nejmodernějších metod zabezpečení k ochraně všech návštěvníků školy a majetku.</response_text>
+	</record>
+	<record>
+		<text>Je škola nějak zabezpečená?</text>
+		<intent>zabezpeceni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola využívá nejmodernějších metod zabezpečení k ochraně všech návštěvníků školy a majetku.</response_text>
+	</record>
+	<record>
+		<text>Jakým způsobem je škola zabezpečená?</text>
+		<intent>zabezpeceni</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola využívá nejmodernějších metod zabezpečení k ochraně všech návštěvníků školy a majetku.</response_text>
+	</record>
+	<record>
+		<text>Jak moc velký zájem je o studium? </text>
+		<intent>zaci_celkovy_pocet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studuje u nás okolo 1200 žáků. </response_text>
+	</record>
+	<record>
+		<text>kolik zaku studuje na skole?</text>
+		<intent>zaci_celkovy_pocet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studuje u nás okolo 1200 žáků. </response_text>
+	</record>
+	<record>
+		<text>jak velký zájem je o studium?</text>
+		<intent>zaci_celkovy_pocet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studuje u nás okolo 1200 žáků. </response_text>
+	</record>
+	<record>
+		<text>Jaká je kapacita žáků školy?</text>
+		<intent>zaci_celkovy_pocet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studuje u nás okolo 1200 žáků. </response_text>
+	</record>
+	<record>
+		<text>jaký je počet studentů na škole?</text>
+		<intent>zaci_celkovy_pocet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studuje u nás okolo 1200 žáků. </response_text>
+	</record>
+	<record>
+		<text>Kolik je celkový počet žáků na škole?</text>
+		<intent>zaci_celkovy_pocet</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Studuje u nás okolo 1200 žáků. </response_text>
+	</record>
+	<record>
+		<text>jsou na škole hezký holky?</text>
+		<intent>zaci_hezke_holky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole nehledíme na kvantitu, ale na kvalitu a ta je skoro astronomická.</response_text>
+	</record>
+	<record>
+		<text>mate na skole dobry buchty?</text>
+		<intent>zaci_hezke_holky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole nehledíme na kvantitu, ale na kvalitu a ta je skoro astronomická.</response_text>
+	</record>
+	<record>
+		<text>mate hezky hezky?</text>
+		<intent>zaci_hezke_holky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole nehledíme na kvantitu, ale na kvalitu a ta je skoro astronomická.</response_text>
+	</record>
+	<record>
+		<text> Jsou tam dobry holky?</text>
+		<intent>zaci_hezke_holky</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na naší škole nehledíme na kvantitu, ale na kvalitu a ta je skoro astronomická.</response_text>
+	</record>
+	<record>
+		<text>jsou tam pekny kluci?</text>
+		<intent>zaci_hezci_kluci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola je složena převážně z kluků. To znamená, že každý si vybere to, co se mu líbí.</response_text>
+	</record>
+	<record>
+		<text>máte tam hezký kluky?</text>
+		<intent>zaci_hezci_kluci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola je složena převážně z kluků. To znamená, že každý si vybere to, co se mu líbí.</response_text>
+	</record>
+	<record>
+		<text>jsou na škole hezký kluci?</text>
+		<intent>zaci_hezci_kluci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola je složena převážně z kluků. To znamená, že každý si vybere to, co se mu líbí.</response_text>
+	</record>
+	<record>
+		<text>jsou tam dobrý kluci?</text>
+		<intent>zaci_hezci_kluci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola je složena převážně z kluků. To znamená, že každý si vybere to, co se mu líbí.</response_text>
+	</record>
+	<record>
+		<text>Máte tam hezký kluky?</text>
+		<intent>zaci_hezci_kluci</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Naše škola je složena převážně z kluků. To znamená, že každý si vybere to, co se mu líbí.</response_text>
+	</record>
+	<record>
+		<text>ztratil jsem plzenskou kartu, co muzu delat?</text>
+		<intent>ztrata_cip</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na pokladně v budově jídelny můžete zažádat o nový čip. Cena je 100 Kč.</response_text>
+	</record>
+	<record>
+		<text>nemam cip, co muzu delat?</text>
+		<intent>ztrata_cip</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na pokladně v budově jídelny můžete zažádat o nový čip. Cena je 100 Kč.</response_text>
+	</record>
+	<record>
+		<text>Jak mohu zažádat o novou kartu pro přístup?</text>
+		<intent>ztrata_cip</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na pokladně v budově jídelny můžete zažádat o nový čip. Cena je 100 Kč.</response_text>
+	</record>
+	<record>
+		<text>Ztratil jsem čip, co mám dělat?</text>
+		<intent>ztrata_cip</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Na pokladně v budově jídelny můžete zažádat o nový čip. Cena je 100 Kč.</response_text>
+	</record>
+	<record>
+		<text>Jak mohu postupovat, při ztrátě omluvného listu?</text>
+		<intent>ztrata_omluvny_list</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Nový omluvný list vám může předat třídní učitel.</response_text>
+	</record>
+	<record>
+		<text>kde mi dají nový omluvňák když jsem ho dopsal?</text>
+		<intent>ztrata_omluvny_list</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Nový omluvný list vám může předat třídní učitel.</response_text>
+	</record>
+	<record>
+		<text>ztratil jsem omluvňák, co teď?</text>
+		<intent>ztrata_omluvny_list</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Nový omluvný list vám může předat třídní učitel.</response_text>
+	</record>
+	<record>
+		<text>Jak můžu získat omluvný list?</text>
+		<intent>ztrata_omluvny_list</intent>
+		<is_static>true</is_static>
+		<is_action>false</is_action>
+		<response_text>Nový omluvný list vám může předat třídní učitel.</response_text>
+	</record>
+</data-set>

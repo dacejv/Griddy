@@ -1,0 +1,6 @@
+pymongo
+matplotlib==3.3.4
+requests
+rasa-nlu
+rasa-core
+rasa-core-sdk

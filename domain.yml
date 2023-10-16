@@ -1,0 +1,44 @@
+version: "3.1" 
+
+responses:
+  utter_opakujte:
+    - text: "Omlouvám se, nerozumím vám. Můžete opakovat svou otázku?"
+    - text: "Promiňte, nerozumím vám. Opakujte otázku prosím."
+
+  utter_dalsi_otazka:
+    - text: "Máte další otázku?"
+    - text: "Přejete si ještě něco vědět?"
+    - text: "Potřebujete ještě s něčím pomoct?"
+    - text: "Máte další dotaz?"
+
+  utter_rozlouceni:
+    - text: "Na shledanou."
+
+  utter_custom_response:
+    - custom:
+        text: "{text_response}"
+        img: "{img}"
+        url: "{url}"
+        url_text: "{url_text}"
+
+  utter_cekam:
+    - text: "Zeptejte se prosím."
+    - text: "Čekám na otázku."
+    - text: "Poslouchám."
+
+
+session_config:
+  session_expiration_time: 5
+
+intents:
+  - souhlas
+  - custom_response
+  - nesouhlas
+  - faq
+  - rozlouceni
+  - dalsi_otazka
+  - opakujte
+
+
+actions:
+  - action_utter_faq

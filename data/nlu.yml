@@ -1,0 +1,3819 @@
+version: "3.1" 
+ 
+nlu:
+- intent: faq/absence_info
+  examples: |
+    - Co dělat když onemocním?
+    - Mohu se zeptat, jak se omluvit za absenci?
+    - Lze se nějak omluvit za neúčast?
+    - Mohu se zeptat, jak mohu doložit svou omluvu za absenci?
+    - Jaký je nejlepší způsob, jak se omluvit za neúčast na hodinách?
+    - Existuje nějaký oficiální způsob, jak omluvit absenci?
+    - Je možné se omluvit za chybějící hodiny?
+    - Jak se mohu omluvit za absenci?
+    - Jak se mohu omluvit za opoždění?
+    - Existuje nějaký způsob, jak se omluvit za neúčast?
+    - Existuje nějaký způsob, jak získat výjimku za absenci?
+    - Jak se mohu omluvit za pozdní příchod?
+    - Existuje nějaký postup pro omluvu za chybějící hodiny?
+    - Jak se mohu omluvit za chybějící hodiny?
+    - Existuje nějaká oficiální procedura pro omluvu za absenci?
+    - Jak je možné omluvit chybějící hodiny?
+    - jak omluvit absenci?
+    - Budu nemocný. Co mám dělat?
+    - Co když dítě onemocní?
+    - Co dělat, když onemocním na týden?
+
+- intent: faq/absence_procenta
+  examples: |
+    - Budu klasifikován, když zameškám více procent než je dovoleno?
+    - kolik procent, aybch byl kalsifikován?
+    - Jaká je nejvyšší hranice procent pro klasifikaci?
+    - Jaký je maximální počet procent absence, abych nebyl klasifikován?
+    - Budu klasifikován, když zameškám více než je dovoleno?
+    - Kolik procent musím zameškat pro klasifikaci?
+    - Jaké je nejvyšší dovolené procento absence pro klasifikaci?
+    - Je možné být klasifikován při více než dovoleném počtu procent?
+    - Kolik procent můžu zameškat, abych byl klasifikován?
+    - Kolik procent je dovoleno pro klasifikaci?
+    - Jaké je nejvyšší povolené procento pro klasifikaci?
+    - Kolik procent může být zameškáno, abych byl klasifikován?
+    - Jaký je maximální počet procent pro klasifikaci?
+    - Jaký je minimální počet procent pro klasifikaci?
+    - Jaký je maximální počet procent, abych byl klasifikován?
+    - Jaký je maximální přípustný počet procent pro klasifikaci?
+    - Jaké je maximum procent ke klasifikaci?
+    - kolik procent muzu abych nedostal N?
+    - procenta abych byl klasifikovanej?
+    - kolik procent ke klasifikaci?
+
+- intent: faq/absence_procenta_problem
+  examples: |
+    - řešení vysoké absence?
+    - Co mám dělat, když mám vysokou absenci?
+    - Jak mohu řešit svou vysokou absenci ve škole?
+    - Jak lze zlepšit situaci s vysokou absencí ve škole?
+    - Co bych měl dělat, pokud mám vysokou absenci ve škole?
+    - Můžete mi prosím poradit, jak řešit vysokou absenci ve škole?
+    - Jaké jsou možnosti řešení vysoké absence?
+    - Jak nejlépe zvládnout situaci s vysokou absencí?
+    - Je možné se dohodnout na nějakém řešení pro vysokou absenci ve škole?
+    - Jak řešit vysokou absenci ve škole?
+    - Jaký je nejlepší způsob, jak řešit vysokou absenci ve škole?
+    - Je možné se dohodnout na nějakém řešení pro vysokou absenci ve škole a jakým způsobem?
+    - vysoká absence?
+    - Co mám dělat když mám velkou absenci?
+    - Jak mám řešit vysokou absenci?
+    - Můžu projít, když mám vysokou absenci?
+
+- intent: faq/akce_skoly
+  examples: |
+    - Máte akce školy?
+    - pořadaji se akce školy?
+    - jsou na skole nejake akce?
+    - jaky akce porada škola?
+    - jezdí tato škola na nějaké akce?
+    - Jaké akce škola pořádá?
+    - Jsou v této škole nějaké akce?
+    - Je možnost zapojit se do akcí školy?
+    - Je možné se účastnit akcí školy?
+    - Existuje nějaká akce školy pro studenty?
+    - Je možnost účastnit se akcí školy?
+    - Je možné zúčastnit se akcí školy?
+    - Jsou nějaké akce pro studenty školy?
+    - Je možnost se zapojit do akcí školy?
+    - Jaké akce škola organizuje?
+    - Můžu se účastnit akcí školy?
+    - Jaké akce škola pořádá pro studenty?
+    - pořádá se na škole nějaká akce pro studenty?
+    - je možnost zúčastnit se akcí školy?
+    - Má tato škola nějaké školní akce?
+
+- intent: faq/asistent
+  examples: |
+    - Je možnost mít asistenta ve škole?
+    - Poskytuje škola asistenty pro žáky, kteří potřebují zvláštní péči?
+    - Poskytuje škola asistenty pro žáky, kteří se potýkají s dyslexií nebo jinými poruchami učení?
+    - Je v škole přístup k asistenci pro žáky?
+    - Můžu získat asistenta v škole?
+    - Existují asistenti ve škole?
+    - Můžu získat asistenta pro žáky se specifickými potřebami?
+    - Můžu v škole získat pomoc od asistentů?
+    - Jsou ve škole asistenti pro žáky s dyslexií nebo jinými poruchami učení?
+    - Je škola schopna poskytnout asistence pro žáky?
+    - Existují nějaké formy pomoci od asistentů ve škole?
+    - Existuje možnost získat asistenta ve škole?
+    - Je ve škole možnost získat asistenta pro žáky?
+    - Poskytuje škola asistenty pro žáky?
+    - Jsou ve škole dostupní asistenti?
+    - Je možnost získat pomoc od asistentů ve škole?
+    - Poskytuje škola asistenty pro žáky se specifickými potřebami?
+    - Je ve škole k dispozici nějaká forma pomoci od asistentů?
+    - Je ve škole dostupná podpora od asistentů pro žáky?
+    - Jsou ve škole asistenti?
+
+- intent: faq/automaty_kava
+  examples: |
+    - Je ve škole automat na kávu?
+    - Je ve škole k dispozici automat na kávu?
+    - Je ve škole dostupný automat na kávu?
+    - Je ve škole někde umístěn automat na kávu?
+    - Je ve škole dostupné zařízení, ze kterého si mohu zakoupit kávu?
+    - je automat na kávu?
+    - Je zde na škole automat na kávu?
+    - kolik má škola automatu na kávu?
+    - kolik automatů kafe?
+    - kolik automatu na kafe?
+    - kolik je ve skole automatu na kafe?
+    - Jaké má škola automaty na kávu?
+    - Kolik je v škole automatů na kávu?
+    - Jaký je počet automatů na kávu ve škole?
+    - Kolik je škole automatů na kávu?
+    - Kde se ve škole nacházejí automaty na kávu?
+    - Kde se ve škole nachází automaty na kávu?
+    - Kde je ve škole umístěn automat na kávu?
+    - Kde ve škole najdu automaty na kávu?
+    - Kde se nacházejí ve škole automaty na kávu?
+    - Kolik automatů na kávu má škola?
+    - Jaké automaty na kávu má škola?
+    - Kde ve škole najdeme automaty na kávu?
+    - Kde ve škole najdete automaty na kávu?
+    - Jaké automaty na kávu ve škole existují?
+    - Existuje ve škole automat na kávu?
+    - Je k dostání ve škole káva z automatu?
+    - Lze v této škole zakoupit kávu z automatu?
+    - Můžu ve škole koupit kávu z automatu?
+    - Je ve škole možnost zakoupit si kávu z automatu?
+    - je ve škole možnost obstarat si kávu z automatu?
+    - Lze ve škole nakoupit kávu z automatu?
+    - Můžu ve škole najít automat na kávu?
+    - Existuje ve škole zařízení na kávu?
+    - Můžu ve škole zakoupit kávu z automatu?
+    - kolik je automatu na kafe na skole?
+    - Kolik je zde automatů na kávu?
+    - Jakej je počet automatů na kafe?
+    - kolik je zde automatu na kafe?
+    - Kolik je ve škole automatů na kavu?
+
+- intent: faq/automaty_piti
+  examples: |
+    - automaty s napoji na skole?
+    - Je ve škole automat s nápoji?
+    - Je ve škole k dispozici automat s nápoji?
+    - Mohu ve škole najít automat s nápoji?
+    - Je ve škole možné zakoupit si nápoje z automatu?
+    - Je ve škole dostupný automat s nápoji?
+    - Je možné ve škole koupit si nápoje z automatu?
+    - Je ve škole někde umístěn automat s nápoji?
+    - Je zde na škole automat na piti?
+    - Kolik je na škole automatů s pitím?
+    - Kde ve škole najdu automaty na pití?
+    - Je nějaký automat s pitím ve škole?
+    - Na kolik automatů s pitím narazím ve škole?
+    - Kolik je zde automatů s pitím?
+    - Kolik automatů na nápoje je ve škole?
+    - Kolik je ve škole automatů na pití?
+    - Kde ve škole se dají najít automaty na pití?
+    - Kolik automatů s pitím je ve škole?
+    - Je ve škole nějaký automat na pití?
+    - Kde ve škole najdu automaty na chlazené nápoje?
+    - Kolik automatů s nápoji je na škole?
+    - Jaký je počet automatů na nápoje ve škole?
+    - Kde ve škole jsou umístěny automaty na chlazené nápoje?
+    - Mohu ve škole sehnat něčeho z automatu?
+    - Kde ve škole najdu automat s nápoji?
+    - Kde ve škole seženu něco z automatu?
+    - Jsou ve škole automaty na pití?
+    - Dají se ve škole koupit nápoje z automatu?
+    - Máte ve škole automaty s nápoji?
+    - Je ve škole možné sehnat něco z automatu?
+    - Je možné ve škole sehnat něco z automatu?
+    - Kde ve škole mohu najít automat s nápoji?
+    - Je ve škole dostupný automat s nápojemi?
+    - Jsou ve škole k dispozici automaty s nápoji?
+    - Máte ve škole automaty na pití?
+    - kolik má škola automatu na pití?
+    - kolik automatu s pitím se nachází ve škole?
+    - kolik zde automatů s pitím?
+    - kolik je zde automatů na nápoje?
+    - Jaký je počet automatů na chlazené nápoje?
+    - kolik je ve škole automatů na nápoje?
+    - Jaký je počet automatů s pitím na škole?
+    - Kolik automatů na pití je na škole?
+    - kolik je zde automatu na pití?
+
+- intent: faq/bakalari
+  examples: |
+    - Jaké jsou výhody systému bakaláři ve škole?
+    - Jaký význam pro školu má systém bakaláři?
+    - Jaké je hodnocení systému bakaláři ve škole?
+    - Jak se využívá systém bakaláři ve škole?
+    - Jaký benefit má pro školu používání systému bakaláři?
+    - Je ve škole systém bakaláři používán pro hodnocení žáků?
+    - Jak se ve škole používá systém bakaláři?
+    - Jak se ve škole učí pracovat se systémem bakaláři?
+    - Jakými způsoby ve škole využívají systém bakaláři?
+    - Jaký je postoj školy vůči systému bakaláři?
+    - Využívá se systém Bakaláři?
+    - Je ve škole systém Bakaláři?
+    - Je ve škole zaveden systém bakaláři?
+    - Je ve škole systém bakaláři integrován do vzdělávacího programu?
+    - Je ve škole systém bakaláři respektován?
+    - Využívá škola bakaláře?
+
+- intent: faq/bezbarierovy_pristup
+  examples: |
+    - Máte na škole i bezbariérový přístup?
+    - Má škola bezbariérový vstup?
+    - Je škola bezbariérová?
+    - Můžou lidé se zdravotním postižením do školy vstoupit?
+    - Je škola bezbariérová pro vozíčkáře?
+    - Má škola vstup pro osoby se sníženou pohyblivostí?
+    - Je škola přístupná pro lidi s omezenou schopností pohybu?
+    - Můžou osoby s omezenou schopností pohybu vstoupit do školy?
+    - Je škola přístupná pro lidi se zdravotním postižením?
+    - Je škola bezbariérová pro lidi s omezenou pohyblivostí?
+    - Má škola přístup pro vozíčkáře?
+    - Je škola přístupná pro osoby se sníženou pohyblivostí?
+    - Má škola bezbariérový přístup?
+    - Má škola bezbariérový přístup pro osoby se sníženou pohyblivostí?
+    - Můžou osoby s tělesním postižením do školy vstoupit?
+    - Je vstup do školy přístupný pro vozíčkáře?
+    - Má škola bezbariérový vstup pro lidi s omezenou pohyblivostí?
+    - Můžou lidé s omezenou schopností pohybu do školy vstoupit?
+    - Je škola přístupná pro zdravotně omezené osoby?
+    - Můžou lidé s tělesním postižením do školy vstoupit?
+    - Je škola bezbariérová pro osoby se zdravotním postižením?
+    - Je škola přístupná pro lidi s tělesním postižením?
+    - Má škola bezbariérový vstup pro lidi se sníženou pohyblivostí?
+    - Můžou lidé s tělesním postižením do školy vstoupit bez bariér?
+    - Je zde dobrý přístup i například pro lidi s tělesním postižením?
+
+- intent: faq/bufet_info
+  examples: |
+    - Nachází se ve škole bufet? 
+    - Je ve škole bufet?
+    - Je ve škole občerstvovací stánek?
+    - Je ve škole možnost občerstvení?
+    - Je ve škole nějaké místo, kde se dá něco koupit k snědku?
+    - Existuje ve škole bufet?
+    - Je ve škole nějaké místo, kde je možné se občerstvit?
+    - Je ve škole nějaká možnost občerstvení?
+    - Je ve škole k dispozici nějaké jídlo?
+    - Je možné si koupit jídlo v bufetu ve škole?
+    - Je někde ve škole možnost zakoupit něco k jídlu?
+    - Existuje ve škole někde občerstvení?
+    - Můžete si ve škole koupit něco k jídlu?
+    - Můžete ve škole nakoupit něco k obědu?
+    - Je ve škole někde možnost se občerstvit?
+    - Existuje možnost zakoupit si ve škole jídlo?
+    - Je ve škole někde možnost zakoupit něco k jídlu?
+    - Je ve škole k dispozici nějaká možnost občerstvení?
+    - Je ve škole někde možnost zakoupit něco k jídlu nebo k pití?
+    - je možné si koupit jídlo přímo ve škole?
+    - zakoupeni jidla primo ve skole?
+    - Je ve škole bufet ?
+    - Nachází se ve škole bufet?
+
+- intent: faq/bufet_kdy_zavira
+  examples: |
+    - zavírací doba bufetu?
+    - zaviraci doba bufetu?
+    - od kdy do kdy je otevren bufet?
+    - Která je otevírací doba bufetu? 
+    - Do kdy je bufet otevřen? 
+    - Jak dlouho je bufet otevřen? 
+    - Jak dlouho je bufet otevřen v průběhu dne? 
+    - Kdy je bufet otevřen? 
+    - Kdy začíná provoz bufetu? 
+    - Kdy začíná otevírací doba bufetu? 
+    - Kdy bufet končí? 
+    - Kdy bufet začíná? 
+    - Kdy bufet zavírá? 
+    - V kolik hodin se zavírá bufet?
+    - v kolik končí otevírací doba bufetu?
+    - V kolik zavírají bufet?
+    - V kolik hodin zavira bufet ?
+
+- intent: faq/cizy_jazyky
+  examples: |
+    - Jazyky na Elektrotechnice-IoT?
+    - Jake jsou jazyky na technickem lyceu?
+    - jaky jsou jazyky na škole?
+    - Kolik je ve škole jazyků?
+    - Cizí jazyky ve škole?
+    - Jaké volitelné jazyky si můžu vybrat?
+    - Jaké jsou na výběr volitelné jazyky?
+    - jak fungují dovednostní skupiny na jazyky?
+    - proc se rozrazuje do skupin na cizý jazyky?
+    - Jaký je smysl roztřízení do dovednostních skupin na jazyky?
+    - Proč jsou skupiny na jazyky?
+    - Jak se vyučuje cizý jazyk u vás na škole?
+    - Výuka cizího jazyka na škole?
+    - Jak probíhá výuka cizích jazyků na škole?
+    - Podle čeho jsou rozděleni žáci na cizí jazyky?
+    - Jak zde probíhá výuka cizího jazyka?
+    - Od kdy se učí cizí jazyk?
+    - kdy se zacina s vyukou cizyho jazyka?
+    - Kdy se začíná s výukou cizích jazyků na škole?
+    - Od kterého ročníku se učí cizí jazyky?
+    - Jak se vyučuje cizí jazyk ve škole?
+    - Jak se rozvíjejí dovednosti ve výuce cizího jazyka?
+    - Které cizí jazyky se ve škole učí?
+    - Jaké jazyky se učí na škole?
+    - Jaká je nabídka jazyků na škole?
+    - Kolik jazyků je ve škole k dispozici?
+    - Co se všechno učí na škole?
+    - Jakými jazyky ovládáte ve škole?
+    - Jaké jazyky jsou v nabídce školy?
+    - Kolik jazyků používáte ve škole?
+    - Jaké jazyky je možné studovat ve škole?
+    - Jaké jazyky jsou k dispozici ve škole?
+    - Jaké jsou možnosti jazykového vzdělávání na škole?
+    - Které jazyky se vyučují ve škole?
+    - Jaké jsou dostupné jazyky ve škole?
+    - Co je možné se naučit ve škole?
+    - Které jazyky jsou ve škole k dispozici?
+    - Které jazyky se učí na škole?
+    - v jakych rocnicich se vyucuji cizí jazyky?
+    - Vyučují se cizí jazyky od prváku?
+    - Kdy začíná vyučování cizího jazyka?
+
+- intent: faq/dalkove_studium
+  examples: |
+    - Je u vás ve škole možnost dálkového studia?
+    - je moznost studia na dalku?
+    - Lze na vaší škole studovat na dálku?
+    - Poskytuje vaše škola možnost studovat z domova?
+    - Je dálkové studium k dispozici na vaší škole?
+    - Je pro vás na škole k dispozici možnost dálkového vzdělávání?
+    - Můžete na vaší škole studovat na dálku?
+    - Je možné na vaší škole studovat na dálku?
+    - Nabízí vaše škola možnost dálkového studia?
+    - Můžou na vaší škole studenti studovat na dálku?
+    - Je na vaší škole možné studovat na dálku?
+    - Má vaše škola program dálkového studia?
+    - Lze na vaší škole studovat na dálku prostřednictvím internetu?
+    - Poskytuje vaše škola studijní možnosti na dálku?
+    - Má vaše škola nabídku dálkového studia?
+    - Je na vaší škole možné absolvovat dálkové studium?
+    - Je možné na vaší škole studovat přes internet?
+    - Nabízí vaše škola dálkové studijní programy?
+    - Je dostupné dálkové vzdělávání na vaší škole?
+    - Můžou na vaší škole studenti studovat přes internet?
+    - Možnost dálkového studia?
+    - Je možnost dálkového studia?
+
+- intent: faq/distancni_vyuka
+  examples: |
+    - Jaké programy využíváte k distanční výuce?
+    - Můžou studenti studovat na dálku na vaší škole?
+    - Je možnost dálkového studia dostupná na vaší škole?
+    - Lze na vaší škole studovat na dálku přes internet?
+    - Má vaše škola možnost dálkového studia?
+    - Lze na vaší škole studovat dálkově?
+    - Je dálkové vzdělávání k dispozici na vaší škole?
+    - Můžete studovat na dálku na vaší škole?
+    - Poskytuje vaše škola možnost dálkového vzdělávání?
+    - Můžou studenti na vaší škole studovat přes internet?
+    - Existuje na vaší škole program dálkového vzdělávání?
+    - Je pro vaši školu dostupná možnost dálkového studia?
+    - Lze na vaší škole studovat na dálku prostřednictvím internetu?
+    - Je možnost dálkového studia k dispozici na vaší škole?
+    - jak probiha distancka?
+    - Jaký je průběh distanční výuky?
+    - jak probíhá distanční výuka?
+    - co obnáší distanční výuka?
+    - jak funguje distanční výuka?
+    - jak se distanční výuka realizuje?
+    - jaký je průběh distančního studia?
+    - jaký je průběh distančního vzdělávání?
+    - jak probíhají distanční výukové hodiny?
+    - co používáte k distanční výuce?
+    - Jak mohu získat informace o distanční výuce?
+    - Jaké informace potřebuji k distanční výuce?
+    - Jaký je postup pro distanční výuku?
+    - Co je potřeba pro distanční výuku?
+    - Jaké platformy se používají pro distanční výuku?
+    - Jaké jsou pravidla distanční výuky?
+    - Kde mohu najít informace o distanční výuce?
+    - Jaké jsou postupy pro distanční výuku?
+    - Jaké jsou nástroje potřebné pro distanční výuku?
+    - Jaké jsou pravidla pro distanční výuku?
+    - Jaké jsou tu postupy při distanční výuce?
+
+- intent: faq/doucovani
+  examples: |
+    - je mozné nejake doucovani?
+    - Nabízí škola doučování z českého jazyka?
+    - je na škole doucovani z POSů?
+    - Existuje ve škole program pro doučování?
+    - Je ve škole možnost doučování?
+    - Je ve škole možnost navštívit doučování?
+    - Je ve škole nějaká možnost doučování?
+    - Existuje ve škole nějaká forma doučování?
+    - Je ve škole něco jako doučování?
+    - Je ve škole nějaký program pro doučování?
+    - Existuje ve škole nějaká možnost doučování?
+    - Je ve škole nějaká možnost získat doučování?
+    - Můžu ve škole získat doučování?
+    - Má škola nějakou formu doučování?
+    - Je ve škole nabízeno doučování pro žáky?
+    - Existuje ve škole možnost doučování?
+    - Je ve škole k dispozici doučování?
+    - Můžete mi říct, zda ve škole nabízíte doučování?
+    - Nabízí škola doučování z matematiky?
+    - nabízí škola doučování z odborných předmětů?
+    - Je zde nějaká možnost pomoci při studiu? (doučování, programy, ....)
+
+- intent: faq/doucovani_prijmacky
+  examples: |
+    - Je ve škole nabízeno doučování pro příjmačky?
+    - Je ve škole možnost doučování pro přípravu na příjmačky?
+    - Je ve škole nabízeno doučování na příjmačky?
+    - Můžete mi říct, zda ve škole nabízíte doučování na příjmačky?
+    - Je ve škole nějaký program pro doučování na příjmačky?
+    - Je ve škole k dispozici nějaké doučování pro přípravu na příjmačky?
+    - Existuje ve škole program pro doučování před přijímacími zkouškami?
+    - Je ve škole možnost doučování na přijímací zkoušky?
+    - Je ve škole k dispozici doučování pro přijímací zkoušky?
+    - nabízíte doučování na přijímací zkoušky?
+    - Je ve škole nějaké doučování pro přípravu na přijímací zkoušky?
+    - Je ve škole nějaká forma doučování pro přijímací zkoušky?
+    - Existuje ve škole nějaký program pro doučování na přijímací zkoušky?
+    - Je ve škole možnost navštívit doučování na přijímací zkoušky?
+    - Je ve škole nějaký program pro doučování pro příjmačky?
+    - Existuje ve škole nějaké doučování pro přípravu na přijímací zkoušky?
+    - Je nabízeno doučování pro přípravu na příjmačky?
+    - Existuje ve škole nějaký program pro doučování pro přijímací zkoušky?
+    - Je ve škole možnost navštívit doučování pro přípravu na přijímací zkoušky?
+    - Je ve škole nějaká možnost doučování na příjmačky?
+    - Je ve škole možnost doučování pro přípravu na přijímací zkoušky?
+    - Můžete mi říct, zda ve škole nabízíte doučování na přijímací zkoušky?
+    - Je ve škole nějaký program pro doučování na přijímací zkoušky?
+    - Je ve škole nějaká možnost doučování na přijímací zkoušky?
+    - nabizite doucovani na prijmacky?
+    - Jak probíhá doučování na přijímací zkoušky? 
+
+- intent: faq/fitko
+  examples: |
+    - Má škola vlastní tělocvičnu/fitness ?
+    - Je k dispozici posilovna?
+    - Existuje ve škole fitness centrum?
+    - Je ve škole fitness centrum?
+    - Mohu najít ve škole fitness centrum?
+    - Je ve škole možné navštívit fitness centrum?
+    - Je ve škole nabízeno fitness centrum?
+    - Můžete mi říct, zda je ve škole fitness centrum?
+    - Ve škole je k dispozici fitness centrum?
+    - Je ve škole nějaké fitness centrum?
+    - Můžu se ve škole zapojit do cvičení v fitness centru?
+    - Je ve škole nabízena posilovna?
+    - Je ve škole nějaká posilovna?
+    - Je ve škole nějaké fitko?
+    - Ve škole je k dispozici posilovna?
+    - Mohu najít ve škole posilovnu?
+    - Je ve škole možné navštívit posilovnu?
+    - Mohu najít ve škole fitko?
+    - Je ve škole možné navštívit fitko?
+    - Můžete mi říct, zda je ve škole fitko?
+    - Ve škole je k dispozici fitko?
+    - Je ve škole posilovna?
+    - Je ve škole nějaké posilovna?
+    - Je ve škole nějaké místo, kde mohu navštívit posilovna?
+
+- intent: faq/hodin_telesna_vychova
+  examples: |
+    - Jaká je hodinová dotace na hodiny tělocviku ve škole?
+    - Kolik hodin tělesné výchovy je ve školním rozvrhu?
+    - Kolik hodin tělesné výchovy je v ročním plánu školy?
+    - Jak často se na škole vyučuje tělesná výchova?
+    - Jaký je počet hodin tělesné výchovy na škole?
+    - Jaký je počet hodin tělesné výchovy ve školním rozvrhu?
+    - Jaká je hodinová dotace tělocviku na škole?
+    - Kolik hodin tělesné výchovy má škola v ročním plánu?
+    - Jak často mají žáci na škole hodiny tělocviku?
+    - Kolik hodin tělocviku mají žáci na škole?
+    - Kolik hodin tělesné výchovy mají žáci na škole?
+    - Jaký je počet hodin tělesné výchovy v ročním plánu školy?
+    - Kolik času se věnuje tělesné výchově na škole?
+    - Kolik hodin tělocviku je na škole?
+    - Kolik máte na škole hodin tělesné výchovy?
+    - Jaký je počet hodin tělocviku?
+    - Jaká je hodinová dotace na hodiny tělocviku na škole?
+    - Jaký je na škole počet hodin tělesné výchovy?
+
+- intent: faq/hodin_tydne_prvak
+  examples: |
+    - Kolika hodin se budu učit v prvním ročníku?
+    - Kolik hodin týdně mám ve škole v prváku?
+    - Kolik hodin týdně je vyučování pro prváky?
+    - Kolik hodin týdně je ve školním rozvrhu pro první ročníky?
+    - Kolik hodin týdně se budu učit v prvním ročníku?
+    - Kolik hodin týdně má prvák ve škole?
+    - Kolik hodin týdně bude prvák ve škole?
+    - Kolik hodin denně bude v prvním ročníku ve škole?
+    - Kolik hodin týdně má prvák ve školním rozvrhu?
+    - Kolik hodin týdně bude prvák ve vyučování?
+    - Kolik hodin ve škole budou prváci mít?
+    - Kolik hodin týdně budou prváci ve vyučování?
+    - Jaký je počet hodin, které budou prváci trávit ve škole?
+    - Kolik hodin vyučování mají prváci týdně?
+    - Jaký je počet vyučovacích hodin pro prváky?
+    - Kolik hodin ve škole mají prváci týdně?
+    - Kolik hodin budu mít v prváku?
+    - Kolik hodin se budu učit v prvním ročníku?
+    - Jaký je počet hodin za týden, které se budu učit v prvním ročníku?
+    - Jaký je počet hodin za týden pro první ročníky?
+    - Jaký je počet školních hodin pro první ročník?
+    - Kolik hodin týdně jsou prváci ve škole?
+    - Kolik hodin týdně je v prváku ?
+
+- intent: faq/chatbot_funguje
+  examples: |
+    - Je tento chatbot funkční?
+    - Je tento chatbot schopný fungovat?
+    - Je tento chatbot spolehlivý?
+    - Je tento chatbot schopen odpovídat na otázky?
+    - Je tento chatbot schopen plnit své úkoly?
+    - Je tento chatbot dostatečně inteligentní?
+    - Je tento chatbot schopen poskytovat relevantní odpovědi?
+    - Je tento chatbot schopen vyhodnocovat dotazy?
+    - Je tento chatbot schopen dávat konkrétní odpovědi?
+    - Je tento chatbot schopen správně interpretovat dotazy?
+    - Je tento chatbot schopen pracovat s informacemi?
+    - Je tento chatbot schopen analyzovat dotazy?
+    - Je tento chatbot schopen generovat odpovědi?
+    - Je tento chatbot schopen generovat relevantní odpovědi?
+    - Je tento chatbot schopen komunikovat s uživateli?
+    - Je tento chatbot schopen zpracovat dotazy v kontextu?
+    - Je tento chatbot schopen interpretovat složité dotazy?
+    - Je tento chatbot schopen se přizpůsobit uživatelům?
+    - Je tento chatbot schopen se přizpůsobit aktuálním podmínkám?
+    - Je tento chatbot schopen pracovat s více uživateli?
+    - Je tento chatbot dostatečně sofistikovaný na to, aby byl použitelný?
+    - Je tento chatbot schopen efektivně a přesně pracovat?
+    - Je tento chatbot schopen plnit svůj účel?
+    - Funguje tenhle chatbot ?
+
+- intent: faq/info_lyceum
+  examples: |
+    - o cem je technicke lyceum?
+    - Co se učí na lyceu?
+    - Jak funguje obor technické lyceum?
+    - Co se učí na technickém lyceu?
+    - Co se můžu naučit na technickém lyceu?
+    - Jak funguje technické lyceum?
+    - co je to lyceum?
+    - Jaké má benefity technické lyceum?
+    - Jaké možnosti studia jsou dostupné na lyceu?
+    - Jak se mohu dozvědět více o lyceu?
+    - Co je to technické lyceum?
+
+- intent: faq/inkluze
+  examples: |
+    - Jak se pracuje se žáky v rámci inkluze?
+    - Je na škole inkluze prováděna?
+    - Je na škole inkluze plně implementována?
+    - Je na škole inkluze respektována?
+    - Je na škole inkluze považována za důležitou?
+    - Je na škole inkluze podporována?
+    - Je na škole inkluze používána?
+    - Je na škole inkluze důležitou součástí vzdělávacího programu?
+    - Je na škole inkluze realizována ve všech třídách?
+    - Je na škole inkluze důležitou součástí pedagogického přístupu?
+    - Je na škole inkluze vnímána jako klíčová pro zajištění kvalitního vzdělávání pro všechny žáky?
+    - Je na škole inkluze efektivně zaváděna a uplatňována?
+    - Funguje ve škole inkluze?
+
+- intent: faq/internat_cena
+  examples: |
+    - Jaká je cena za ubytování na domově mládeže?
+    - Kolik je nutné zaplatit za ubytování na domově mládeže?
+    - Jaká je cena za nocleh na domově mládeže?
+    - Kolik stojí pobyt na domově mládeže?
+    - Jaké jsou ceny za ubytování na domově mládeže?
+    - Je nutné zaplatit za ubytování na domově mládeže?
+    - Je nutné zaplatit za pobyt na domově mládeže?
+    - Jaké jsou ceny za nocleh na domově mládeže?
+    - Jaká Je cena za pobyt na domově mládeže?
+    - Co stojí ubytování na domově mládeže?
+    - Je nutné platit za pobyt na domově mládeže?
+    - Jaká Je cena za nocleh v domově mládeže?
+    - Kde najdu informace o cenách za ubytování na domově mládeže?
+    - Jaká Je obecná cena za nocleh na domově mládeže?
+    - Kolik stojí ubytování na domově mládeže?
+    - Jak mohu zjistit cenu za ubytování na domově mládeže?
+    - Je nutné platit za ubytování na domově mládeže?
+    - Je možné vyhledat ceny za ubytování na domově mládeže?
+    - Kde lze získat informace o cenách za ubytování na domově mládeže?
+    - Kde se dají najít informace o ceně za pobyt na domově mládeže?
+    - jaká je cena internátu?
+    - Jaká je cena internátu SPŠE?
+    - Kolik stojí ubytování na domově mládeže? 
+
+- intent: faq/internat_do_kdy_dorazit
+  examples: |
+    - V kolik hodin musím nejpozději dorazit na internát v neděli?
+    - V kolik musím být v neděli na intru?
+    - Kdy můžu přiject nejdříve na internát v příjezdový den?
+    - Kdy musím nejpozději přijít na domov mládeže v neděli?
+    - do Kdy musím dorazit na internát v neděli?
+    - Kdy mám nejpozději přijít na domov mládeže v příjezdový den?
+    - do Kdy musím být na internátě v neděli?
+    - Kdy můžu nejdříve dorazit na domov mládeže v příjezdový den?
+    - Kdy musím být nejpozději na internátě v příjezdový den?
+    - do Kdy můžu přijít na domov mládeže v neděli?
+    - Kdy musí moje dítě nejpozději dorazit na internát v příjezdový den?
+    - Kdy mám nejpozději přijít na domov mládeže v neděli?
+    - do Kdy můžu nejdříve přijít na domov mládeže v příjezdový den?
+    - Kdy musím být nejpozději na domově mládeže v neděli?
+    - Kdy může moje dítě nejdříve přijít na internát?
+    - do Kdy musím dojet na internát v příjezdový den?
+    - Kdy musím být nejpozději na domově mládeže v příjezdový den?
+    - Kdy mám nejdříve přijít na internát v neděli?
+    - do Kdy musí moje dítě dorazit na internát v příjezdový den?
+    - Kdy můžu na internát nejpozději v neděli dorazit?
+    - Kdy musím dorazit na domov mládeže v příjezdový den?
+    - V kolik hodin musím nejpozději dorazit na domov mládeže v neděli?
+    - V kolik musím být v neděli na domově mládeže?
+    - Kdy můžu přiject nejdříve na domov mládeže v příjezdový den?
+    - Kdy můžu na domov mládeže nejpozději v neděli dorazit?
+    - Do kdy můžu přiject na domov mládeže v neděli?
+    - V kolik nejpozději může můj syn v příjezdový den přijít na internát
+    - Kdy musí moje dítě dorazit na internát v příjezdový den?
+
+- intent: faq/internat_info
+  examples: |
+    - Existuje nějaká možnost ubytování, pokud jsem z daleka? 
+    - Existuje ve škole nějaká forma ubytování pro žáky?
+    - Je ve škole dostupné ubytování pro studenty?
+    - Je ve škole nějaké ubytování pro žáky z jiných měst?
+    - Je ve škole nějaké ubytování pro studenty, kteří tráví v škole více času?
+    - Nabízí škola nějaké možnosti ubytování?
+    - Existuje ve škole nějaká forma internátu?
+    - Je ve škole možnost ubytování pro žáky, kteří nemají možnost dojíždět domů během školního dne?
+    - Můžou se žáci ve škole ubytovat po celou dobu školy?
+    - Je ve škole nějaká forma ubytování pro žáky, kteří potřebují být ve škole delší dobu?
+    - Je ve škole k dispozici nějaké ubytování pro studenty?
+    - Je ve škole k dispozici nějaké ubytování pro studenty z jiných měst?
+    - Existuje ve škole nějaké ubytování pro žáky, kteří nemají možnost dojíždět domů během školního dne?
+    - Nabízí škola nějakou formu ubytování pro dlouhodobé pobyty ve škole?
+    - Nabízí škola nějakou formu ubytování pro žáky, kteří nebydlí ve městě?
+    - Je možnost ubytování ve škole?
+    - Je ve škole k dispozici nějaké ubytování?
+    - Je ve škole možnost ubytování pro žáky z jiných měst?
+    - Je ve škole nějaké ubytování pro studenty, kteří nebydlí ve městě?
+    - Je ve škole k dispozici nějaké ubytování pro žáky, kteří dojíždějí z daleka?
+    - Je ve škole nějaká forma ubytování pro žáky, kteří nemají možnost dojíždět domů během školního dne?
+    - Nabízí škola nějaká forma ubytování pro žáky, kteří nemají možnost dojíždět domů během školního dne?
+    - Nabízí škola nějaká možnost ubytování?
+    - Nabízí škola nějaká forma ubytování pro žáky?
+    - Nabízí škola k dispozici nějaké ubytování?
+    - Nabízí škola možnost ubytování pro žáky z jiných měst?
+    - Nabízí škola nějaká forma internátu nebo ubytovny pro žáky?
+    - Nabízí škola nějaké ubytování pro studenty, kteří nebydlí ve městě?
+    - Nabízí škola k dispozici nějaké ubytování pro žáky, kteří dojíždějí z daleka?
+    - Nabízí škola možnost ubytování pro žáky, kteří nebydlí v blízkosti školy?
+    - Má škola intr?
+    - Nabízí vaše škola intr?
+    - je pobliz intr?
+
+- intent: faq/internat_jak_prihlasit
+  examples: |
+    - Kde mohu přihlásit syna na internát?
+    - Jak se mohu zařadit na internát?
+    - Jak mohu získat ubytování na internátě?
+    - Jak mohu získat místo na internátě?
+    - Jak mohu přihlásit se na internát?
+    - Jaký je postup pro přihlášení na internát?
+    - Kde mohu získat informace o tom, jak se přihlásit na internát?
+    - Existují nějaké požadavky na přihlášení na internát?
+    - Jak získat informace o zařazení do domova mládeže?
+    - Jak získat místo na domov mládeže?
+    - Jaké jsou požadavky na přihlášení do domova mládeže?
+    - Jaké jsou kroky pro přihlášení do domova mládeže?
+    - Jaké informace jsou nutné pro přihlášení do domova mládeže?
+    - Kde se dozvím více o přijímacím řízení na domov mládeže?
+    - Je nutné absolvovat přijímací řízení na domov mládeže?
+    - Jak dlouho trvá proces přihlášení na domov mládeže?
+    - Jak mohu získat přístup na domov mládeže?
+    - Kde mohu získat informace o tom, jak se přihlásit na domov mládeže?
+    - Kdo mi může pomoci s přihlášením na domov mládeže?
+    - Kdo mi může pomoci s přihlášením na internát?
+    - Je možné se přihlásit na internát na poslední chvíli?
+    - Je nutné se přihlásit na internát předem nebo je možné se přihlásit na místě?
+    - Jak mohu získat ubytování na domov mládežeě?
+    - Jak mohu získat místo na domov mládežeě?
+    - Jak mohu přihlásit se na domov mládeže?
+    - Jaký je postup pro přihlášení na domov mládeže?
+    - Existují nějaké požadavky na přihlášení na domov mládeže?
+    - Je nutné mít nějaké doporučení nebo přijímací řízení pro přihlášení na domov mládeže?
+    - Je možné se přihlásit na domov mládeže přes internet?
+    - Jak dlouho trvá přihlášení na domov mládeže a kdy bych se měl přihlásit?
+    - Přihlášení syna na internát?
+    - Jak mohu svého syna přihlásit na domov mládeže
+
+- intent: faq/internat_jaky_je
+  examples: |
+    - Jaký je intr?
+    - Jaká je kvalita domova mládeže?
+    - Je kvalita domova mládeže vynikající?
+    - Jak byste zhodnotili kvalitu domova mládeže?
+    - Jak byste popsali kvalitu domova mládeže?
+    - Jakou má domov mládeže kvalitu?
+    - Je kvalita domova mládeže na vysoké úrovni?
+    - Jak byste zhodnotili kvalitu služeb v domově mládeže?
+    - Jaká je kvalita internátu?
+    - Je kvalita internátu vynikající?
+    - Jak hodnotíte kvalitu internátu?
+    - Jak byste zhodnotili kvalitu internátu?
+    - Můžete posoudit kvalitu internátu?
+    - Jak byste popsali kvalitu internátu?
+    - Jak byste charakterizovali kvalitu internátu?
+    - Je kvalita internátu dostatečná?
+    - Je kvalita internátu na vysoké úrovni?
+    - Jaký je režim na intru?
+    - Je intr dobrý?
+    - Je domov mládeže kvalitní?
+
+- intent: faq/internat_kapacita_pokoju
+  examples: |
+    - Po kolika jsou pokoje na internátu?
+    - Kolik lidí je v pokojích na internátu?
+    - pro kolik lidí jsou pokoje na internátu?
+    - Kolik osob se vejde do pokoje na internátu?
+    - Jaké je kapacitní obsazení pokojů na internátu?
+    - Jaký je počet osob v jednom pokoji na internátu?
+    - Jaká Je maximální kapacitu pokojů na domově mládeže?
+    - Jaká Je přesná kapacita pokojů na domově mládeže?
+    - Kolik osob Je v každém pokoji na domově mládeže?
+    - Jaké Je nejvyšší kapacitní obsazení pokojů na domově mládeže?
+    - Kolik osob lze umístit do pokojů na domově mládeže?
+    - Jaké Je obvyklé kapacitní obsazení pokojů na domově mládeže?
+    - Kolik lidí se vejde do jednoho pokoje na domově mládeže?
+    - Jak velký Je maximální počet osob v jednom pokoji na domově mládeže?
+    - Kolik lidí Je povoleno v jednom pokoji na domově mládeže?
+    - Jak velkou kapacitu mají pokoje na domově mládeže?
+    - Kolik lidí Je v každém pokoji na domově mládeže?
+    - Jaké Je kapacitní obsazení pokojů na domově mládeže?
+    - Kolik lidí Je obvykle v jednom pokoji na domově mládeže?
+    - Jaký je maximální počet osob v jednom pokoji na internátu?
+    - pro kolik lidí jsou pokoje na domově mládeže?
+    - Kolik osob se vejde do pokoje na domově mládeže?
+    - Jaký je počet osob v jednom pokoji na domově mládeže?
+    - Kolik lidí je v jednom pokoji na domově mládeže?
+    - Pokoje na internátu jsou po kolika?
+
+- intent: faq/internat_koupelna
+  examples: |
+    - Existují společné koupelny na domově mládeže?
+    - Je možné na domově mládeže použít vlastní koupelnu?
+    - mají pokoje na domově mládeže svou vlastní koupelnu?
+    - Je na domově mládeže sdílená koupelna nebo mají pokoje svou vlastní?
+    - Je na domově mládeže k dispozici sprchování pro více osob?
+    - Je na domově mládeže k dispozici sprcha?
+    - Je na domově mládeže dostatek soukromí pro osobní hygienu?
+    - Je na domově mládeže zajištěno soukromí pro osobní hygienu?
+    - Existuje na domově mládeže prostor pro osobní hygienu?
+    - Je na domově mládeže dostatek prostoru pro osobní hygienu?
+    - Existuje na domově mládeže dostatek prostoru pro osobní hygienu?
+    - Jsou na intru společné sprchy?
+    - Mají pokoje na internátu společné sprchy?
+    - Je možné si na internátu použít společné sprchy?
+    - Je v internátu k dispozici společná koupelna?
+    - Můžu si na internátu využít společné sprchy?
+    - Je na internátu k dispozici sprchování pro více osob?
+    - Existují na internátu sdílené sprchy?
+    - Je možné si na internátu užít sprchu společně s ostatními?
+    - Je na internátu k dispozici společná sprcha?
+    - Existují společné sprchy na domově mládeže?
+    - Mají pokoje na domově mládeže společné sprchy?
+    - Je možné si na domově mládeže použít společné sprchy?
+    - Je k dispozici společný sprchový kout na domově mládeže?
+    - Je v domově mládeže k dispozici společná koupelna?
+    - Můžu na domově mládeže využít společné sprchy?
+    - Je na internátu společná koupelna pro všechny pokoje?
+    - Je k dispozici společná koupelna pro všechny pokoje na internátu?
+    - Je na internátu sdílená koupelna nebo mají pokoje svou vlastní?
+    - je na intru koupelna na pokoji?
+    - Mají pokoje na internátu vlastní koupelny?
+
+- intent: faq/internat_kuchyne
+  examples: |
+    - Je možné vařit na internátu?
+    - Existuje na internátu kuchyň pro vaření?
+    - Mají pokoje na internátu kuchyňskou linku?
+    - Je k dispozici vařič na internátu?
+    - Je na internátu možnost vaření pro studenty?
+    - Je na internátu vybavení pro vaření?
+    - Je na internátu k dispozici kuchyň pro vaření pro studenty?
+    - Je možné vařit na domově mládeže?
+    - Existuje na domově mládeže kuchyň pro vaření?
+    - Mají pokoje na domově mládeže kuchyňskou linku?
+    - Je k dispozici vařič na domově mládeže?
+    - Je na domově mládeže možnost vaření pro studenty?
+    - Můžu si vařit na domově mládeže?
+    - Je možné na domově mládeže vařit své vlastní jídlo?
+    - Je na domově mládeže k dispozici kuchyň pro vaření pro studenty?
+    - můžu si na intru vařit ?
+    - Je na internátu kuchyňka?
+    - Je možnost si na intru vařit?
+
+- intent: faq/internat_navstevy
+  examples: |
+    - Je na internátu možné navštěvovat přátele?
+    - Existují na internátu omezení pro návštěvy?
+    - Je na internátu zakázáno přijímat návštěvy?
+    - Je na internátu povoleno přenocování návštěv?
+    - Je na internátu omezení v době návštěvy?
+    - Je na internátu povoleno ubytovat návštěvy?
+    - Může si student na internátu přivést svého partnera?
+    - Je na internátu možné přijímat návštěvy během celého dne?
+    - Jaký je proces registrace návštěv na internátu?
+    - Je nutné předem ohlásit návštěvu na internátu?
+    - Je na internátu omezený počet návštěv?
+    - Jak jsou kontrolovány návštěvy na internátu?
+    - Existují na internátu omezení pro návštěvy v noci?
+    - Je možné na internátu ubytovat návštěvu přes noc?
+    - Je nutné pro návštěvu mít průkaz totožnosti?
+    - Je na internátu zakázáno přijímat cizí osoby?
+    - Existují na internátu speciální pravidla pro návštěvy?
+    - Je na domově mládeže možné navštěvovat přátele?
+    - Můžu si na domově mládeže přivést návštěvu?
+    - Je na domově mládeže zakázáno přijímat návštěvy?
+    - Je na domově mládeže omezení v době návštěvy?
+    - Může si student na domově mládeže přivést svého partnera?
+    - Je na domově mládeže možné přijímat návštěvy během celého dne?
+    - Je nutné předem ohlásit návštěvu na domově mládeže?
+    - Je na domově mládeže omezený počet návštěv?
+    - Jak jsou kontrolovány návštěvy na domově mládeže?
+    - Existují na domově mládeže omezení pro návštěvy v noci?
+    - Je možné na domově mládeže ubytovat návštěvu přes noc?
+    - Je na domově mládeže zakázáno přijímat cizí osoby?
+    - Existují na domově mládeže speciální pravidla pro návštěvy?
+    - Může mého syna na intru navštívit jeho kamarádka?
+    - Jsou na internátě povolený návštěvy?
+
+- intent: faq/internat_opusteni_patek
+  examples: |
+    - Kdy musím odjet z intru v pátek?
+    - kdy musím v pátek odject z intru?
+    - kdy v patek musim ject domu z domova mladeze?
+    - kdy musím v pátek odject z domova mladeze?
+    - V kolik musím nejpozději v pátek opustit internát?
+    - V jakém čase bych měl v pátek opustit internát?
+    - Kdy musím nejpozději v pátek opustit domov mládeže?
+    - Kdy bych měl nejpozději v odjezdový den opustit domov mládeže?
+    - Kdy musím nejpozději v odjezdový den opustit internát?
+    - Jak pozdě mohu v odjezdový den odjet z domova mládeže?
+    - Kdy bych měl nejpozději v odjezdový den opustit internát?
+    - Kdy je nejvyšší čas opustit domov mládeže v pátek?
+    - Do kdy musím v pátek opustit domov mládeže?
+    - V jakém čase bych měl nejpozději v odjezdový den opustit internát?
+    - Jak pozdě mohu odjet z domova mládeže v pátek?
+    - Do kdy musím nejpozději v odjezdový den opustit internát?
+    - Kdy mám nejpozději opustit domov mládeže?
+    - Co je nejvyšší čas na odjezd z domova mládeže?
+    - Do kdy musím nejpozději v pátek opustit domov mládeže?
+    - kdy musím opustit internát v odjezdový den?
+    - Kdy musím opustit interát?
+    - Do kdy musím opustit intr v pátek?
+
+- intent: faq/internat_periny_vlastni
+  examples: |
+    - Je možné přinést si vlastní perinu?
+    - Mohu si přinést vlastní peřinu na internát?
+    - je na intru možnost vlastní peřiny?
+    - Jsou na intru dostupné peřiny a polštáře?
+    - Musím si na domov mládeže přinést vlastní přikrývku?
+    - Je možné si na intru přinést vlastní peřinu?
+    - Jsou na intru k dispozici přikrývky a polštáře?
+    - Je k dispozici peřina na internátě?
+    - Je možné si do domova mládeže přinést vlastní peřinu?
+    - Je nutné přinášet vlastní přikrývku?
+    - Obdržím na intru polštář?
+    - Je nutné si na domov mládeže přinést vlastní polštář?
+    - Dostanu na intru peřinu?
+    - Můžu si na internát přinést vlastní přikrývku?
+    - Jsou na intru dostupné peřiny a přikrývky?
+    - Je potřeba si přinést vlastní peřinu?
+    - Je možnost přinést si vlastní peřinu na intru?
+    - Musím si na domov mládeže přinést vlastní perinu?
+    - muzu si prinyst vlastní periny?
+    - Obdržím na intru peřinu?
+    - Existuje zpusob jak bych si mohl prinest vlastní perinu na intr?
+    - Je potřeba si přinést vlastní peřiny?
+
+- intent: faq/internat_postele
+  examples: |
+    - Jaké jsou postele na domově mládeže?
+    - Jsou postele na internátu pohodlné?
+    - Jsou matrace na domově mládeže kvalitní?
+    - Jsou na internátu komfortní postele?
+    - Jak jsou na tom postele na intru?
+    - Jsou postele na intru pohodlné?
+    - Jsou postele na intru komfortní?
+    - Je na domově mládeže pohodlná matrace?
+    - Jsou postele na domově mládeže pohodlné?
+    - Jsou postele na domově mládeže komfortní?
+    - Jaké jsou matrace na internátu?
+    - Jsou na intru kvalitní matrace?
+    - Jsou matrace na intru pohodlné?
+    - Jsou matrace na intru komfortní?
+    - jake jsou postele na intru?
+    - jak jsou pohodlne postele na domově mládeže?
+    - jake jsou postele na domově mládeže?
+    - Jsou na domově mládeže kvalitni postele?
+    - Je na internátu postel s pohodlnou matrací?
+    - Jsou na internátu pohodlné postele?
+
+- intent: faq/internat_spolubydlici
+  examples: |
+    - muzu byt na pokoji s kamarádem?
+    - Jak můžu jít na intr s kamarádem?
+    - Jak mám udělat, abych byl s kamarádem na internátu na pokoji?
+    - Co můžu udělat pro to, abych byl s kamarádem na internátu na pokoji?
+    - Jak můžu být na domově mládeže s kamarádem?
+    - Jak mám udělat, abych byl s kamarádem na domově mládeže na pokoji?
+    - Co můžu udělat pro to, abych byl s kamarádem na domově mládeže na pokoji?
+    - Můžu si na domově mládeže vybrat spolubydlící?
+    - Existuje nějaký způsob jak mohu být na pokoji s kamarádem na [internátu]?
+    - Jak mohu vybrat s kým budu na pokoji na domově mládeže?
+    - Jak mohu zajistit, abych byl se svým kamarádem na domově mládeže na pokoji?
+    - Jak mohu být se svým kamarádem na domově mládeže na pokoji?
+    - Jak mohu zajistit, abych byl se svým kamarádem na internátu na stejném pokoji?
+    - Je zde možnost ubytovat se se svým kamarádem na internátu?
+    - Je možné si na internátu vybrat spolubydlícího?
+    - Je možné si na internátu vybrat s kým budu na pokoji?
+    - muzu si vybrat s kým budu na intru?
+    - Můžu si vybrat s kým budu na pokoji?
+    - Může si mé dítě vybrat s kým bude na pokoji na intru?
+    - Muzu si vybrat spolubydliciho na intr?
+
+- intent: faq/internat_spotrebice_vlastni
+  examples: |
+    - Můžu si přivézt vlastní spotřebič?
+    - jsou na intru povoleny vlastní spotřebiče?
+    - Můžu si na internát vzít vlastní spotřebiče?
+    - Je možné na domově mládeže používat vlastní spotřebiče?
+    - Je na internátu povoleno používání vlastního grilu?
+    - Lze na domově mládeže používat vlastní spotřebiče?
+    - Je na intru dovoleno používat vlastní spotřebiče?
+    - Lze na internátu používat vlastní gril?
+    - Můžu si na domově mládeže přinést vlastní spotřebiče?
+    - Je na domově mládeže dovoleno si přinést vlastní spotřebiče?
+    - Je možné si na internát přinést vlastní spotřebiče?
+    - Je na intru dovoleno používat vlastní gril?
+    - Je na domově mládeže povolené používání vlastního spotřebiče?
+    - Je na intru dovolené si přinést vlastní spotřebiče?
+    - Můžu si na internát vzít vlastní gril?
+    - Lze na domově mládeže používat vlastní gril?
+    - Je na internátu dovoleno si přinést vlastní spotřebiče?
+    - Je na intru povolené používání vlastního grilu?
+    - Je povoleno mít na intru vlastní spotřebiče?
+    - Můžu si na intru přivézt vlastní ledničku?
+    - Je možné přivézt na intru vlastní mikrovlnku?
+    - Je na internátu povolené mít své vlastní elektrické spotřebiče?
+    - Můžu si na intru přivézt vlastní televizi?
+    - Je možné na domově mládeže mít vlastní gril?
+    - Můžou ubytovaní na intru mít vlastní spotřebiče?
+    - Je možné na intru mít vlastní rádio?
+    - Je povoleno mít na domově mládeže vlastní spotřebiče?
+    - Je možné si na intr přivézt vlastní spotřebič?
+    - Je možné si na domově mládeže přivézt vlastní elektrickou troubu?
+    - Je na internátu povolené mít vlastní spotřebiče?
+    - Je na domově mládeže dovolený vlastní kávovar?
+    - Je na intru povolený vlastní gril?
+    - jsou na domově mládeže povoleny vlastní spotřebiče?
+    - jsou na domově mládeže dovoleny spotřebiče vlastní?
+    - Jsou na internátu povoleny spotřebiče?
+    - Vlastní spotřebič je na internátu dovolený?
+
+- intent: faq/internat_studenti_spokojenost
+  examples: |
+    - Jak je hodnocen domov mládeže?
+    - Jaká je spokojenost s domovem mládeže?
+    - Jak jsou žáci spokojeni s domovem mládeže?
+    - Jsou studenti spokojeni s internátem?
+    - Jsou žáci spokojeni s internátem?
+    - Jaká je úroveň služeb v domově mládeže?
+    - Jaké jsou zkušenosti studentů s domovem mládeže?
+    - Jak jsou žáci spokojeni s okolím domova mládeže?
+    - Jak jsou žáci spokojeni s úklidem domova mládeže?
+    - Jak jsou žáci spokojeni s aktivitami v domově mládeže?
+    - Jak je domov mládeže kvalitní?
+    - Je tento internát kvalitní?
+
+- intent: faq/internat_vecerka
+  examples: |
+    - V kolik hodin je večerka?
+    - kdy je na intru večerka?
+    - v jakej čas je večerka na intru?
+    - V kolik hodin je na domově mládeže večerka?
+    - v jakej čas je večerka na domově mládeže?
+    - Kdy musím jít na domově mládeže spát?
+    - Je na internátu určena večerka?
+    - Do kdy můžu být vzhůru?
+
+- intent: faq/internat_vikend
+  examples: |
+    - Můžu zůstat na internátu i o víkendu?
+    - můžu zůstat přes víkend na internátu?
+    - Můžu zůstat do intru přes víkend?
+    - Můžu zůstat na internátu o víkendu?
+    - Můžu zůstat na domově mládeže přes víkend?
+    - Je možné strávit víkend na internátu?
+    - Mohu strávit o víkendu na internátu?
+    - Je možné zůstat na intru během víkendu?
+    - Jak mohu zůstat na intru po dobu víkendu?
+    - Jak mohu na intru strávit víkend?
+    - Jak mohu na internátu strávit víkend?
+    - Jak můžu na intru strávit celý víkend?
+    - Jak mohu zůstat na internátu i o víkendu?
+    - Je možné zůstat na intru i přes víkend?
+    - Jak mohu na domově mládeže strávit víkend?
+    - Je možnost strávit víkend na internátu?
+    - Jak můžu být na intru přes víkend?
+    - co musím udělat pro to, abych mohl zůstat na internátu i přes víkend?
+    - Můžu zůstat na domově mládeže i o víkendu?
+    - existuje možnost zůstat přes víkend na intru?
+    - Je možnost zůstat na internátu přes víkend?
+
+- intent: faq/internat_vychazky
+  examples: |
+    - Do kolika můžu být venku?
+    - Jak fungují vycházky na intru?
+    - Jak fungují vycházky na internátu?
+    - Kde si mohu vzít vycházku?
+    - Jak si můžu vzít vycházku do jedenácti?
+    - Je možné si vzít vycházku déle než je to normálně povoleno?
+    - Jaké jsou pravidla ohledně vycházek na internátu?
+    - Jak mohu získat vycházku?
+    - Jak můžu požádat o vycházku?
+    - Kde mohu získat více informací o vycházkách?
+    - Co je potřeba k tomu abych si mohl vzít vycházku?
+    - Je nutné předem informovat o vycházce?
+    - Je možné vzít si vycházku v noci?
+    - Kde si mohu zažádat o vycházku?
+    - Co je potřeba udělat pro prodloužení vycházky?
+    - Jak si mohu vzít vycházku do jedenácti?
+    - Jaké jsou veškeré pravidla pro vycházky?
+    - Je možné požádat o vycházku později?
+    - Co je potřeba k získání vycházky?
+    - Je možné prodloužit dobu vycházky?
+    - V kolik musí být můj syn nejpozději na intru
+    - Jak fungují vycházky na domově mládeže?
+    - Je zde nějaká možnost aby mohl být můj syn déle venku kvůli práci?
+    - Je možné abych mohl odejít v noci ven?
+
+- intent: faq/internat_wifi
+  examples: |
+    - Je na internátu kvalitní wifi?
+    - je na internátu kvalitní wifi připojení?
+    - je na internátu kvalitní wifi síť?
+    - je na intru dobrá wifi?
+    - ije na domově mládeže kvalitní internetové připojení?
+    - je na domově mládeže kvalitní wifi připojení?
+    - Je na domově mládeže dostupné wifi?
+    - Existuje na internátu veřejné wifi?
+    - Jaký je základní rychlost internetu na intru?
+    - Jaké jsou možnosti připojení k internetu na intru?
+    - Je k dispozici na internátu připojení k internetu?
+    - Je v domově mládeže dostupné wifi zdarma?
+    - Je připojení k internetu na intru bezplatné?
+    - Je možné se na intru připojit k síti bezdrátově?
+    - je na domově mládeže kvalitní wifi síť?
+    - je na domově mládeže dobrej internet?
+    - je na intru dobrej net?
+
+- intent: faq/iot_info
+  examples: |
+    - Co si představit pod pojmem IoT?
+    - IoT, co to je?
+    - Co je to IoT?
+    - čím se zabývá obor IoT?
+    - Jaký je cíl studia v oboru IoT?
+    - Co by měl student IoT znát?
+    - Jaké jsou vyhlídky pro studenty IoT?
+    - Jaké typy prací lze vykonávat v oboru IoT?
+    - Jaké výhody poskytuje studium IoT?
+    - Co je potřeba znát pro úspěšné studium v oblasti IoT?
+    - Jaké kompetence by měl student IoT získat?
+    - Jaké jsou nejdůležitější oblasti, na které se IoT zaměřuje?
+    - Jaké jsou nejnovější trendy v oblasti IoT?
+    - Co představuje zaměření Iot?
+    - o čem je předmět IoT?
+    - Co představuje předmět IoT
+    - co se dela na IoT?
+    - o cem je iot?
+    - O čem přesně je IoT?
+
+- intent: faq/jidelna_burza
+  examples: |
+    - Kde můžu chytit oběd po termínu?
+    - Kde si mohu objednat oběd okamžitě?
+    - Kde si mohu objednat oběd po termínu?
+    - Jak mohu objednávat oběd z burzy?
+    - Jak mohu získat oběd po termínu?
+    - Kde mohu sehnat oběd bez předchozí rezervace?
+    - Kde si mohu přeobjednat oběd po termínu? 
+    - Jak objednám oběd z burzy?
+    - Jak funguje obědová burza?
+    - Co je obědová burza?
+    - Jak si objednám oběd z burzy?
+    - Kde si mohu objednat oběd bez předchozího objednání?
+    - Kde mohu obědnat oběd po termínu?
+    - Jak můžu obědnat oběd po termínu?
+    - Kde mohu sehnat oběd, když jsem si ho neobjednal?
+    - Kde objednám oběd když jsem to nestihl?
+    - Kde můžu obědnat oběd po termínu?
+    - Jak si mohu objednat z burzy?
+    - Kde si můžu přeobjednat oběd po termínu změny?
+
+- intent: faq/jidelna_cas_obeda
+  examples: |
+    - od kdy je obed?
+    - kdy jsou obědy?
+    - Kdy můžu jít na oběd?
+    - V jaký čas je oběd?
+    - v kolik hodin jsou v jídelně obědy?
+    - v kolik hodin je výdej obědů?
+    - Jaká je doba pro vydávání obědů?
+    - Kdy můžu dostat oběd?
+    - Jaká je doba vydávání obědů?
+    - Kdy je možné dostat oběd?
+    - Kdy je oběd k dispozici?
+    - Kdy je k dostání oběd?
+    - Kdy je oběd?
+    - Kdy je čas na oběd?
+    - Kdy mohu dostat oběd?
+    - Kdy je možné obědovat?
+    - Kdy je obědová doba?
+    - Kdy je možné získat oběd?
+    - Kdy je možné obědvat?
+    - v kolik je oběd?
+    - v kolik hodin jsou obědy?
+    - kdy je vydej obedu?
+    - kdy vydavaji obedy?
+
+- intent: faq/jidelna_cas_otevreni
+  examples: |
+    - Jaké jsou termíny otevření školní jídelny?
+    - kdy má otevřeno jídelna?
+    - V kolik hodin se vydává jídlo v jídelně?
+    - Jakou dobu má jídelna otevřeno?
+    - Kdy je čas vydávání jídel?
+    - Kdy můžu vstoupit do jídelny?
+    - Jak dlouho trvá otevírací doba jídelny?
+    - Jak dlouho je jídelna otevřena?
+    - Jak často se otevírá jídelna?
+    - Co je otevírací doba jídelny?
+    - Kdy je možné se najíst v jídelně?
+    - Existují omezení otevírací doby v jídelně?
+    - V kolik je otevřená jídelna?
+    - V kolik hodin jsou výdeje jídel v jídelně?
+    - V kolik se otevírá jídelna?
+    - Kdy jsou výdeje jídel v jídelně?
+    - kdy můžu jít do jídelny?
+    - Kdy má jídelna otevřeno?
+    - Od kolika do kolika je školní jídelna otevřená?
+
+- intent: faq/jidelna_cas_snidane
+  examples: |
+    - od kdy jsou snidane?
+    - do kdy jsou snidane?
+    - do kdy jsou ráno snídaně?
+    - od kdy je snidane?
+    - do kdy je snídaně?
+    - Jaký je čas výdeje snídaní?
+    - v kolik hodin můžu jít na snídani?
+    - v kolik jsou snídaně?
+    - Kdy začínají snídaně?
+    - Kdy mohu získat snídani?
+    - Je možné se najíst ráno?
+    - Kdy začíná vydávání snídaní?
+    - Kdy končí vydávání snídaní?
+    - Kdy je čas na snídani?
+    - Je snídaně vydávána dopoledne?
+    - Kdy je doba výdeje snídaní?
+    - Jak dlouho jsou snídaně dostupné?
+    - Kdy je k dispozici snídaně?
+    - kdy jsou snidane?
+    - kdy je vydej snidani?
+
+- intent: faq/jidelna_cas_vecere
+  examples: |
+    - od kdy jsou vecere?
+    - vecere je kdy?
+    - od kdy je vecere?
+    - do kdy je vecere?
+    - Jaké je obvyklé časové rozmezí pro večeři?
+    - Kdy je večeře? 
+    - Jaké jsou časy večeří?
+    - v kolik jsou vecere?
+    - kdy můžu jít na večeři?
+    - od kdy do kdy jsou vecere?
+    - do kdy jsou vecere?
+    - kdy je vecere?
+
+- intent: faq/jidelna_cena_obeda
+  examples: |
+    - kolik zaplatim za obed?
+    - jaka je cena obeda?
+    - Kolik stojí oběd?
+    - Kolik stojí u vás obědy?
+    - Jaká je cena oběda u vás na škole?
+    - Kolik u vás na škole stojí oběd?
+    - kolik v jídelně zaplatím za oběd?
+    - Kolik stojí obědy v jídelně?
+    - Kolik se platí za oběd v jídelně?
+    - Kolik stojí obědy u vás ve škole?
+    - Kolik korun budu platit za oběd v jídelně?
+    - Jaká je cena oběda na vaší škole?
+    - Kolik stojí oběd ve školní jídelně?
+    - Kolik korun zaplatím za oběd ve škole?
+    - Kolik stojí oběd v jídelně na vaší škole?
+    - Kolik peněz bude stát oběd ve školní jídelně?
+    - Jaká je cena oběda u vás ve školní jídelně?
+    - Kolik zaplatím za oběd ve školní jídelně?
+    - Kolik korun budu muset zaplatit za oběd ve škole?
+    - Jakou cenu mají obědy v jídelně?
+    - Kolik korun budu platit za oběd ve školní jídelně?
+    - kolik korun stojí oběd?
+    - kolik stoji obed?
+    - Kolik stojí obědy?
+
+- intent: faq/jidelna_cena_snidane
+  examples: |
+    - Za kolik korun si můžu koupit snídani?
+    - Kolik korun budu platit za snídaně?
+    - Kolik stojí u vás snídaně?
+    - Kolik korun nechám za snídani?
+    - Za kolik si u vás mohu koupit snídani?
+    - Kolik stojí snídaně ve školní jídelně?
+    - Jakou cenu mají snídaně ve školní jídelně?
+    - Kolik si mám připravit na snídani ve školní jídelně?
+    - Za kolik můžu koupit snídani ve školní jídelně?
+    - Co je cena snídaně ve školní jídelně?
+    - Kolik to bude stát, když si koupím snídani ve školní jídelně?
+    - Kolik bych zaplatil za snídani ve školní jídelně?
+    - Kolik musím zaplatit za snídani ve školní jídelně?
+    - Jaká je cena snídaně ve školní jídelně?
+    - Jakou částku si musím připravit na snídani ve školní jídelně?
+    - Kolik korun budu muset zaplatit za snídani ve školní jídelně?
+    - Kolik peněz bude stát snídaně ve školní jídelně?
+    - Kolik si musím připravit na snídani ve školní jídelně?
+    - kolik stojí snídaně?
+    - kolik musím zaplatit za snídani?
+    - kolik zaplatím ve školní jídelně za snídani?
+    - kolik zaplatím za snídani?
+
+- intent: faq/jidelna_cena_vecere
+  examples: |
+    - Jaká je cena večeří?
+    - Kolik stojí večeře ve školní jídelně?
+    - Jakou cenu mají večeře ve školní jídelně?
+    - Za kolik můžu koupit večeři ve školní jídelně?
+    - Kolik korun si musím připravit na večeři ve školní jídelně?
+    - Kolik to bude stát, když si koupím večeři ve školní jídelně?
+    - Kolik bych zaplatil za večeři ve školní jídelně?
+    - Kolik musím zaplatit za večeři ve školní jídelně?
+    - Jaká je cena večeře ve školní jídelně?
+    - Kolik bude stát večeře ve školní jídelně?
+    - Za kolik bych koupil večeři ve školní jídelně?
+    - Kolik korun budu muset zaplatit za večeři ve školní jídelně?
+    - Kolik peněz bude stát večeře ve školní jídelně?
+    - Kolik si musím připravit na večeři ve školní jídelně?
+    - Kolik korun bude stát večeře ve školní jídelně?
+    - vecere stoji kolik?
+    - Kolik stojí u vás večeře?
+    - Kolik stojí večeře v jídelně?
+    - Jaké jsou ceny večeří?
+    - kolik stojí každá večeře?
+    - kolik zaplatím za každou večeři?
+    - Kolik zaplatím za večeři?
+    - kolik stojí večeře?
+
+- intent: faq/jidelna_info
+  examples: |
+    - Jsou na škole zajištěné obědy pro děti v jídelně?
+    - jak jste na tom s jídelnou?
+    - Je k dispozici jídelna?
+    - Poskytujete studentům i večeře?
+    - Můžete mi poskytnout podrobnosti o školní jídelně?
+    - Má škola pro studenty zajištěnou stravu?
+    - Jaké jsou možnosti občerstvení ve školní jídelně?
+    - Můžu si ve školní jídelně koupit oběd?
+    - Má škola vlastní jídelnu?
+    - Poskytujete ve škole obědy studentům?
+    - Je školní jídelna veřejně přístupná?
+    - Poskytujete studentům i snídaně?
+    - Má škola svou vlastní jídelnu pro žáky?
+    - jsou tam obedy?
+    - Má vaše škola jídelnu ?
+    - Má škola svojí vlastní školní jídelnu?
+
+- intent: faq/jidelna_jak_objednat
+  examples: |
+    - Jak si mohu objednat oběd v jídelně?
+    - Jaká je procedura pro objednání oběda v jídelně?
+    - Je možné objednat oběd v jídelně přes internet?
+    - Jak mohu zajistit oběd v jídelně?
+    - Je možné objednat oběd na několik dní dopředu?
+    - Jaké informace jsou potřeba pro objednání oběda?
+    - Jaký je postup, když chci zrušit objednávku oběda v jídelně?
+    - Jak lze změnit objednaný oběd?
+    - Jak lze získat informace o aktuální nabídce v jídelně?
+    - jak si objednam obed?
+    - Je možné objednat si oběd v jídelně a jak?
+    - Jak lze objednat oběd v jídelně?
+    - Jaký je postup pro objednání oběda v jídelně?
+    - Jak si mohu zajistit oběd v jídelně?
+    - Můžete mi prosím říct, jak objednat oběd v jídelně?
+    - Je možné objednat si oběd v jídelně na místě a jak to udělat?
+    - Je nutné objednat si oběd v jídelně předem a jak to udělat?
+    - Je nutné mít objednáno oběd v jídelně a jak to udělat?
+    - Jak si ve školní jídelně objednám oběd ?
+    - Jak funguje školní jídelna? 
+
+- intent: faq/jidelna_jak_vari
+  examples: |
+    - jak dobrá je školní jídelna?
+    - Je dobré stravování?
+    - Vaří školní jídelna dobré obědy?
+    - Je tady dobrá jídelna?
+    - jak vaří v jídelně ?
+    - Jak se vaří ve zdejší jídelně?
+    - Vaří ve školní kantýně dobře?
+    - Vaří jídelna dobře?
+    - Vaří ve školní jídelně dobře?
+    - Vaří dobře ve školní jídelně?
+    - Jak tady vaří?
+    - jsou obědy dobré?
+
+- intent: faq/jidelna_vyber_jidla
+  examples: |
+    - Kolik je jídel na výběr?
+    - z kolika obědů si mohu vybrat?
+    - z kolika snídaní si mohu vybrat?
+    - z kolika večeří si mohu vybrat?
+    - Z kolika snídaní si mohu ve školní jídelně vybrat?
+    - Jaký je výběr jídla?
+    - Jaká je nabídka jídel ve vaší jídelně?
+    - Kolik je jídel k večeři na výběr?
+    - z kolika jídel si můžu vybrat?
+    - Kolik jídel si mohu vybrat?
+    - Je tu možnost výběru ze více jídel? 
+    - Z jakých jídel je možné si vybrat? 
+    - Jaký je výběr jídel pro snídani? 
+    - Je možné si vybrat z více jídel? 
+    - Z kolika jídel si mohu vybrat?
+    - Je možné vybrat si z více jídel?
+
+- intent: faq/kava_cena
+  examples: |
+    - Cena kávy u nás ve škole?
+    - kolik stojí kafe ve škole?
+    - Kolik stojí káva?
+    - Jak je to s cenou kafe?
+    - Kolik stojí káva ve škole?
+    - Je káva ve škole drahá?
+    - Jaká je cena kávy ve škole?
+    - Je káva ve škole levná?
+    - Kolik korun zaplatím za kávu?
+    - Za kolik si u vás můžu koupit kafe?
+    - kolik stoji kafe?
+
+- intent: faq/klice_vraceni_penez
+  examples: |
+    - můžu dostat vraceny peníze za klíče od skříňky?
+    - vratí mi peníze za skřínku?
+    - kdo mi vrátí peníze za skříňku?
+    - Jak dostanu zpátky své peníze, které jsem zaplatil za skrinku?
+    - Může mi škola vrátit peníze za skříňku, když už jí nevyužívám?
+    - Mohu dostat zpět své peníze za skříňku, když jí již nevyužívám?
+    - Jak mohu získat náhradu za peníze, které jsem zaplatil za klíče od skříňky?
+    - Existuje možnost dostat zpět peníze za skříňku, kterou jsem si pronajal?
+    - Jak mohu dostat zpět peníze za skříňku?
+    - Jak mohu dostat nazpět peníze za skříňku?
+    - Můžu získat zpět své peníze za skříňku, kterou už nevyužívám?
+    - Existuje možnost získat náhradu za peníze, které jsem zaplatil za klíče od skříňky?
+    - Mohu dostat náhradu za klíče od skříňky?
+    - Jak mohu dostat zpět peníze za skříňku, kterou už nepoužívám?
+    - Existuje možnost získat zpět peníze za skříňku?
+    - Můžu dostat zpátky své peníze za skříňku, když už jí nevyužívám?
+    - Kdo mi může vrátit peníze za skříňku?
+    - Můžu dostat peníze zpět za klíče od skříňky?
+    - Vrátí mi škola peníze za klíče od skříňky, když jí nepoužívám?
+    - můžu dostat zpátky své peníze za skřínku když uz jí nevyužívám?
+    - Můžu dostat refund za klíče od skříňky?
+
+- intent: faq/kontakt_email
+  examples: |
+    - jak sezenu email na ucitele?
+    - jak se dozvim email pracovnika skoly?
+    - Jaký je učitelský e-mail?
+    - kde sezenu emaily na pracovníky skoly?
+    - Jakej je email učitelů?
+    - Jaké jsou učitelské E-maily?
+    - Jaký má ředitelka E-mail?
+    - Kde najdu email učitele?
+    - Jak mohu získat učitelský email?
+    - Jak mohu zjistit email pracovníka školy?
+    - Jaký je e-mail pro učitele?
+    - Jaké jsou e-maily učitelů?
+    - Jak fungují školní e-maily?
+    - Jak najít e-mail konkrétního učitele?
+    - Jak najít učitelský e-mail?
+    - Kde najít e-mail sekretariátu?
+    - Jak získat e-mail učitele?
+    - Co je to učitelský e-mail?
+    - Jaké jsou školní e-maily?
+    - Jaký má email sekretariát?
+    - jak fungují skolní emaily?
+    - Jak najdu E-mail konkrétního učitele?
+    - Email na učitele?
+    - učitelské emaily?
+
+- intent: faq/kurz_adaptacni
+  examples: |
+    - Pořádá škola adaptační kurz?
+    - má škola adapťák?
+    - Funguje na škole adaptační kurz?
+    - Jak se přihlásím na adaptační kurz?
+    - Je na škole adapťák?
+    - Kde se mohu zapsat do adaptačního kurzu?
+    - Lze se kdekoliv přihlásit na adapťák?
+    - Je adaptační kurz na škole?
+    - Funguje na škole nulák?
+    - Jak mohu získat informace o adaptačním kurzu?
+    - Kde získám informace o nuláku?
+    - Je možné se zapojit do adaptačního kurzu?
+    - Jak mohu získat více informací o adaptačním kurzu?
+    - Co je potřeba udělat, abych se přihlásil na nulák?
+    - Je nutné se někde přihlásit na adapťák?
+    - Jaké informace jsou k dispozici o adaptačním kurzu?
+    - Kde se lze zapsat na adaptační kurz?
+    - Je možné se zapojit do adapťáku?
+    - Jaký je postup pro přihlášení se na nulák?
+    - jak se přihlásím na nulák?
+    - Je na škole adaptační kurz?
+    - Má škola nulák nebo adapťak?
+
+- intent: faq/kurz_faze
+  examples: |
+    - jak se přihlásím na fázy?
+    - Co je Fáze zač?
+    - co je to kurz FÁZE?
+    - zúčastním se kurzu fáze?
+    - Kde najdu informace o FÁZE?
+    - Kde mohu najít další informace o FÁZE?
+    - Můžu se účastnit kurzu FÁZE?
+    - Co můžu čekat od kurzu FÁZE?
+    - Jak mohu se dozvědět více o FÁZE?
+    - Je možnost se přihlásit na FÁZI?
+    - Co to je fáze?
+    - Co je fáze?
+
+- intent: faq/kurz_jazykovy
+  examples: |
+    - porada škola jazykove kurzy?
+    - funguje zde erasmus?
+    - Nabízí škola jazykové kurzy?
+    - Nabízí škola erasmus?
+    - Jezdí žáci školy na projekty v rámci ERASMU?
+    - Jak se dostanu na ERASMUS?
+    - Je ERASMUS pro studenty školy dostupný?
+    - Jaké jsou možnosti cestování pro studenty školy?
+    - Můžou studenti školy cestovat do zahraničí?
+    - Jaké jsou výhody pro účastníky výměnného programu? 
+    - Jak mohu získat informace o programu ERASMUS?
+    - Existují nějaké programy, které podporují cestování studentů školy?
+    - Je možné pro studenty školy absolvovat jazykový kurz v zahraničí?
+    - podporuje škola jazykové kurzy?
+    - Jak moc se se školou cestuje do zahraničí? 
+    - je mozne během studia ject na vylet do zahranici?
+    - Jezdí se ze školou do zahraničí?
+    - dela škola jazykove kurzy?
+
+- intent: faq/kurz_lyzarsky
+  examples: |
+    - je na skole lyzarsky kurz?
+    - Je mozne se zucastnit lyzarskeho kurzu během studia?
+    - Je na škole lyžák?
+    - Je možnost jet se třídou na lyžák?
+    - Funguje na škole lyžařský kurz?
+    - Je na škole lyžařský kurz?
+    - Je na škole lyžařský výcvik?
+    - Nabízí škola lyžařský kurz během studia?
+    - Je možnost zúčastnit se na škole lyžařského výcviku?
+    - Můžu se během studia zúčastnit lyžařského kurzu?
+    - Je možnost jet se třídou na lyžařský výcvik?
+    - Nabízí škola během studia lyžařský kurz?
+    - Je součástí studia povinný lyžařský výcvik?
+    - Funguje na škole lyžák?
+    - Pojedu v prváku se třídou na lyžařský kurz?
+    - Jezdí se v prváku na lyžák?
+    - Je možnost ject se třídou na lyžák?
+    - Jezdí se na škole na lyžák?
+    - nabídne mi škola během studia možnost lyžařského výcviku?
+    - Je na skole lyzak?
+
+- intent: faq/kurz_lyzarsky_prihlaseni
+  examples: |
+    - jak se prihlasim na lyzak?
+    - jak se prihlasit na lyzarsky kurz?
+    - Je možné se na lyžařský kurz přihlásit online?
+    - Jak se mohu přihlásit na lyžařský kurz?
+    - Kde se můžu přihlásit na lyžák?
+    - Na lyžák se můžu přihlásit kde?
+    - kde se přihlásím na lyžák?
+    - muzu se přihlásit na lyzarsky kurz?
+    - jak se muzu prihlasit na lyzarsky vycvik?
+
+- intent: faq/kurz_sportovni
+  examples: |
+    - Jede se na některé povinné kurzy během vzdělávání na škole?
+    - Které kurzy jsou na škole povinné?
+    - Je sportovní kurz nutný, abych mohl pokračovat ve studiu?
+    - Je nějaký způsob, jak se vyhnout sportovnímu kurzu?
+    - Je nějaká možnsot vyhnout se sportovnímu kurzu ?
+    - Musím se opravdu zúčastnit sportovníhu kurzu?
+    - Je sportovní kurz nutná součást ke splnění třetího ročníku?
+    - čeká mě nějaký povinný kurz během studia?
+    - Co je to sportovní kurz?
+    - ceka me během studia nejaky sportovni kurz?
+    - ceka me nejaky povinny kurz na skole?
+    - Jsou na škole nějaké povinné kurzy, které žák musí absolbovat?
+
+- intent: faq/maturita_pripusteni
+  examples: |
+    - Co mi může bránit v připuštění k maturitě?
+    - Je možnost, že bych nemusel být připuštěn k maturitě?
+    - Co mě může zabránit v připuštění k maturitní zkoušce?
+    - Co může způsobit, že nebudu připuštěn k maturitě?
+    - Co může ovlivnit mé připuštění k maturitě?
+    - Co by mohlo ovlivnit mé připuštění ke státní maturitě?
+    - Co by mohlo zabránit tomu, abych se mohl zúčastnit maturitní zkoušky?
+    - Co by mohlo zabránit účasti na maturitě?
+    - Co mě může bránit v připuštění k maturitě?
+    - Co by mohlo zabránit složení maturitní zkoušky?
+    - Co by mohlo zabránit účasti na maturitní zkoušce?
+    - Co by mohlo zabránit mému připuštění k maturitě?
+    - Můžu být připuštěn k maturitní zkoušce, i když jsem dostal pětku?
+    - Co by mohlo ovlivnit moje připuštění k maturitě?
+    - Co by mohlo ovlivnit možnost účasti na maturitní zkoušce?
+    - Co může ovlivnit možnost složení maturitní zkoušky?
+
+- intent: faq/maturita_prihlaska
+  examples: |
+    - Kde mohu najít přihlášku k maturitě?
+    - Kde mohu vyřídit přihlášku k maturitě?
+    - Kde mohu najít informace o přihlášce k maturitě?
+    - Kde mohu najít přihlášku na maturitní zkoušku?
+    - Kde mohu obdržet přihlášku k maturitě?
+    - Kde mohu získat formulář pro maturitní zkoušku?
+    - Kde můžu získat přihlášku na maturitní zkoušku?
+    - Kde mohu získat informace o maturitní zkoušce?
+    - Kde mohu najít přihlášku na maturitu?
+    - Kde mohu obdržet formulář pro maturitní zkoušku?
+    - Kde mohu dostat instrukce pro přihlášení na maturitní zkoušku?
+    - Kde mohu dostat přihlášku k maturitě?
+    - Kde mohu získat formulář pro přihlášku k maturitě?
+    - Kde mohu získat přihlášku k maturitní zkoušce?
+    - Kde mohu vyřídit přihlášku na maturitní zkoušku?
+    - Kde mohu obdržet přihlášku na maturitní zkoušku?
+    - Kde mohu dostat přihlášku na maturitní zkoušku?
+    - Kde můžu sehnat přihlášku k maturitě?
+
+- intent: faq/maturita_zmena_mat_prace
+  examples: |
+    - je dovoleno si změnit maturitní práci?
+    - Je možné změnit téma maturitní práce?
+    - Můžu si změnit téma maturitní práce?
+    - Je možné v průběhu přípravy maturitní práce změnit téma?
+    - Můžu v průběhu přípravy maturitní práce změnit téma?
+    - Je možné po dohodě se školou změnit téma maturitní práce?
+    - Můžu po dohodě se školou změnit téma maturitní práce?
+    - Lze po dohodě se školou měnit téma maturitní práce?
+    - Mám možnost změnit téma maturitní práce?
+    - Můžu změnit téma maturitní práce po dohodě se školou?
+    - Můžu si změnit maturitní práci se souhlasem školy?
+    - Je možné po domluvě se školou změnit téma maturitní práce?
+    - Můžu si změnit téma maturitní práce během roku?
+    - Lze po dohodě s vyučujícím změnit téma maturitní práce?
+    - Mohu si po domluvě se školou změnit téma maturitní práce?
+    - Je možné po dohodě s vyučujícím změnit téma maturitní práce?
+    - je možná změna maturitní práce?
+    - Mohu si změnit maturitní práci?
+
+- intent: faq/mhd
+  examples: |
+    - Jaké sem jezdí MHD?
+    - Je možné dostat se ke škole MHD a jaké druhy jsou k dispozici?
+    - Jaké autobusy nebo tramvaje jezdí ke škole?
+    - Je nutné použít MHD pro cestu ke škole a jaké druhy jsou k dispozici?
+    - Jaký druh MHD lze použít pro cestu ke škole?
+    - Je nutné použít MHD pro dostat se ke škole a jaké druhy jsou k dispozici?
+    - Jaký druh MHD je nejlepší pro cestu ke škole?
+    - Je možné dostat se ke škole autobusem nebo tramvají a jaké konkrétní linky jsou k dispozici?
+    - Jaký druh MHD je nejrychlejší pro cestu ke škole?
+    - Jaké druhy hromadné dopravy jezdí ke škole?
+    - Je možné dostat se ke škole pomocí hromadné dopravy a jaké druhy jsou k dispozici?
+    - Je nutné použít hromadné dopravu pro cestu ke škole a jaké druhy jsou k dispozici?
+    - Jaký druh MHD je nejvhodnější pro cestu ke škole?
+    - Jakou trasu MHD mohu zvolit pro cestu ke škole?
+    - Jak dlouho trvá cesta MHD ke škole?
+    - Jaká je nejlevnější možnost dopravy ke škole?
+    - Je MHD vhodná možnost pro cestu ke škole a jaké druhy jsou k dispozici?
+    - Jaký druh MHD je nejlepší pro cestu z nádraží ke škole?
+    - Můžete mi prosím poskytnout informace o MHD, které jezdí ke škole?
+    - Které MHD linky jezdí kolem školy?
+    - Jaké jsou nejbližší zastávky MHD pro cestu ke škole?
+    - Je možné dostat se ke škole MHD a jaké trasy jsou k dispozici?
+    - Jaké autobusy nebo tramvaje jezdí kolem školy?
+    - Můžete mi prosím říct, jaké druhy hromadné dopravy jezdí ke škole?
+    - Jaké druhy mhd jsou k dispozici v blízkosti školy?
+    - Jaký druh hromadné dopravy je nejlepší pro cestu ke škole?
+    - Je těžké se do školy dostat pomocí MHD?
+    - Jak se dostanu z nádraží ke škole?
+
+- intent: faq/mimoskolni_aktivity
+  examples: |
+    - Jaké aktivity nabízí škola žákům po vyučování?
+    - Jsou k dispozici zájmové kroužky na této škole?
+    - Jaké volnočasové aktivity škola nabízí?
+    - Jsou tady na škole zájmové či sportovní kroužky?
+    - Jaké aktivity nabízí škola po vyučování?
+    - Existují po škole kroužky?
+    - Je možné se věnovat mimoškolním aktivitám?
+    - Je nějaká šance věnovat se zájmovým kroužkům?
+    - Je možné se ve škole zapojit do kroužků?
+    - Jsou nějaké kroužky, do kterých se můžu zapojit?
+    - Jsou na škole k dispozici zájmové kroužky?
+    - Je možnost věnovat se mimoškolním aktivitám?
+    - Existují ve škole nějaké sportovní nebo zájmové kroužky?
+    - Jsou zde dostupné zájmové kroužky?
+    - Jaké jsou volnočasové aktivity, které škola nabízí?
+    - Je možné se ve škole zapojit do zájmových kroužků?
+    - Jaké jsou mimoškolní aktivity nabízené školou?
+    - Existují ve škole nějaké zájmové či sportovní kroužky?
+    - Jsou ve škole nějaké kroužky?
+    - Jaké jsou dostupné mimoškolní aktivity?
+    - Jsou ve škole nějaké kroužky ?
+
+- intent: faq/mimoskolni_aktivity_uvolneni
+  examples: |
+    - omluví mi škola absenci, když budu na mimoškolních aktivitách?
+    - budu mít započtenou absenci i z akce školy?
+    - Bude mi škola omlouvat absenci za mimoškolní aktivity?
+    - Bude mi započítána absenci z akce školy?
+    - Omluví mě škola za účast na mimoškolních aktivitách?
+    - Budu mít nárok na uvolnění na akce školy?
+    - Budu mít nárok na uvolnění na mimoškolní aktivity?
+    - Bude mi škola omlouvat absenci za akcí školy?
+    - Budou mi akce školy započítány jako absence?
+    - Bude mi škola poskytovat omluvenku za účast na akcích školy?
+    - Bude mi škola poskytovat omluvu za účast na mimoškolních aktivitách?
+    - Bude mě škola uvolňovat na mimoškolní aktivity?
+    - Budu mít absenci i z akcí školy?
+
+- intent: faq/naroky_na_studium
+  examples: |
+    - musim neco umet nez prijdu na vasi skolu?
+    - Co musím znát, abych mohl nastoupit na vaši školu?
+    - Je něco, co bych měl znát, abych se mohl přihlásit na vaši školu?
+    - Je nějaká znalost, kterou bych měl mít, abych se mohl přihlásit na vaši školu?
+    - Je něco, co bych měl vědět, abych se mohl přihlásit na vaši školu?
+    - Je něco, co bych měl umět, abych se mohl přihlásit na vaši školu?
+    - Je něco, co bych měl vědět, abych mohl nastoupit na vaši školu?
+    - Je nějaká znalost, kterou bych měl mít, abych mohl nastoupit na vaši školu?
+    - Je něco, co bych měl umět, abych mohl být přijat na vaši školu?
+    - Je něco, co bych měl umět, abych mohl studovat na vaší škole?
+    - Je něco, co bych měl vědět, abych mohl nastoupit do vaší školy?
+    - Jsou nějaké speciální požadavky, abych mohl nastoupit na vaši školu?
+    - Existují nějaké potřebné dovednosti, abych mohl být přijat na vaši školu?
+    - Jaká je potřebná znalost, abych mohl nastoupit do vaší školy?
+    - Existují nějaké požadavky pro nástup na vaši školu?
+    - Je nějaká dovednost potřebná pro nástup na vaši školu?
+    - Co je potřeba znát, abych mohl být přijat na vaši školu?
+    - Jaké znalosti jsou potřebné pro nástup na vaši školu?
+    - Je nějaká znalost, kterou bych měl mít, abych se mohl dostat na vaši školu?
+    - Je něco, co bych měl vědět, abych se mohl hlásit na vaši školu?
+    - Musím mít nějaké speciální znalosti, abych mohl nastoupit na vaši školu?
+    - Co je nutné znát, abych mohl začít studovat na vaší škole?
+    - Jsou nejake znalosti co musim znat, abych mohl nastoupit na vasi skolu?
+    - Musí můj syn mít nějaké speciální znalosti, aby nastoupil na vaší školu?
+
+- intent: faq/nestihnuti_nulta
+  examples: |
+    - nestíhám nultou, co mám dělat?
+    - Co mám dělat, když nestíhám nulté hodiny?
+    - Co mám udělat, když nestíhám nulté hodiny?
+    - Co když nestihnu nulté hodiny?
+    - Co když se nedostavím na nulté hodiny?
+    - Co když přijdu na nulté hodiny pozdě?
+    - Co mám udělat, pokud nestíhám nulté hodiny?
+    - Co když nestihnu přijít na nulté hodiny včas?
+    - Co mám dělat, pokud nestihnu přijít na nulté hodiny?
+    - Co mám udělat, pokud nestihnu přijít na nulté hodiny včas?
+    - Co když nestihnu nulté hodiny z důvodu opoždění?
+    - Jak mám postupovat, pokud nestihnu nulté hodiny z důvodu opoždění?
+    - Co mám udělat, pokud nestihnu nulté hodiny z důvodu opoždění?
+    - Co mám udělat, když nestíhám nultou hodinu?
+    - Co mám dělat, pokud přijdu na nultou hodinu pozdě?
+    - Co mám udělat, pokud nestihnu nultou hodinu z důvodu opoždění?
+    - Co mám dělat, pokud nestihnu nulté hodiny z důvodu opoždění?
+    - Co když nestíhám nulté hodiny?
+
+- intent: faq/notebook_tablet
+  examples: |
+    - Mohu při výuce používat tablet / notebook?
+    - Smím používat PC během výuky?
+    - Můžu používat PC během výuky?
+    - Můžu během výuky využívat notebook?
+    - Mohu během hodiny pracovat na notebooku?
+    - Je možné pracovat na tabletu během výuky?
+    - Můžu během výuky používat počítač?
+    - Je povoleno během vyučování používat notebook?
+    - Smím během výuky pracovat na PC?
+    - Je možné během hodin pracovat na počítači?
+    - Mohu během vyučování používat osobní počítač?
+    - Můžu během hodin pracovat na notebooku?
+    - Je dovoleno používat PC během výuky?
+    - Mohu během vyučování pracovat na počítači?
+    - Je možné využívat tablet během výuky?
+    - Smím během hodin používat osobní počítač?
+    - Můžu během výuky pracovat na notebooku?
+    - Je možné používat PC během výuky?
+    - Smím během výuky používat počítač?
+    - Je povoleno během výuky používat počítač?
+    - Je povoleno během výuky pracovat na PC?
+    - Můžu během výuky pracovat na PC?
+    - Je možné během výuky pracovat na PC?
+    - Mohu při hodinách používat počítač?
+
+- intent: faq/nove_technologie
+  examples: |
+    - Jak se využívají ve škole ICT technologie? (počítače, tablety, chytré technologie)
+    - Jaké technologie používáte ve škole?
+    - Má vaše škola moderní technologie?
+    - Co všechno technologicky má vaše škola k dispozici?
+    - Co všechno se dá s technologiemi na vaší škole dělat?
+    - Jaké technologie můžete na vaší škole využít?
+    - Jaké technologie jsou k dispozici pro studenty na vaší škole?
+    - Jaké moderní technologie má vaše škola k dispozici?
+    - Jakými technologiemi disponuje vaše škola?
+    - Jaké technologie jsou využívány ve škole?
+    - Které technologie jsou k dispozici pro učitele a žáky ve vaší škole?
+    - Jaké technologie jsou k dispozici pro učitele na vaší škole?
+    - Jaké moderní technologie jsou k dispozici na vaší škole?
+    - Jaká technologie je k dispozici ve vaší škole?
+    - Jaké technologie jsou k dispozici pro výuku na vaší škole?
+    - Co všechno technologicky můžete využít na vaší škole?
+    - Jaké technologie jsou k dispozici pro učitele a žáky na vaší škole?
+    - Můžete mi říci, jaké technologie jsou k dispozici na vaší škole?
+    - Co všechno technologicky má vaše škola k dispozici pro výuku a výzkum?
+    - Můžete mi popsat, jaké technologie jsou na vaší škole k dispozici?
+    - Jakými technologiemi vaše škole disponuje?
+
+- intent: faq/obchod_jak_daleko
+  examples: |
+    - Jak daleko je Penny?
+    - Jak daleko je od školy Billa?
+    - Je poblíž obchod? 
+    - Je blízko školy obchod? 
+    - Je blízko obchodu Penny? 
+    - Je nablízku obchod? 
+    - Je blízko školy nějaký obchod? 
+    - Je v okolí Penny? 
+    - Je kousek od školy obchod? 
+    - Je obchod blízko školy? 
+    - Je blízko školy Billa? 
+    - Je obchod blízko od školy? 
+    - Existuje v blízkosti školy supermarket? 
+    - Je nějaký obchod blízko školy? 
+    - Existuje v okolí nějaký obchod? 
+    - Je nějaký obchod blízko od školy? 
+    - Je v okolí nějaký obchod s potravinami? 
+    - Je nějaký obchod v blízkosti školy? 
+    - Existuje v blízkosti školy nějaký obchod?
+    - Jak daleko je supermarket?
+    - je v okolí školy supermarket?
+    - je v okoli obchod?
+    - Je poblíž penny ?
+
+- intent: faq/info_obory
+  examples: |
+    - Jaké obory na škole jsou?
+    - Jaké obory máte na škole?
+    - jaké obory vaše škola nabízí?
+    - Jaké jsou obory na škole?
+    - Jaké jsou všechny obory na této škole?
+    - jaké obory jsou na tehle skole?
+    - Kolik oborů je na škole?
+    - Kolik je oborů na teto škole?
+    - Jaké obory jsou k dispozici na škole?
+    - Jaké obory můžu studovat na škole?
+    - Jaké jsou nabízené obory na škole?
+    - Jaké jsou obory na této škole?
+    - Kolik oborů je dostupných na škole?
+    - Které obory mohu na škole studovat?
+    - Co je v nabídce oborů na této škole?
+    - Co můžu studovat na této škole?
+    - Jaký je seznam oborů na škole?
+    - Které obory jsou k mání na této škole?
+    - Jaké obory jsou na této škole k dispozici?
+    - Kolik oborů je k dispozici na škole?
+    - Jaké obory lze studovat na této škole?
+    - Jaké obory jsou na škole k dispozici?
+    - Jaký je výběr oborů na této škole?
+
+- intent: faq/obory_nejzadanejsi
+  examples: |
+    - Jaký obor je nejvíce oblíbený na vaší škole?
+    - Který obor je nejčastěji vyhledávaný studenty?
+    - Který obor je nejčastěji volen studenty?
+    - Co je nejpopulárnějším oborem na vaší škole?
+    - Který obor je nejvíce vyhledávaný na vaší škole?
+    - Jaký obor je na vaší škole nejvíce oblíbený?
+    - Na jaký obor se hlásí nejvíce studentů?
+    - Který obor je nejoblíbenější mezi studenty?
+    - Který obor má nejvíce zájemců?
+    - Který obor je nejpopulárnější na vaší škole?
+    - Na jaký obor se hlásí nejvíce žáků?
+    - Který obor má největší počet přihlášených studentů?
+    - Který obor má největší zájem studentů?
+    - Který obor je nejpopulárnější mezi studenty?
+    - Který obor je nejvíce oblíbený a žádaný?
+    - Na jaký obor se hlásí největší zájem?
+    - Na jaký obor se hlásí největší počet zájemců?
+    - Na jaký obor se hlásí nejvíce lidí?
+    - Který obor má nejvyšší počet přihlášených studentů?
+    - Na jaký obor se hlásí největší počet žáků?
+    - Na jaký obor se hlásí největší zájem žáků?
+    - Na jaký obor se hlásí nejvíce zájemců?
+
+- intent: faq/obory_VOS
+  examples: |
+    - Jaké u nás máme obory na VOŠ?
+    - Jaké jsou studijní obory na VOŠ?
+    - Co všechno lze na VOŠ studovat?
+    - Které studijní obory jsou na VOŠ k dispozici?
+    - Co všechno se dá studovat na VOŠ?
+    - Můžete mi říci, jaké obory jsou na VOŠ dostupné?
+    - Jaké studijní obory jsou na VOŠ dostupné pro studenty?
+    - Co všechno se dá na VOŠ studovat jako povolání?
+    - Můžete mi říci, jaké obory jsou na VOŠ dostupné pro povolání?
+    - Jaké studijní obory jsou na VOŠ k dispozici pro budoucí povolání?
+    - Co všechno se dá na VOŠ studovat jako přípravu na budoucí povolání?
+    - Můžete mi říci, jaké obory jsou na VOŠ dostupné pro přípravu na budoucí povolání?
+    - Jaké studijní obory jsou na VOŠ k dispozici pro přípravu na budoucí povolání?
+    - Které studijní obory jsou dostupné na VOŠ?
+    - Jsou na VOŠ k dispozici různé obory?
+    - Jaké obory jsou na VOŠ k dispozici pro studenty? 
+    - Jaké obory jsou dostupné na VOŠ pro přípravu na budoucí profesi?
+    - Které obory jsou na VOŠ k dispozici?
+    - Jaké obory jsou na VOŠ dostupné?
+    - Jaké obory jsou na této škole k dispozici pro vysokoškolské studium?
+    - Jaké obory jsou na VOŠ?
+    - Jaké obory jsou na VOŠ k dispozici?
+    - Jaké studijní obory jsou dostupné na VOŠ?
+    - Jaké obory je možné na VOŠ studovat?
+    - Kde najdu obory na VOŠ?
+    - Kde najdu podrobně popsané obory, ketré nabízí vaše VOŠ?
+    - jaké jsou další obory jsou na této škole pro vysokoškolské studium?
+
+- intent: faq/office
+  examples: |
+    - dostaneme ve škole balík office?
+    - Zdarma dostaneme balíček office od školy?
+    - Můžeme získat balíček office od školy zdarma?
+    - Dostaneme od školy balíček office zdarma?
+    - Můžeme získat balíček office od školy bezplatně?
+    - Škola nám dá balíček office bezplatně?
+    - Můžeme dostat balíček office bezplatně od školy?
+    - Dostaneme od školy balíček office bezplatně?
+    - Můžeme získat balíček office bezplatně od školy?
+    - Můžeme získat od školy balíček Office zdarma?
+    - Je možné získat balíček Office od školy zdarma?
+    - Škola nám nabídne balíček Office zdarma?
+    - Můžeme získat balíček Office ke studiu zdarma od školy?
+    - Škola nám dá balíček Office pro studium zdarma?
+    - Dostaneme od školy excel zcela zdarma?
+    - Můžeme dostat balíček Office zdarma pro výuku od školy?
+    - Můžeme získat balíček Office zdarma od školy?
+    - Dostaneme powerpoint zdarma od školy?
+    - Můžeme získat od školy Office bezplatně?
+    - Můžeme dostat balíček Office bezplatně k výuce?
+    - Je možné dostat balíček Office bezplatně od školy?
+    - Můžeme získat balíček Office pro studium od školy zdarma?
+    - Dostaneme od školy word zcela zdarma?
+    - Škola nám dá balíček office ke studiu zdarma?
+    - Můžeme dostat balíček office ke studiu zdarma od školy?
+    - Dostaneme od školy balíček office ke studiu zdarma?
+    - Můžeme získat balíček office ke studiu bezplatně od školy?
+    - dostaneme na škole ke studiu office?
+    - Dostaneme Office 365 ke studiu od školy?
+
+- intent: faq/opusteni_skoly
+  examples: |
+    - Můžu o přestávce nebo hodině opustit budovu školy ?
+    - Mohu během volné hodiny odejít ze školy?
+    - Smím během volné hodiny opustit školu?
+    - Je mi dovoleno během volné hodiny opustit školu?
+    - Můžu během volné hodiny opustit budovu školy?
+    - Smím během volné hodiny opustit budovu školy?
+    - Je mi dovoleno během volné hodiny opustit budovu školy?
+    - Smím během volné hodiny odejít z školního areálu?
+    - Je mi dovoleno během volné hodiny odejít z školního areálu?
+    - Můžu během volné hodiny opustit školní pozemek?
+    - Mohu v průběhu volné hodiny opustit školu?
+    - Je mi dovoleno opustit školní budovu během volné hodiny?
+    - Je mi dovoleno odejít z školního pozemku během volné hodiny?
+    - Můžu během volné hodiny opustit školu?
+    - Smím odejít ze školního areálu během volné hodiny?
+    - Je mi dovoleno opustit školní pozemek během přestávky?
+    - Můžu během přestávky opustit školu?
+    - Je mi dovoleno odejít ze školního areálu během přestávky?
+    - Smím během přestávky opustit školní pozemek?
+    - Můžu odejít z budovy školy během volné hodiny?
+    - Je mi dovoleno odejít ze školy během přestávky?
+    - Můžu odejít z budovy školy během přestávky?
+    - Můžu opustit školní pozemek během volné hodiny?
+    - Smím během volné hodiny opustit školní pozemek?
+    - Je mi dovoleno během volné hodiny opustit školní pozemek?
+    - Můžu během volné hodiny odejít z školy?
+    - Smím během přestávky opustit školu?
+    - Je mi dovoleno během přestávky opustit školu?
+    - Můžu během přestávky opustit budovu školy?
+    - Můžu během přestávky odejít z školního areálu?
+    - Smím během přestávky odejít z školního areálu?
+    - Je mi dovoleno během přestávky odejít z školního areálu?
+    - Je mi dovoleno během přestávky opustit školní pozemek?
+    - Můžu během přestávky odejít z školy?
+    - můžu o přestávce odejít ven?
+    - Můžu o volné hodině opustit školu?
+
+- intent: faq/parkoviste_info
+  examples: |
+    - Je v okolí intru parkoviště?
+    - Můžete mi říci, zda je na škole parkoviště?
+    - Je možné zaparkovat na škole?
+    - Je na škole k dispozici místo na parkování?
+    - Můžete mi říci, zda je na škole k dispozici parkovací plocha?
+    - Je možné zaparkovat na škole v blízkosti budovy?
+    - Disponuje škola vlastním parkovištěm?
+    - Je na škole k dispozici parkoviště pro řidiče?
+    - Je na škole k dispozici parkovací místo pro osobní vozidla?
+    - Je u školy možné zaparkovat?
+    - Existuje kolem školy parkovací plocha?
+    - Je u školy parkování pro studenty?
+    - Má škola vyhrazené parkoviště?
+    - Je na škole k dispozici parkovací místo pro řidiče?
+    - Je v okolí školy parkoviště?
+    - Je na škole k dispozici parkovací plocha pro návštěvníky?
+    - Existuje parkovací místo u školy?
+    - Má škola vlastní parkoviště?
+    - Můžete mi říci, zda škola disponuje vlastním parkovištěm pro řidiče?
+    - Je u školy parkoviště?
+    - Má škola parkoviště pro studenty?
+
+- intent: faq/proc_SPSE
+  examples: |
+    - Je škola opravdu v tak dobrém stavu jak se říká?
+    - jak prestižní je vaše škola?
+    - V jakém stavu se škola nachází?
+    - je škola prestižní?
+    - v jakém je stavu škola?
+    - Je škola opravdu tak skvělá, jak se říká?
+    - Je tato škola skutečně tak prestižní?
+    - Je kvalita vzdělávání na škole dostatečná?
+    - Jaké je hodnocení této školy?
+    - Je toto vzdělávání na škole na vysoce kvalitní úrovni?
+    - Jaké má škola hodnocení?
+    - Jaká je reputace této školy?
+    - Je tato škola ve skutečnosti tak prestižní?
+    - Jaká je úroveň kvality vzdělávání na škole?
+    - Je škola na úrovni?
+    - Je tato škola skutečně tak úžasná?
+    - Je škola na kvalitní úrovni?
+    - Je škola opravdu tak skvělá?
+    - Říká se, že tato škola je opravdu dobrá, je to pravda?
+    - K čemu je mi SPŠE? 
+    - Co mohu získat studiem na SPŠE?
+    - Jaké jsou výhody navštěvování této školy?
+    - Jakou výhodou je studium na SPŠE?
+    - Proč studovat na SPŠE?
+    - Jaké kompetence mohu získat studiem na SPŠE?
+    - Je SPŠE dobře hodnocená?
+    - Jaké jsou výhody studia na SPŠE?
+    - Co mě čeká při studiu na SPŠE?
+    - Proč by si mělo moje dítě vybrat tuhle školu ? 
+    - nejsou lepší školy?
+    - Proč dát syna na SPŠE ? 
+    - Jsou to obory které mají budoucnost?
+    - Proč bych si měl/a vybrat právě tuto školu?
+    - Proč zrovna SPŠE?
+    - Proč tato škola?
+    - Proč tahle škola?
+    - Čím se škola zabývá?
+    - K čemu mi bude studium zde? (uplatnění pouze s touto maturitou)
+    - Jaká pozitiva přináší to, že budu studentem SPŠE?
+    - Kam mě škola dokáže posunout?
+    - Proč studovat na této škole?
+    - Proč jít na tuhle školu?
+    - Co mi škola dokáže nabídnout?
+    - O čem jsou dané obory?
+    - Jaký obor je pro mě nejlepší?
+    - Má škola nějaké ůspěchy?
+    - Dokáže bý tato škola v něčem ůspěšná?
+    - Jakých úspěchu škola dosáhla ?
+    - Čeho škola dosáhla?
+    - Je tato škola úspěšná?
+    - Je tato škola na vysoce kvalitní úrovni?
+
+- intent: faq/prestup_skola
+  examples: |
+    - Lze přejít ze školy na jinou?
+    - Je možné přejít ze školy na jinou?
+    - Lze přestoupit z jedné školy do druhé?
+    - Lze přestoupit ze školy na jinou?
+    - Je možné přejít z jedné školy na jinou?
+    - Lze přestoupit z jedné školy na jinou?
+    - Jak mohu přejít na jinou školu?
+    - Jak mohu přestoupit na jinou školu?
+    - Můžu přejít na jinou školní instituci?
+    - Je možné přestoupit ze školy na jinou?
+    - Jaká je procedura přestupu na jinou školu?
+    - Můžu přestoupit z jedné školy na druhou?
+    - Lze přestoupit mezi různými školami?
+    - Jak se dá přejít z jedné školy na druhou?
+    - Můžu přestoupit z jedné školy na jinou?
+    - Jaké jsou kroky k přestupu na jinou školu?
+    - Jak mohu přejít z jedné školy na druhou?
+    - Jak mohu přestoupit z jedné školy do druhé?
+    - Je možné přestoupit na jinou školu?
+    - Lze využít přestupu mezi různými školami?
+    - Jak mohu přejít na jinou školní instituci?
+    - Jak mohu přestoupit z jedné školy na druhou?
+    - můžu přestoupit jinam?
+    - Může moje dcera přestoupit na jinou školu?
+
+- intent: faq/prezuvky
+  examples: |
+    - Je nutné nosit ve škole přezuvky?
+    - Je třeba nosit ve škole přezuvky?
+    - Je požadováno nosit ve škole přezuvky?
+    - jak je to na škole s nošením přezuvek?
+    - Je vyžadováno nosit ve škole přezuvky?
+    - Je potřeba mít ve škole přezuvky?
+    - Je nutné mít ve škole přezuvky?
+    - Je povinné mít ve škole přezuvky?
+    - Je požadováno mít ve škole přezuvky?
+    - Je vyžadováno mít ve škole přezuvky?
+    - Je ve škole nutné mít přezuvky?
+    - Je ve škole povinné mít přezuvky?
+    - Je ve škole nutné nosit přezuvky?
+    - Jak je to na škole s přezouváním?
+
+- intent: faq/prijmacky_dve_prihlasky
+  examples: |
+    - Mohu na školu podat obě přihlášky?
+    - Opravdu dostanu body navíc, když podám dvě přihlášky k vám na školu?
+    - Můžu přihlásit dvě přihlášky na vaši školu?
+    - Můžu odeslat dvě přihlášky na vaši školu?
+    - Mohu mít nějakou výhodu, když podám dvě přihlášky na vaši školu?
+    - Mám nějakou výhodu, když podám dvě přihlášky na vaši školu?
+    - Mám nějakou výhodu, pokud podám dvě přihlášky na vaši školu?
+    - Můžu mít nějakou výhodu, pokud podám dvě přihlášky na vaši školu?
+    - Mám nějakou výhodu, když odešlu dvě přihlášky na vaši školu?
+    - Můžu získat nějakou výhodu, když podám dvě přihlášky na vaši školu?
+    - Existuje nějaká výhoda, pokud podám dvě přihlášky na vaši školu?
+    - Existuje nějaká výhoda, když podám dvě přihlášky na vaši školu?
+    - Může mě nějak zvýhodnit, když podám dvě přihlášky na vaši školu?
+    - Dá mi nějakou výhodu, když podám dvě přihlášky na vaši školu?
+    - Získám nějakou výhodu, když podám dvě přihlášky na vaši školu?
+    - Může mě nějak zvýhodnit, když odešlu dvě přihlášky na vaši školu?
+    - Získám nějakou výhodu, když odešlu dvě přihlášky na vaši školu?
+    - Existuje nějaká výhoda pro mě, pokud podám dvě přihlášky na vaši školu?
+    - Je způsob, jak bych mohl být během příjmacích zkoušek nějak zvýhodněn?
+    - Jsou nějaké benefity, když podám obě přihlášky k vám na školu?
+    - budu zvýhodněn, když podám dvě přihlášky na vaší školu?
+    - budu bodově zvýhodněn když podám obě přihlášky u vás?
+    - je mozne si na skolu poslat obe prihlasky?
+    - Mohu si na vaší školu podat obě přihlášky?
+
+- intent: faq/prijmacky_jak_podat_prihlasku
+  examples: |
+    - Jak mám podat přihlášku ke studiu?
+    - jak vyplnit přihlášku ke studiu?
+    - Jak vyplnit přihlášku na šklolu?
+    - Jak mám správně vyplnit formulář přihlášky na školu?
+    - Co mám napsat do přihlášky na vaší školu?
+    - Jakým způsobem mohu podat přihlášku?
+    - Kde mohu podat přihlášku ke studiu?
+    - Jaké informace musím uvést ve přihlášce?
+    - Jak se mám přihlásit ke studiu?
+    - Co je potřeba uvést v přihlášce?
+    - Jak mohu podat přihlášku na vaší škole?
+    - Je potřeba předložit nějaké dokumenty k přihlášce?
+    - Jaký je postup při přihlašování ke studiu?
+    - Kde mohu získat více informací o přihlašování ke studiu?
+    - Co je třeba uvést v přihlašovacím formuláři?
+    - Jaké informace musím uvést v přihlášce?
+    - Jak mám odeslat přihlášku?
+    - Co je třeba zařídit při přihlašování ke studiu?
+    - Jak mám podat přihlášku k přijetí na školu?
+    - Jak mám správně vyplnit přihlášku?
+    - jak mam vyplnit prihlasku na na vasi skolu?
+    - Jak má moje dítě podat přihlášku ke studiu?
+    - jak mam vyplnit prihlasku?
+    - Co musí přihláška obsahovat?
+
+- intent: faq/prijmacky_jak_probihaji
+  examples: |
+    - Jak probíhají příjmací zkoušky?
+    - jak se mě týkají jednotne zkousky cermat?
+    - co jsou to zkoušky CERMAT?
+    - Kde mohu získat informace ohledně příjmacích zkoušek?
+    - Jak dlouho trvají příjmací zkoušky?
+    - Jaká je časová omezení na absolvování příjmaček?
+    - Jaké jsou pravidla pro účast na zkouškách Cermat?
+    - Jak jsou zkoušky Cermat hodnoceny a vyhodnocovány?
+    - Jaký je cíl zkoušek Cermat?
+    - jak funguji cermat zkousky?
+    - Koho se týkají jednotné zkoušky CERMAT?
+    - Jaké jsou kvalifikační požadavky pro účast na zkouškách Cermat?
+    - Kdo může účastnit zkoušky Cermat?
+    - Jaké jsou předepsané formáty pro zkoušky Cermat?
+    - Existují nějaké výhody pro ty, kteří úspěšně absolvují zkoušky Cermat?
+    - Jakou finanční odměnu získají úspěšní absolventi zkoušek Cermat?
+    - Jaké jsou postupy pro uznávání zkoušek Cermat?
+    - Jaký je rozsah otázek, které se objeví na zkouškách Cermat?
+    - Jak dlouho trvá zkouška Cermat?
+    - Jak jsou zajištěny bezpečnostní opatření při zkouškách Cermat?
+    - Jaké jsou způsoby třídění otázek na zkouškách Cermat?
+    - Jaký je rozdíl mezi zkouškami Cermat a jinými testy?
+    - Jak se zkoušky Cermat liší od jiných testů?
+    - Jaké jsou možnosti oprav a úprav výsledků zkoušek Cermat?
+    - Jaké jsou následky nedodržení pravidel u zkoušek Cermat?
+    - Jaké jsou následky neúspěšného absolvování zkoušek Cermat?
+    - Jaké jsou kritéria pro úspěšné absolvování zkoušek Cermat?
+    - Jak budou probíhat příjmací zkoušky?
+    - jak probíhají příjmačky na vaší škole?
+    - Jak probíhají příjmací zkoušky na školu?
+
+- intent: faq/prijmacky_kdy_prihlasku
+  examples: |
+    - Kdy musím odevzdat přihlášku k příjmacímu řízení?
+    - Kdo určuje termín podání přihlášek na střední školu?
+    - Můžu se na střední školu přihlásit ještě po termínu?
+    - Existují vyhlášené termíny pro podání přihlášek na střední školu?
+    - Kde mohu sehnat informace o termínu pro podání přihlášky na střední školu?
+    - Kolik času mám na odevzdání přihlášky na střední školu?
+    - Kdy termín pro podání přihlášek na střední školu skončí?
+    - Kdy jsou třeba odevzdat přihlášky na střední školu?
+    - Do kdy je poslední den pro odevzdání přihlášek na střední školu?
+    - Kdy bude poslední den pro podání přihlášky na střední školu?
+    - Kde mohu získat informace o termínech podání přihlášek na střední školu?
+
+- intent: faq/prijmacky_kdy_pozvanka
+  examples: |
+    - kdy mi od školy přijde pozvání k příjmačkám?
+    - Kdy mi přijde pozvánka k příjmacím zkouškám?
+    - kdy mi přijde pozvánka k příjmací zkoušce?
+    - Kdy budu mít pozvánku k příjmačkám?
+    - Kdy obdržím pozvánku na příjmací zkoušky?
+    - Kdy mohu očekávat pozvánku na přijímačky?
+    - Kdy mi bude doručena pozvánka na zkoušky?
+    - Kdy obdržím pozvání na příjmačky?
+    - Kdy obdržím informaci o pozvání na zkoušky?
+    - Kdy se dozvím o pozvání na příjmačky?
+    - Kdy obdržím pozvání k zkouškám?
+    - Kdy obdržím pozvánku k příjmačkám?
+    - Kdy mi přijde pozvánka k účasti na příjmačkách?
+    - kdy mi přijde pozvánka k příjímací zkoušce?
+    - kdy mi může přijít pozvánka k příjmačkám?
+    - Kdy mi přijde pozvánka ke konání příjmací zkoušky?
+
+- intent: faq/prijmacky_kdy_vysledky
+  examples: |
+    - Kde zjistím, jak jsem u zkoušky dopadl?
+    - jak a kde zjistím, jak jsem dopadl u příjmaček?
+    - Jak zjistím, jak jsem dopadl na příjmačkách?
+    - Kde zjistím výsledky příjmaček?
+    - Kde zjistím, zda jsem byl úspěšný u příjmacích zkoušek?
+    - Jak zjistit, jak jsem dopadl na příjmačkách?
+    - Kde najdu informace o výsledcích přijímacích zkoušek?
+    - Jak zjistím, jak jsem dopadl na přijímačkách?
+    - Kde najdu výsledky přijímaček?
+    - Kde se dozvím, jak jsem dopadl u příjmacích zkoušek?
+    - Jak zjistím, zda jsem byl úspěšný u příjmacích zkoušek?
+    - Jak získám informace o výsledcích příjmacích zkoušek?
+    - Jak zjistím, jak jsem dopadl na přijímacích zkouškách?
+    - Jak získám výsledky přijímaček?
+    - Kde najdu informace o mých výsledcích na přijímačkách?
+    - Kde najdu výsledky přijímacích zkoušek?
+    - Kdy se dozvím, jak jsem dopadl na přijímačkách?
+    - Kde zjistím jak jsem dopadl na příjmačkách?
+    - Jak zjistím, jak jsem dopadl u přijímacích zkoušek?
+    - Kdy se dozvím jak jsem dopadl na prijmackach?
+    - Jak zjistím, že jsem splnil příjmací zkoušky?
+    - Jak zjistím, jak jsem dopadl u prijmacek?
+    - kde zjistím výsledky prijmacích zkoušek?
+    - Jak zjistím jak jsem dopadl na příjmačkách?
+    - Kdy se dozvím výsledky přijímacích zkoušek?
+
+- intent: faq/prijmacky_kolik_prihlasek_1_kolo
+  examples: |
+    - Kolik přihlášek můžu v 1. kole podat?
+    - Kolik můžu podat přihlášek na školu v prvním kole příjmacího řízení?
+    - Kolik přihlášek na školu mohu podat v 1. kole?
+    - Je omezen počet přihlášek, které mohu podat v prvním kole příjmaček?
+    - Kolik přihlášek ke studiu mohu podat v případě prvního kola?
+    - kolik prihlasek muzu podat v prvnim kole?
+    - kolik přihlášek mohu podat v prvním kole na vaší školu?
+    - kolik prihlasek muzu poslat během prvniho kola prijmacich zkousek?
+
+- intent: faq/prijmacky_kolik_prihlasek_2_kolo
+  examples: |
+    - Kolik přihlášek ve druhém kole mohu podat?
+    - kolik přihlášek můžu ve 2. kole podat?
+    - Kolik můžu podat přihlášek na školu ve druhém kole?
+    - Jaký je maximální počet přihlášek, které můžu podat ve druhém kole?
+    - Kolik mohu rozposlat přihlášek na školy ve druhém kole?
+    - Kolik přihlášek na školu mohu odeslat ve druhém kole?
+    - kolik přihlášek ve 2. kole můžu poslat?
+    - Kolik přihlášek mohu podat ve druhém kole?
+
+- intent: faq/prijmacky_nemozna_ucast
+  examples: |
+    - Co mám dělat když se nemohu zúčastnit přijímacích zkoušek?
+    - Co když se nemohu účastnit příjmacích zkoušek?
+    - co když se nedostavím na příjmací zkoušky?
+    - Co dělat, když nemůžu přijít na přijímačky?
+    - Co dělat, když se nemůžu účastnit přijímacích zkoušek?
+    - Co dělat když nemohu jít na přijímací zkoušky?
+    - Jsou nějaké možnosti, když nemůžu být na přijímačkách?
+    - Jak mohu postupovat, když mě nemoc nepustí na přijímačky?
+    - Co mám dělat, když nemůžu přijít na příjmací zkoušky?
+    - Jaké jsou moje možnosti, když se nemohu zúčastnit přijímacích zkoušek?
+    - Co mohu udělat, když se nemohu zúčastnit přijímacích zkoušek?
+    - Co mám dělat, pokud jsem nemocný a nemůžu se zúčastnit přijímacích zkoušek?
+    - Jakým způsobem mám postupovat, když nemůžu na přijímačky?
+    - Jsou nějaké alternativy, když se nedostavím na přijímací zkoušky?
+    - Co mám udělat, pokud se nemohu účastnit přijímaček?
+    - Jak postupovat, pokud se nemohu dostavit na přijímací zkoušky?
+    - Co mám udělat, když mi zdravotní stav neumožňuje zúčastnit se přijímacích zkoušek?
+    - Co mám dělat když se nemohu dostavit na příjmačky?
+    - jak mám postupovat, když se nemůžu dostavit na přesný termín příjmacích zkoušek?
+    - Co mám dělat, když se nemohu zúčastnit přijímaček?
+
+- intent: faq/prijmacky_neuspesne_odvolani
+  examples: |
+    - co mám dělat když jsem se nedostal na vaší školu?
+    - jak mám postupovat, paklize muj syn nezvládl příjmací zkoušky?
+    - jak mam postupovat v případě neúspěšných příjmacích zkoušek?
+    - Nebyl jsem úspěšný u příjmacího řízení na požadovanou školu, co můžu dělat?
+    - co mam delat když jste mě nevzali na školu?
+    - Co když jsem neudělal příjmací zkoušky?
+    - Co mám dělat, když jsem se nedostal ani na odvolání? 
+    - Co mohu udělat, aby mi byla schválena žádost o odvolání?
+    - Co když je má žádost o odvolání zamítnuta?
+    - Jaké jsou možnosti, když jsem se nedostal na školu ani na odvolání?
+    - Co mám dělat, když mě škola odmítla i na odvolání?
+    - Co mám udělat, když se mi nepodařilo dostat se na školu i po odvolání?
+    - Co mám dělat, když jsem se nedostal na školu ani po odvolání?
+    - co mám dělat když jsem neuspěl u příjmacích zkoušek?
+    - co mam delat, když jsem se na vasi skolu nedostal?
+    - Co když se dítě nedostane nikam, ani na odvolání?
+
+- intent: faq/prijmacky_odvolani_jak
+  examples: |
+    - Co má obsahovat odvolani?
+    - jaké jsou zásady pro úspěšné odvolání?
+    - Jak se odvolat proti výsledku přijímacích zkoušek?
+    - Jak se odvolat?
+    - Jak se mohu odvolat proti nepřijetí syna na školu?
+    - Jak se mohu odvolat na výsledek přijímacích zkoušek?
+    - Co mám dělat, když jsem neuspěl u přijímacích zkoušek?
+    - Co mám dělat, když se mi nepodařilo dostat se na školu, kterou jsem vybral?
+    - Co mohu udělat, když jsem se nedostal na školu?
+    - Co mám dělat, když jsem se nedostal na školu?
+    - Co mám udělat, když jsem se nedostal ani na první ani na druhé kolo?
+    - Jak se odvolat proti výsledku přijímaček?
+    - Je možné se odvolat proti výsledkům přijímacích zkoušek?
+    - Jaký je postup pro podání odvolání proti výsledkům přijímacích zkoušek?
+    - Je povoleno se odvolat proti výsledkům přijímacích zkoušek?
+    - Jak mohu napadnout výsledky přijímacích zkoušek?
+    - Je možné napadnout výsledky přijímacích zkoušek?
+    - Jak se mohu odvolat proti výsledku přijímaček?
+    - Co je třeba udělat, aby odvolání proti přijímačkám bylo úspěšné?
+    - Co bych měl vědět o odvolání proti výsledkům přijímacích zkoušek?
+    - Kde mohu získat informace o podání odvolání proti výsledkům přijímaček?
+    - Existuje možnost se odvolat proti výsledkům přijímacích zkoušek?
+    - Jakým způsobem mohu podat odvolání proti výsledkům přijímacích zkoušek?
+    - Kde mohu zjistit, jak mohu se odvolat proti výsledkům přijímaček?
+    - Jak lze podat odvolání proti výsledkům přijímacích zkoušek?
+    - Jak postupovat při odvolání proti výsledkům přijímacích zkoušek?
+    - Co mám dělat, když mě nepřijali na vybranou střední školu?
+
+- intent: faq/prijmacky_odvolani_kdy
+  examples: |
+    - Do kdy je možné se odvolat proti nepřijetí?
+    - do kdy je mozne podat ovolani?
+    - do kdy je možné podat odvolání proti výsledku příjmacích zkoušek?
+    - kdy můžu poslat odvolání proti nepřijatí na školu?
+    - je nějaký termín, kdy musím podat odvolání proti výsledkům příjmacích zkoušek?
+    - Do kdy mohu podat odvolání proti nepřijetí mého syna?
+    - Kdy mohu podat odvolání proti výsledkům přijímacích zkoušek?
+    - Kdy je možné se odvolat proti nepřijetí?
+    - Jak dlouho je možné se odvolat proti nepřijetí?
+    - Jakou lhůtu je třeba dodržet pro odvolání proti přijímacím zkouškám?
+    - Kdy už je pozdě podat odvolání proti výsledkům přijímacích zkoušek?
+    - Mohu podat odvolání proti výsledkům přijímacích zkoušek i po uplynutí lhůty?
+    - do kdy můžu podat odpolání?
+    - kdy mohu podat odvolání proti nepřijetí žáka?
+    - Kdy je možné podat odvolání?
+
+- intent: faq/prijmacky_pocet_terminu
+  examples: |
+    - Kolik bude termínů na přijímací zkoušku?
+    - Kolik mám pokusů na příjmací zkoušku?
+    - kolik bude termínu na prijimací zkousky?
+    - Kolik budou mít příjmačky termínů?
+    - Kolikrát mohu psát příjmací zkoušky?
+    - Jaká je maximální kapacita termínů na přijímací zkoušku?
+    - Kolik může být termínů pro přijímací zkoušku?
+    - Jaká je doporučená kapacita termínů na přijímací zkoušku?
+    - Jaký je počet termínů na přijímací zkoušky?
+    - Jaký je maximální počet termínů na přijímací zkoušku?
+    - Kde můžu získat informace o termínech přijímací zkoušky?
+    - Jak můžu zjistit, kolik termínů je na přijímací zkoušku?
+    - Jaké jsou možnosti pro termíny přijímací zkoušky? 
+    - Jak mohu získat informace o počtu termínů na přijímací zkoušky?
+    - Jaké jsou možnosti pro počty termínů na přijímací zkoušku?
+    - Jaká je kapacita termínů na přijímací zkoušku?
+    - Jaké informace poskytují o termínech na přijímací zkoušky?
+    - Jaké jsou možnosti pro časová období přijímací zkoušky?
+    - Jak mohu získat informace o počtu termínů na přijímací zkoušku?
+    - Jak získat informace o počtu termínů na přijímací zkoušky?
+    - Je omezen počet termínů, během kterých se bude psát příjmací zkouška?
+    - Kolikrát mohu psát příjmačky?
+    - Kolikrát mohu psát příjmací zkoušku?
+
+- intent: faq/prijmacky_pozadavky
+  examples: |
+    - Co musím splňovat, abych mohl psát příjmací zkoušky?
+    - Musím splnovat nejaké pozadavky pro prijetí na školu?
+    - Jsou nějaké speciální požadavky na budoucí studenty školy?
+    - Co musí žák splňovat, aby byl přijat na vaší školu?
+    - Co musí student splňovat, abyste ho vzali na školu?
+    - Jaké jsou požadavky na účast na přijímacích zkouškách?
+    - Co je potřeba splnit pro účast na přijímacích zkouškách?
+    - Je nutné splnit nějaké požadavky, abych mohl účastnit přijímacích zkoušek?
+    - Co je potřeba splnit, abych se mohl účastnit přijímacích zkoušek?
+    - Co je potřeba dodat k přijímacím zkouškám?
+    - Jak mohu získat informace o požadavcích na přijímací zkoušky?
+    - Jsou nějaké předpoklady pro účast na přijímacích zkouškách?
+    - Co je požadováno od uchazečů o studium?
+    - Je nějaký speciální požadavek na budoucí žáky této školy?
+    - Je něco co musí žadatel o studium splňovat?
+    - má škola nějaké požadavky na uchazeče o studium?
+
+- intent: faq/prijmacky_z_ceho
+  examples: |
+    - z jakych predmetu se konaji prijmaci zkousky na skolu?
+    - z ceho jsou prijmacky?
+    - z ceho se dělají příjmací zkoušky u vás na škole?
+    - Z ceho budu psát příjmačky?
+    - z čeho budu psát příjmací zkoušky?
+    - z ceho se pisou prijmacky?
+    - Z čeho se dělají přijímací zkoušky?
+
+- intent: faq/prijmacky_zapisovy_listek
+  examples: |
+    - kde seženu zápisový lístek?
+    - kdo mi vydá zápisový lístek?
+    - Jak a kde sezenu zápisový lístek k příjmacím zkouškám?
+    - Vydáte mi zápisový lístek na vaší školu?
+    - Kde seženu lístek k zápisu na školu?
+    - Jak seženu zápisový lístek na školu?
+    - Kdo mi vydá zápisové lístky na školu?
+
+- intent: faq/prijmacky_zapisovy_listek_zpatky
+  examples: |
+    - mohu si vzít zpátky už odeslaný zápisový lístek?
+    - Můžu si vzít svůj zápisový lístek zpátky?
+    - Můžu svůj zápisový lístek který jsem podal na školu vzít zpět?
+    - Jak si vezmu zpátky zápisový lístek?
+    - Jak si mohu vzít zpět svůj zápisový lístek podaný na tuto školu?
+    - můžu si vzít zápisový lístek zpátky?
+    - mohu požádat školu o vrácení zápisového lístku?
+    - Jde si vzít zápisový lístek zpátky?
+
+- intent: faq/problem_plny_disk
+  examples: |
+    - Mám plné úložiště ve školním disku, co mohu dělat?
+    - Jak mám postupovat při zaplnění školního disku?
+    - Mohu nějak zvýšit kapacitu disku, který mám v rámci školy dostupný?
+    - Jak mohu vyřešit problém s plným diskem?
+    - mám plný disk, co ted?
+    - Co dělat když mám plný disk
+
+- intent: faq/propadnuti_za_rok
+  examples: |
+    - Kolik lidí propadne za rok?
+    - Kolik lidí každý rok nezvládne ročník?
+    - Jaký počet lidí průměrně nezvládne propadne každý rok?
+    - kolik propadne lidi kazdej rok?
+    - Kolik lidí průměrně propadne každý rok?
+    - Kolik lidí každý rok propadne?
+
+- intent: faq/psycholog
+  examples: |
+    - Jaká je spolupráce s pedagogickou-psychologickou poradnou apod.?
+    - existuje možnost návštěvy školního psychologa?
+    - Můžu během studia navštěvovat psychologa?
+    - Je studentům dostupný školní psychiatr?
+    - Je na škole nějaký psychyatr?
+    - existuje možnost navštívit psychologa ve škole?
+    - Existují ve škole programy zaměřené na psychické zdraví?
+    - Jak se škola stará o psychické zdraví žáků?
+    - Existují ve škole poradenské služby?
+    - Můžu obdržet radu, pokud mám psychické problémy?
+    - Je možné se na škole setkat s odborníkem na psychické zdraví?
+    - Je k dispozici psychologická pomoc pro žáky na škole?
+    - Existují programy na podporu psychického zdraví žáků ve škole?
+    - Je možné ve škole obdržet poradenství ohledně psychického zdraví?
+    - Je možné požádat školu o podporu psychického zdraví?
+    - Existuje ve škole nějaká služba v oblasti psychického zdraví?
+    - Můžu se na škole obrátit na pedagogicko-psychologickou poradnu?
+    - Lze ve škole čerpat radu ohledně psychického zdraví?
+    - Poskytuje škola podporu žákům, kteří trpí psychickými problémy?
+    - Je možné ve škole využívat psychologické poradenství?
+    - Je ve škole k dispozici odborník na psychické zdraví?
+
+- intent: faq/rozdeleni_elektro
+  examples: |
+    - Do jakých oblastí se rozděluje elektrotechnika?
+    - Můžete mi říct, které pododbory patří do elektrotechniky?
+    - Lze elektrotechniku rozdělit na nějaké menší oblasti?
+    - Můžete mi vysvětlit, jaké oblasti se zahrnují do elektrotechniky?
+    - Mohli byste mi nastínit, do jakých kategorií se elektrotechnika dělí?
+    - Můžete mi popsat, jakými oblastmi se zabývá elektrotechnika?
+    - Existují nějaké subodbory elektrotechniky, o kterých byste mi mohli říct více?
+    - Jaké obory jsou zahrnuty do elektrotechniky? 
+    - Lze elektrotechniku rozdělit na menší části?
+    - Jaké oblasti jsou součástí elektrotechniky? 
+    - Jaké jsou hlavní pododbory elektrotechniky? 
+    - Do jakých kategorií se elektrotechnika dělí? 
+    - Které oblasti spadají do elektrotechniky? 
+    - Jaké jsou nejdůležitější obory elektrotechniky? 
+    - Je možné elektrotechniku rozčlenit na několik kategorií?
+    - Jaké jsou hlavní obory elektrotechniky? 
+    - Můžete mi vysvětlit, na jaké podobory se dělí elektrotechnika?
+    - Je elektrotechnika rozdělena na menší skupiny, které byste mi mohli představit?
+    - Je možné elektrotechniku rozdělit na více specifických oblastí?
+    - Můžete mi říct, do jakých kategorií se dělí elektrotechnika?
+    - Můžete mi říct, na jaké části se dělí elektrotechnika a co každá z těchto částí obnáší?
+    - Lze elektrotechniku rozčlenit na nějaké podoblasti?
+    - Podobory elektrotechniky?
+    - Rozdíl mezi silno a slabo proudem?
+    - Jaký je rozdíl mezi silno a slabo proudem ?
+
+- intent: faq/rozdeleni_it
+  examples: |
+    - Zaměření na IT?
+    - na jaká zaměření se dělí obor IT?
+    - Co se skrývá za zkratkou IT?
+    - Jaká je definice IT?
+    - Co je součástí IT?
+    - Jaký je účel informačních technologií?
+    - Jaké jsou možnosti využití IT?
+    - K čemu jsou informační technologie?
+    - na jaké odvětví se dělí IT?
+    - na jaké oblasti se dělí IT?
+    - na jaké specializace se dělí IT?
+    - jak muzu rozumet zkratce it?
+    - Co znamená zkratka IT?
+    - na jaká zaměření se dělí IT?
+    - na jaké obory se dělí IT?
+    - na jaká zaměření se soustřeďuje IT?
+    - na jaké obory se dělí obor IT?
+    - na jaké obory se specializuje IT?
+    - na jaké obory se soustřeďuje IT?
+    - na jaká zaměření se specializuje IT?
+    - na jaká odvětví se dělí IT?
+    - na jaká odvětví se specializuje IT?
+    - na jaká odvětví se soustřeďuje IT?
+    - Jaké zaměření je na IT?
+
+- intent: faq/rozdeleni_lyceum
+  examples: |
+    - jaka zamereni ma technicke lyceum?
+    - na jaké odvětví se dělí technické lyceum?
+    - na jaké oblasti se dělí technické lyceum?
+    - na jaká zaměření se dělí technické lyceum?
+    - na jaké oblasti se specializuje technické lyceum?
+    - na jaké obory se dělí technické lyceum?
+    - Na jaké odvětví se soustředí technické lyceum?
+    - Jaká zaměření nabízí technické lyceum?
+    - Které odvětví jsou na technickém lyceu k dispozici?
+    - Která zaměření se nabízí na technickém lyceu?
+    - Jaké oblasti jsou na technickém lyceu k dispozici?
+    - Jaké odvětví nabízí technické lyceum?
+    - Která zaměření jsou k dispozici na technickém lyceu?
+    - na jaké obory se dělí obor technické lyceum?
+    - na jaké obory se specializuje technické lyceum?
+    - na jaká zaměření se specializuje technické lyceum?
+    - na jaká odvětví se dělí obor technické lyceum?
+    - na jaká odvětví se dělí technické lyceum?
+    - na jaká odvětví se soustřeďuje technické lyceum?
+    - na jaka zamereni se deli technicke lyceum?
+
+- intent: faq/rozvrh
+  examples: |
+    - Kde naleznu rozvrh tříd?
+    - kde můžu najít rozvrh hodin?
+    - Kde můřu najít rozvrh?
+    - Jak zjistím kde mám zrovna hodinu?
+    - Jak zjistím svůj rozvrh hodin?
+    - Je někdo dostupný rozvrh hodin?
+    - kde najdu rozvrh hodin?
+    - Jak můžu zjistit rozvrh?
+    - Kde najdu informace o rozvrhu?
+    - Jak zjistím rozvrh?
+    - Kde se dozvím rozvrh?
+    - Jak se dozvím rozvrh?
+    - Kde najdu rozvrh?
+    - Existuje způsob jak zjistit rozvrh?
+    - Existuje způsob jak zjistit rozvrh bez přístupu na Bakaláře?
+    - Kde mohu nalézt informace o rozvrhu?
+    - Kde se dají získat informace o rozvrhu?
+    - Existuje nějaký způsob jak zjistit rozvrh?
+    - Kde hledat informace o rozvrhu?
+    - Můžeš mi říct kde získám informace o rozvrhu?
+    - Kde mohu nalézt rozvrh?
+    - Kde můžu získat informace o rozvrhu?
+    - existuje možnost zjistit rozvrh, když nemám přístup na bakaláře?
+    - Kde zjistím rozvrh?
+
+- intent: faq/sekretariat_cas
+  examples: |
+    - Do kdy je otevřený sekretariát?
+    - Kdy je sekretariát otevřený?
+    - Jak dlouho sekretariát funguje?
+    - Kolik hodin je sekretariát otevřený?
+    - Kdy je sekretariát k dispozici?
+    - Kolik času je sekretariát otevřený?
+    - Kdy můžu navštívit sekretariát?
+    - Kolik času je sekretariát v provozu?
+    - Jakou dobu má sekretariát otevřeno?
+    - Je sekretariát otevřený?
+    - Kdy je sekretariát v provozu?
+    - Kdy má sekretariát otevřeno?
+    - Kdy začíná provoz sekretariátu?
+    - Kdy se otevírá sekretariát?
+    - Kdy má otevřeno sekretariát?
+    - kdy se muzu dostat na sekretariat?
+    - od kdy má otevřeno sekretariát školy?
+    - do kdy je otevřenej sekretariát?
+
+- intent: faq/sekretariat_info
+  examples: |
+    - Kam se mohu obrátit pro informace?
+    - Co když budu potřebovat více informací ?
+    - Kde sehnat další informace?
+    - Kam mohu získat další informace?
+    - Kde mohu nalézt další informace?
+    - Jak získat další informace?
+    - Jak mohu získat více informací?
+    - Kde mohu najít další podrobnosti?
+    - Kde najdu další informace?
+    - Kde se dozvím více informací?
+    - Kde se dozvím víc o tomto tématu?
+    - Kde najdu další informace o tom?
+    - Kde mohu získat více informací?
+    - Jak mohu získat více podrobností?
+    - Kde sehnat další informace o tom?
+    - Kde najdu další informace o tomto tématu?
+    - Jak mám postupovat, když budu chtít více informací?
+    - Kde mohu sehnat informace?
+    - Na koho se ve škole můžu obrátit na další informace?
+    - Koho mohu kontaktovat pro jakékoli informace?
+    - Koho mám kontaktovat v případě že bych potřeboval další informace?
+
+- intent: faq/sikana
+  examples: |
+    - Jak se na škole vypořádavají s šikanou?
+    - Podporuje škola LGBT+ komunitu?
+    - Jak škola nakládá s problémy souvisejícími se šikanou?
+    - Jak probíhá prevence šikany na škole?
+    - Jaké opatření se používají pro prevenci šikany?
+    - Jakou roli hraje vzdělávání o šikaně?
+    - Je na škole přijata nějaká protišikanová politika?
+    - Jaké řešení jsou k dispozici pro žáky, kteří mají přímý nebo nepřímý kontakt s šikanou?
+    - Jaké preventivní kroky se používají na škole k omezení šikany?
+    - Jaké protiopatření se používají k boji proti šikaně?
+    - Jsou na škole přijatá protišikanová opatření?
+    - Jaké mohou být následky pro ty, kteří se dopouštějí šikany?
+    - jak to je na skole s lgbt komunitou?
+    - Podporujete žáky z LGBT+ komunity?
+    - Jak to je s čikanou na škole?
+    - Jak to je s tolerancí mezi žáky?
+    - objevuje se na škole xenofobie?
+    - řeší škola xenofobii?
+    - řeší škola případnou šikanu?
+    - Jak škola nakládá s případnými problémy s šikanou?
+    - s jakými výsledky řeší škola případnou šikanu?
+
+- intent: faq/skola_adresa
+  examples: |
+    - Adresa školy?
+    - Adresa?
+    - Kde se nachází vaše škola?
+    - Jakou adresu má škola?
+    - Kde se nachází škola?
+    - Co je adresa školy?
+    - Kde je škola?
+    - Kde je adresa školy?
+    - Která je adresa školy? 
+    - Jaké je PSČ školy?
+    - Jakou adresu škola má?
+    - Jak se jmenuje adresa školy? 
+    - vaše adresa?
+    - jaká je vaše adresa?
+    - jaká je adresa?
+    - Jaká je adresa školy?
+
+- intent: faq/skola_budovy_kolik
+  examples: |
+    - Budovy školy?
+    - kolik je ve škole budov?
+    - Kolik má škola pavilonů?
+    - Jak velká je vaše škola?
+    - Jaká je celková početnost budov ve škole?
+    - Kolik budov má škola?
+    - Který počet budov je ve škole?
+    - Kolik budov můžeme najít ve škole?
+    - Jaký je celkový počet budov ve škole?
+    - Kolik budov se nachází ve škole?
+    - Kolik budov najdeme ve škole?
+    - Jaký počet budov je ve škole?
+    - Kolik budov tvoří školu?
+    - Kolik budov má škola k dispozici?
+    - Jaký je počet budov ve škole?
+    - Kolik budov se nachází v areálu školy?
+    - Z kolika budov se škola skládá?
+    - kolik má škola budov?
+
+- intent: faq/skola_maturita
+  examples: |
+    - je možnost si na škole udělat maturitu?
+    - mohu si na vaší škole udělat výuční list?
+    - Je možnost absolvovat maturitu na této škole?
+    - Je možné získat výuční list na této škole?
+    - Existuje možnost absolvovat maturitu na této škole?
+    - Je maturita k dispozici na této škole?
+    - Je možnost udělat si maturitu na této škole?
+    - Je na této škole maturita?
+    - Je maturitní zkouška k dispozici na této škole?
+    - Je maturita součástí této školy?
+    - Máte maturitu na této škole?
+    - Existuje možnost získat maturitu na této škole?
+    - Je možnost získat maturitu na této škole?
+    - existuje možnost získat výuční list?
+    - Je možnost obdržet z vaší školy maturitní vysvědčení?
+    - Mohu si u vás udělat maturitu?
+    - je na vaší škole maturita?
+    - Dostanu možnost udělat si maturitu?
+    - Je škola zakončena maturitní zkouškou?
+
+- intent: faq/skola_narocnost
+  examples: |
+    - Jak probíhá studium na SPŠE?
+    - Je jednoduché tuhle školu studovat?
+    - Je ta škola těžká?
+    - Jaké jsou požadavky školy na studenty?
+    - Je náročné se učit na SPŠE?
+    - Jaké jsou nároky na studenty na této škole?
+    - Jaké jsou nároky školy na studenty?
+    - Jaké jsou očekávání a nároky školy?
+    - Je studium na SPŠE Plzeň těžké?
+    - Nevypadne hned v prváku ?
+    - Je tato škola těžká?
+    - Je tato škola opravdu těžká?
+    - Jak se na škole studuje?
+    - Na co se připravit po nástupu do školy?
+    - Jsou na studenty SPŠE kladeny větší nároky?
+
+- intent: faq/skola_orientace
+  examples: |
+    - Jak se orientuju ve škole?
+    - jak mám pochopit systém číslování učeben?
+    - jak fungujou čísla na učebnách?
+    - Jak fungují čísla u učeben?
+    - Jak jsou označeny učebny ve škole?
+    - Jak najít učebnu na požadovaném patře?
+    - Co musím udělat pro orientaci ve škole?
+    - Jaký je nejjednodušší způsob získání informací o umístění učeben?
+    - Jaké informace jsou dostupné k orientaci ve škole?
+    - Jaký je nejpohodlnější způsob navigace ve škole?
+    - Kde najdu informace o číslování učeben ve škole?
+    - Co musím udělat pro nalezení požadované učebny?
+    - Kde najdu informace o označení učeben?
+    - Jaké informace jsou k dispozici k orientaci ve škole?
+    - Jak mohu najít učebnu na správném patře?
+    - Jaké informace je třeba znát k orientaci ve škole?
+    - Jak mohu získat informace o číslování učeben?
+    - Co znamenají ty čísla na dveřích u každé třídy?
+    - jak se mám pohybovat po škole?
+    - jak funguje orientování se ve škole?
+    - Orientace pohybu ve škole?
+    - Jak funguje označení učeben?
+
+- intent: faq/skola_v_prirode
+  examples: |
+    - existuje možnost navštívit školu v přírodě?
+    - je na škole škola v přírodě?
+    - je na škole možnost absolbovat školu v přírodě?
+    - Jezdí studenti školy na školu v přírodě?
+    - Je možnost navštívit školu v přírodě během studia?
+    - Nabízí škola školu v přírodě?
+    - Je škola v přírodě dostupná?
+    - Je na škole k dispozici škola v přírodě?
+    - Má škola k dispozici školu v přírodě?
+    - Nabízí škola program školy v přírodě?
+    - Je škola v přírodě k dispozici?
+    - Je k dispozici program školy v přírodě?
+    - Je program školy v přírodě dostupný?
+    - Lze absolvovat program školy v přírodě?
+    - Je program školy v přírodě k dispozici?
+    - Lze navštívit školu v přírodě?
+    - Je možné navštívit školu v přírodě?
+    - jezdí studenti na školu v přírodě?
+    - Jezdí žáci na školu v přírodě?
+    - Pořádá škola školu v přírodě?
+
+- intent: faq/skola_volny_cas
+  examples: |
+    - Jak můžu trávit přestávky?
+    - Jak mám trávit odpadlé hodiny?
+    - Co mám dělat, když mi odpadli hodiny a musím ve škole čekat?
+    - Jak se mohu během přestávky zabavit?
+    - Jaké jsou zde možnosti pro trávení volného času ve škole?
+    - Co mohu dělat během přestávky?
+    - Jak lze trávit přestávky?
+    - Jaké jsou aktivity, které lze provádět během přestávky?
+    - Co mohu dělat během přestávky ve škole?
+    - Jaký je nejlepší způsob trávení přestávek ve škole?
+    - Jaké jsou zde možnosti pro trávení volného času během přestávky?
+    - Jaký je nejlepší způsob pro trávení přestávky ve škole?
+    - Co dělat během přestávky ve škole?
+    - Jaké aktivity mohou žáci provádět během přestávky?
+    - Jaké jsou zde možnosti pro trávení volného času během přestávky ve škole?
+    - Jaký je nejlepší způsob pro trávení volného času ve škole během přestávky?
+    - Jaký je nejlepší způsob pro trávení volného času ve škole?
+    - Jaké jsou možnosti pro trávení přestávky ve škole?
+    - Jaké jsou zde aktivity, které mohou žáci využít během přestávky?
+    - můžu zde nějak trávit přestávky?
+    - jak zde mohou žáci trávit přestávky?
+
+- intent: faq/skola_wifi
+  examples: |
+    - je tam wifi pro studenty?
+    - existuje na skole moznost pripojit se na skolni wifi?
+    - je na skole wifina?
+    - Je na škole dostupná Wi-Fi?
+    - Wi-Fi připojení je dostupné i ve škole?
+    - Je na škole dostupné připojení do internetu?
+    - Je možné se připojit na školní wifi?
+    - Je ve škole wifi?
+    - Je wifi k dispozici pro studenty?
+    - Je možné se připojit na wifi ve škole?
+    - Je ve škole wifi zdarma?
+    - Existuje ve škole wifi?
+    - Je pro studenty na škole dostupné wifi?
+    - Je na škole bezplatná WIFI?
+    - Je ve vaší škole WIFI?
+    - Je tady školní wifi?
+
+- intent: faq/skola_wifi_kvalita
+  examples: |
+    - jaka tam je wifi?
+    - je na škole kvalitní připojení k internetu?
+    - je na škole kvalitní internet?
+    - je na škole dobrá síť?
+    - Je ve škole dostupný vysokorychlostní internet?
+    - jak rychlý internet má školní wi-fi?
+    - jak je to s rychlostí internetu na škole?
+    - Jakou kvalitu mají wifi služby na škole?
+    - Je wifi na škole stabilní?
+    - Je wifi na škole bezpečné?
+    - Je wifi na škole šifrováno?
+    - Je wifi na škole zdarma?
+    - Je wifi na škole dostupné ve všech částech budovy?
+    - je na skole dobra wifina?
+    - Je zde kvalitní připojení wifi?
+    - Jak dobré je internetové připojení?
+
+- intent: faq/skolne
+  examples: |
+    - Jak vysoké je školné? 
+    - funguje školné?
+    - Kolik korun stojí školné?
+    - Kolik musím platit za školné?
+    - platí se skolne?
+    - Jak je to se školným na škole?
+    - Je třeba zaplatit školné?
+    - Je nutné zaplatit školné?
+    - Jaká je výše školného?
+    - Platí se na škole nějaké školné?
+    - Je placení školného vyžadováno?
+    - Kolik stojí školné?
+    - Mám platit školné?
+    - Je školné požadováno?
+    - Jakou částku je potřeba zaplatit za školné?
+    - Je platba školného povinná?
+    - Jakou výši školného je nutné zaplatit?
+    - Budu muset zaplatit školné?
+    - Je školné běžně vyžadováno?
+    - Je na škole školné?
+    - Kolik stojí školné? 
+
+- intent: faq/skrinka_scam
+  examples: |
+    - existuje moznost mit ve skole místo na věci?
+    - je možné mít ve škole skříňku na věci?
+    - Jsou na škole skříňky?
+    - Poskytuje škola i skříňku na věci?
+    - Přidělí mi škola vlastní skříňku?
+    - Mohu ve škole dostat škřínku na osobní věci?
+    - Je ve škole dostupná skříňka na oblečení?
+    - Mají žáci ve škole k dispozici vlastní skříňky?
+    - Je možné si ve škole zapůjčit skříňku?
+    - Jsou ve škole dostupné skříňky pro uložení oblečení?
+    - Mají studenti možnost mít ve škole osobní skříňku?
+    - Jsou ve škole skříňky k pronájmu?
+    - Je ve škole možnost vlastnit soukromou skříňku?
+    - Mají žáci přístup ke skříňkám?
+    - Je ve škole možnost mít skříňku na boty?
+    - Existuje ve škole nějaké místo pro skříňku na oblečení?
+    - Existuje ve škole nějaké místo pro své osobní věci?
+    - Mají studenti v této škole možnost vlastnit skříňku?
+    - Je ve škole možnost si zapůjčit skříňku?
+    - Mají žáci možnost mít ve škole svou skříňku?
+    - Je ve škole přístup k osobním skříňkám?
+    - Existují ve škole šatny pro uložení oblečení?
+    - Je možné mít svou skříňku na oblečení ?
+    - Jsou ve škole dostupné šatní skřínky ?
+
+- intent: faq/stravovani_info
+  examples: |
+    - Jak na škole funguje stravování?
+    - jak se žáci stravují?
+    - Jak žáci mohou sehnat jídlo?
+    - Kde mohu v blízkosti školy zakoupit jídlo?
+    - Kde můžu sehnat jídlo na škole?
+    - Kde seženu jídlo?
+    - Jaká je možnost stravování na této škole?
+    - Jakým způsobem se žáci stravují?
+
+- intent: faq/studium_preruseni
+  examples: |
+    - mohu přerušit studium?
+    - muzu si dat pauzu od studia?
+    - Jak mohu pozastavit studium na škole?
+    - Je možnost pozastavení studia na škole?
+    - Jak mohu pozastavit studium na této škole?
+    - Je pozastavení studia problém?
+    - jak funguje pozastavení studia?
+    - Jak přerušit studium na škole?
+    - Jak ukončit studium na škole?
+    - Jak přerušit studium ve škole?
+    - Můžu přerušit studium ve škole?
+    - Jak ukončit studium na  škole?
+    - Mám právo přerušit studium na  škole?
+    - Jak se stáhnout ze studia na  škole?
+    - Jak dlouho trvá přerušení studia na  škole?
+    - Jak můžu přerušit studium na  škole?
+    - Jak přerušit studium na  škole?
+    - Je možné přerušit studium na střední škole?
+    - Co se stane, když pozastavím studium?
+    - muzu prerusit studium?
+    - Jak přerušit studium?
+
+- intent: faq/studium_ukonceni
+  examples: |
+    - jak mohu skoncit se skolou?
+    - Jak mohu odejít ze školy?
+    - Jak leavnu školu?
+    - Jak mohu ukončit studium na škole?
+    - Jak ukončím studium na škole?
+    - muzu ukoncit studium?
+    - jak skoncit studium?
+    - Jak ukončit studium?
+
+- intent: faq/tridy_pocet_zaku
+  examples: |
+    - jak velké jsou třídy na škole?
+    - Jak početné jsou trídy na škole?
+    - jak velke jsou tridy?
+    - jakou tridy mají kapacitu?
+    - kolik lidi se vejde do tridy?
+    - Jakou kapacitu mají třídy?
+    - Kolik míst je v třídě?
+    - Kolik žáků je v třídě?
+    - Jaká je kapacita třídy?
+    - Jaký je počet žáků v třídě?
+    - Kolik míst je ve třídě?
+    - Kolik lidí je ve třídě?
+    - Kolik lidí může být ve třídě?
+    - Jaké jsou kapacity tříd?
+    - Jaká je velikost třídy?
+    - Kolik je žáků ve třídě?
+    - Kolik studentů je v třídě?
+    - Jaký je počet lidí ve třídě?
+    - Jaký je počet žáků ve třídě?
+    - Kolik je lidí ve školce?
+    - Jaký je počet studentů ve třídě?
+    - Kolik je ve třídě studentů?
+    - Kolik je žáků v této škole?
+    - Kolik je lidí ve třídě?
+    - Jaký je počet osob ve třídě?
+    - Kolik je většinou žáků ve třídě?
+    - Jak početné jsou třídy ?
+    - Jak početné jsou třídy v této škole?
+
+- intent: faq/ucitele_info
+  examples: |
+    - Jsou tu kvalitní učitelé?
+    - Má škola jen kvalitní učitele?
+    - Dokážou mě něco naučit učitelé?
+    - Jsou zde velmi kvalitní a specializovaní učitelé?
+    - Jsou na SPŠE kvalitní učitelé?
+    - Je na škole kvalita učitelů dostatečná?
+    - Existují na škole dobří učitelé?
+    - Jakou kvalitu mají učitelé na škole?
+    - Je na škole kvalita učitelů dostatečně dobrá?
+    - Jsou na škole kvalitní učitelé?
+    - Má škola kvalitní učitele?
+    - Jakou míru odbornosti mají učitelé na škole?
+    - Je na škole dostatečná úroveň odbornosti učitelů?
+    - Mají učitelé na škole dostatečnou odbornou úroveň?
+    - Jsou na škole kvalitní a specializovaní učitelé?
+    - Má škola kvalitní a specializované učitele?
+    - kvalitní učitele na vaší škole nechybí?
+    - Máte na škole kvalitní učitele, které žáky dobře připraví?
+    - Jsou žáci spokojeni s učitely? 
+    - Jací jsou učitelé?
+    - Jaký jsou učitelé na škole?
+    - Co je na škole za učitele?
+    - Jaký jsou učitelé, kteří vyučují na této škole?
+    - Jakou mají učitelé pověst?
+    - Mají učitelé dobré vztahy se žáky?
+    - Jak se učitelé chovají ke žákům?
+    - Mají učitelé vůči žákům nějakou autoritu?
+    - Učitelé se starají o žáky?
+    - Jaké máte pocity ohledně učitelů?
+    - Mají učitelé ke žákům cit?
+    - Jakou mají učitelé zkušenost s učením?
+    - Učitelé pochopí situaci žáků?
+    - Učitelé jsou přísní?
+    - Učitelé jsou k žákům ohleduplní?
+    - Učitelé chápou žáky?
+    - Jací jsou pedagogové, kteří zde vyučují?
+    - Co učitelé, jsou v poho?
+    - jaký jsou učitelé?
+    - Jací jsou tam učitelé?
+    - Jsou tam drsní učitelé ?
+    - Dá se s učiteli mluvit jako s lidmi ?
+    - Je personál školy vstřícný?
+    - Jak se učitelé chovají k žákům?
+    - Jsou učitelé na této škole vstřícní?
+    - Jaký je přístup učitelů ke studentům?
+    - Jsou učitelé trpěliví vůči žákům?
+    - Je personál školy ochotný vůči studentům?
+    - Jsou učitelé přívětiví ke studentům?
+    - Jsou učitelé na této škole otevření k žákům?
+    - Jaký mají učitelé postoj k žákům?
+    - Mají na této škole učitelé pozitivní vztah ke studentům?
+    - Jsou na této škole učitelé přátelští k žákům?
+    - Mají učitelé na této škole ohleduplný přístup k žákům?
+    - Mají učitelé na této škole laskavý přístup ke studentům?
+    - Jaký je přístup učitelů k žákum?
+    - Má učitelský sbor dobrý přístup ke studentům?
+    - Jsou na této škole vstřícní a příjemní učitelé?
+    - Jací jsou tu učitelé?
+
+- intent: faq/ucitele_kompetence
+  examples: |
+    - Jsou učitele odborných předmětů dostatečně kompetentní?
+    - Jsou učitelé dostatečně kvalifikovaní?
+    - Jsou učitelé na této škole kvalifikovaní pro svoji práci?
+    - Jakou mají učitele kvalifikaci?
+    - Jsou kvalifikovaní učitelé na škole?
+    - Jsou učitelé na této škole pro svou práci aprobovaní?
+    - mají učitelé dostatečně vysokou kvalifikaci, aby mohli svůj předmět vyučovat?
+    - Jsou učitelé na této škole dostatečně kvalifikovaní?
+    - Jsou u vás jen dostatečně kompetentní učitelé?
+    - Nemůže se stát, že by na této škole byli nedostatečně kompetentní učitelé?
+    - Mají učitelé odborných předmětů dostatečnou kvalifikaci?
+    - Jsou učitelé odborných předmětů odborně zdatní?
+    - Mají učitelé odborných předmětů odpovídající znalosti?
+    - Jsou učitelé odborných předmětů dostatečně kvalifikovaní?
+    - Jakou mají učitelé cizích jazyků kvalifikaci?
+    - Jakou mají učitelé cizích jazyků znalost úrovní?
+    - Mají učitelé cizích jazyků patřičné dovednosti? 
+    - Mají učitelé cizích jazyků odpovídající certifikace? 
+    - Mají učitelé cizích jazyků adekvátní vzdělání? 
+    - Jakou úroveň schopností mají učitelé cizích jazyků?
+    - Jakou mají učitelé cizích jazyků odbornou znalost? 
+    - Mají učitelé odborných předmětů potřebnou způsobilost?
+    - Mají učitelé odborných předmětů odpovídající kvalifikaci?
+    - Mají učitelé odborných předmětů dostatek schopností?
+    - Mají učitelé odborných předmětů dostatečnou úroveň znalostí?
+    - Mají učitelé odborných předmětů adekvátní kvalifikaci?
+    - Mají učitelé odborných předmětů potřebnou zkušenost?
+    - Mají učitelé odborných předmětů dostatek znalostí?
+    - Jaká je úroveň kompetencí učitelů cizích jazyků? 
+    - Mají učitelé cizích jazyků dostatečnou kvalifikaci?
+    - Jsou učitelé dostatečně kompetentní?
+    - Jaký je minimální požadavek pro kvalifikaci učitelů na této škole?
+    - Jsou učitelé na této škole dostatečně vzdělaní k tomu, aby mohli vyučovat svůj předmět?
+    - Má každý učitel na této škole odpovídající kvalifikaci?
+    - Je na této škole zajištěno, aby všichni učitelé měli odpovídající kvalifikaci?
+    - Mají učitelé na této škole patřičnou kvalifikaci?
+    - Je vyžadováno, aby učitelé na této škole měli patřičnou kvalifikaci?
+    - Může kvalifikace učitelů na této škole neodpovídat potřebným požadavkům?
+    - Je vyžadována dostatečná kvalifikace od učitelů na této škole?
+    - Jsou učitelé na této škole řádně aprobováni?
+    - Mají učitelé na této škole odpovídající dovednosti a schopnosti?
+    - Je vyžadována dostatečná kvalifikace pro všechny učitele na této škole?
+    - Jsou učitele kompetentní ? 
+    - Není zde možnost, že by někteří učitelé byli nedostatečně kvalifikováni?
+    - učí odborné předměty specialisté?
+    - Jsou učitelé specialisty ve svých oborech?
+    - Jsou učitelé specializovaní na svojí práci?
+    - Učí na škole specializovaní učitelé?
+    - Učí odborné předměty specialisté v oboru?
+    - učí cizí jazyky specialiste? 
+    - jsou učitelé dostatečně specializovaní pro obor, který učí?
+    - učí cizí jazyky rodilí mluvčí?
+
+- intent: faq/ucitele_komunikace
+  examples: |
+    - přes co muzu napsat uciteli?
+    - jak mohou rodiče komunikovat s učiteli?
+    - Jak komunikuji ucitele s zaky?
+    - Jak lze navázat komunikaci s učitelem?
+    - Jaké jsou možnosti komunikace s učitelem?
+    - Jak mohou rodiče komunikovat se školou?
+    - Jakou formou mohou rodiče kontaktovat učitele?
+    - Jaké máme možnosti komunikace s učitelem?
+    - Jaká je nejběžnější forma digitalizované komunikace s učitelem?
+    - Jak lze získat informace od učitele?
+    - Jak často mohu kontaktovat učitele?
+    - Jaké jsou zvyklosti týkající se komunikace s učiteli?
+    - Jak často učitelé komunikují s rodiči?
+    - Jak často učitelé iniciují komunikaci s rodiči?
+    - Jaké možnosti konzultací s učiteli mám?
+    - Je možné s učiteli konzultovat?
+    - Je možnost komunikovat s pedagogy?
+    - Existují nějaké možnosti konzultací s učiteli?
+    - Je konzultace s učiteli dostupná?
+    - Lze se přímo spojit s učiteli?
+    - Je možné požádat o konzultaci s pedagogy?
+    - Existuje nějaká možnost pro konzultace s učiteli?
+    - Existují nějaké možnosti pro konzultace s učiteli?
+    - Jak se mohu dozvědět o možnostech konzultací s učiteli?
+    - Jak si mohu domluvit konzultaci s pedagogy?
+    - Jak mohou rodiče kontaktovat učitele?
+    - Jsou zde konzultační hodiny s učiteli?
+    - Je možné hovořit přímo s učiteli, kteří budou mé dítě učit?
+    - Je mozna konzultace s rodiči?
+    - Můžu se domluvit na komunikaci s učiteli?
+    - je mozna konzultace?
+    - mohu komunikovat s uciteli bezproblému?
+    - Jak funguje komunikace mezi žáky a učiteli ?
+    - Jaká je dálková komunikace s učiteli? 
+    - jak často můžu komunikovat s učiteli, je-li to třeba?
+    - jak častá je komunikace se školou?
+    - Funguje na škole častá komunikace s rodiči žáka?
+    - Jak často se mnou budou komunikovat učitelé mého syna?
+    - Jak často škola komunikuje s rodiči studentů?
+    - Jak často škola komunikuje s rodiči žáků?
+    - Je komunikace s rodiči studentů častá?
+    - je komunikace s učiteli častá?
+    - jak často se mohu bavit s uciteli o výsledcích studenta?
+    - jak často probíhá komunikace s učiteli?
+    - jak často komunikuji ucitele s zaky?
+    - Jak častá je komunikace učitelů s rodiči žáků?
+    - Jak mohou rodiče s učitelem komunikovat?
+    - Jak mohou učitelé komunikovat se studenty?
+    - Jakými způsoby můžou učitelé a rodiče komunikovat?
+    - Jaké jsou nejčastější způsoby komunikace učitelů s rodiči?
+    - Jaké jsou nejžádanější komunikační kanály pro učitele a rodiče?
+    - Jaké jsou nejčastější formy komunikace mezi učitelem a rodiči?
+    - Jaká jsou očekávání učitelů a rodičů ohledně komunikace?
+    - Jakým způsobem mohou učitelé přinášet informace rodičům?
+    - Jaká technologie se používá k tomu, aby učitelé a rodiče mohli komunikovat?
+    - Jak učitelé a rodiče mohou komunikovat?
+    - Jak učitelé mohou poskytovat informace rodičům?
+    - Mohu být v kontaktu s učiteli mého dítěte?
+    - Jakou formou probíhá komunikace s rodiči?
+    - Jak můžu komunikovat s učiteli ?
+    - Přes co můžu komunikovat s učiteli?
+    - jak probíhá komunikace s uciteli?
+    - Jak mohu zůstat v kontaktu s učiteli mého dítěte?
+
+- intent: faq/ucitele_nadani_zaci
+  examples: |
+    - Jaká je úroveň podpory pro nadané žáky ve škole?
+    - Jaké zkušenosti mají učitelé s prací s nadanými žáky?
+    - Je výuka nadaným žákům zaměřena na jejich potenciál?
+    - Jakou roli hraje škola při rozvoji potenciálu nadaných žáků?
+    - Je ve škole dostupná odborná podpora pro nadané žáky?
+    - Je ve škole program pro rozvoj schopností nadaných žáků?
+    - Jaké jsou možnosti rozvoje nadaných žáků ve škole?
+    - Nachází se ve škole dostatečné množství možností pro rozvoj nadaných žáků?
+    - Jak ve škole motivují učitelé nadané žáky?
+    - Jakým způsobem škola zabezpečuje potřeby nadaných žáků?
+    - Můžou nadaní žáci využít ve škole individuální výuku?
+    - Poskytuje škola nadaným žákům odbornou pomoc?
+    - Jak ve škole podporují učitelé nadané žáky?
+    - Jaká je úroveň podpory pro nadané žáky v rámci školy?
+    - podporuje škola seberozvoj?
+    - Podporuje škola dostatečně nadané žáky?
+    - Jak jsou podporováni nadaní žáci na škole?
+    - podporuje škola nadané žáky?
+    - Je zde dobré prostředí pro seberozvoj?
+    - pomáhají učitelé rozvíjet potenciál nadaných žáků?
+    - mají učitele zkušenost s nadanými žáky?
+    - Mají učitelé zkušenosti s mimořádně nadanými žáky?
+
+- intent: faq/ucitele_skolni_rad
+  examples: |
+    - jednají učitele v souladu se školním řádem?
+    - respektují učitele na škole školní řád?
+    - fungují učitelé podle školního řádu?
+    - dodržují učitele školní řád a jednají podle něj?
+    - Jednají učitele podle školního řádu?
+    - Respektují učitelé pravidla školního řádu?
+    - Je dodržování školního řádu obecnou praxí mezi učiteli?
+    - Učitelé jsou s školním řádem seznámeni?
+    - Mají učitelé vůči školnímu řádu respekt?
+    - Dodržují učitelé školní řád?
+    - Učitelé respektují pravidla školního řádu?
+    - Postupují učitelé v souladu se školním řádem?
+    - Učitelé respektují a uznávají školní řád?
+    - Je pro učitele důležité dodržovat školní řád?
+    - Respektují učitele školní řád?
+    - Není školní řád porušován učiteli?
+    - Není možnost, že by učitelé nejednali podle školního řádu?
+    - porušují učitele školní řád?
+
+- intent: faq/umisteni_bufet
+  examples: |
+    - jak vypadá bufet?
+    - kde najdu skolní bufet?
+    - Kde se nachází bufet?
+    - Jak se dostanu k bufetu?
+    - Kde mohu najít bufet?
+    - Kde najdu školní bufet?
+    - Jak najdu bufet?
+
+- intent: faq/umisteni_jidelna
+  examples: |
+    - Kde naleznu školní jídelnu?
+    - kde naleznu jídelnu?
+    - Kde je školní kantýna?
+    - Kde je školní canteena?
+    - Kde muzu najit jidelnu?
+    - Kde můžu najít školní jídelnu?
+    - Jaké je umístění školní jídelny?
+    - Kde najdu školní jídelnu?
+    - Kam směřovat, abych našel školní jídelnu?
+    - Kde je školní jídelna?
+    - Jak najít školní jídelnu?
+    - Kde se nalézá školní jídelna?
+    - Kde je školní jídelna umístěna?
+    - Kde je lokalizována školní jídelna?
+    - Kde je umístěna školní jídelna?
+    - Kde je umístění školní jídelny?
+    - Kde je jídelna školy?
+
+- intent: faq/umisteni_sekretariat
+  examples: |
+    - kde je sekretářka?
+    - Sekretariát školy je kde?
+    - Kde se nachází sekretariát?
+    - Kde je sekretariát?
+    - Kde mohu najít sekretariát?
+    - Kde lze nalézt sekretariát?
+    - Kde se dá nalézt sekretariát?
+    - Kde můžu najít sekretariát?
+    - Kde hledat sekretariát?
+    - Kde je sekretariátní místnost?
+    - Kde najdu sekretářku?
+    - Kde je sekretariát umístěn?
+    - Kde je sekretariát situován?
+    - Kde lze najít sekretariát?
+    - Kde se dá najít sekretářka?
+    - Kde hledat sekretářku?
+    - Kde se dá nalézt sekretářka?
+    - kde je sekretariat skoly?
+    - kde naleznu sekretářku?
+    - kde naleznu sekretariát školy?
+    - kde najdu sekretarku?
+
+- intent: faq/umisteni_VR
+  examples: |
+    - kde najdu VR učebnu?
+    - kde muzu najit VR mistnost?
+    - Je na škole virtuální realita?
+    - Kde mohu najít učebnu virtuální reality?
+    - Kde můžu získat přístup do učebny virtuální reality?
+    - Existuje nějaká VR učebna?
+    - Kde se nachází VR učebna?
+    - Kde lze nalézt VR učebnu?
+    - Kde se nachází učebna virtuální reality?
+    - Kde se nachází učebna pro virtuální realitu?
+    - Kde je VR učebna?
+    - Kde je možné nalézt VR učebnu?
+    - Kde lze najít učebnu pro virtuální realitu?
+    - Kde mohu najít učebnu pro virtuální realitu?
+    - Je nějaká VR učebna?
+    - Kde je dostupná učebna pro virtuální realitu?
+    - Kde jsou dostupné učebny pro virtuální realitu?
+    - Budeme se učit o virtuální realitě?
+    - Máte na škole učebnu virtuální reality?
+    - kde je vr učevna ?
+    - kde naleznu VR učebnu?
+    - kde je učebna virtuální reality?
+
+- intent: faq/umisteni_vratnice
+  examples: |
+    - Kudy k hlavnímu vchodu?
+    - kde najdu vratnici?
+    - kde je vrátnice?
+    - Na mohu najít vrátnici školy?
+    - Kde je vstup do budovy?
+    - Kde se nachází vstup?
+    - Jak se dostanu k hlavnímu vstupu?
+    - Kde najdu vrátnici?
+    - Kde se nachází hlavní vrátnice?
+    - Kde je vrátnice umístěná?
+    - Jak se dostanu k vrátnici?
+    - Kde se nachází hlavní vchod?
+    - Jak najdu vstup do budovy?
+    - Jak se dostanu k vstupu?
+    - Kde je umístěn vstup?
+    - Jak se dostanu k vstupu do budovy?
+    - kde najdu vstup do skoly?
+
+- intent: faq/uplatneni
+  examples: |
+    - Jaké mám uplatnění po škole?
+    - co muzu delat po studiu na tehle skole?
+    - Jaké mám možnosti po dokončení studia?
+    - Jaké jsou možnosti uplatnění po absolvování této školy?
+    - Co mohu dělat po dokončení studia?
+    - Jaké mohu mít uplatnění po škole?
+    - Jaké mám šance na nalezení práce po studiu?
+    - Jaké jsou možnosti uplatnění po škole?
+    - Jak se mohu uplatnit po dokončení studia?
+    - Kde mohu najít práci po absolvování této školy?
+    - Jaké jsou vyhlídky na uplatnění po studiu?
+    - Co jsou možnosti po dokončení školy?
+    - Jaké jsou možnosti zaměstnání po dokončení školy?
+    - Kde mohu najít zaměstnání po škole?
+    - Jaké jsou šance na nalezení práce po škole?
+    - Jaké mohou být možnosti uplatnění po dokončení školy?
+    - Jaké jsou šance na nalezení práce po studiu na této škole?
+    - Jak se mohu uplatnit po absolvování studia?
+    - Kam mohu pokračovat po skončení školy?
+    - Co jsou možnosti zaměstnání po dokončení studia?
+    - Jak jsou na tom absolventi s hledáním práce?
+    - Jaké mají studenti, kteří vystupují vaši školu uplatnění na trhu práce?
+    - Jak se po škole mohu uplatnit?
+    - Jaké budu mít po škole uplatnění?
+    - Jaké mám šanci na nalezení práce po dokončení této školy?
+
+- intent: faq/vybaveni_skoly
+  examples: |
+    - ma škola moderni vybaveni?
+    - jsou ucebny moderne vybaveny?
+    - Vybavení učeben je dostatečné pro vaše studenty?
+    - Má škola dostatečně dobré vybavení pro studenty? 
+    - Má škola nové vybavení?
+    - Je ve škole dostatek vybavení?
+    - Jaké jsou součásti vybavení ve škole?
+    - Můžou studenti využívat moderní technologie ve škole?
+    - Má škola vybavení pro studenty?
+    - Jaké jsou vybavení potřebné pro studenty?
+    - Mají studenti ve škole přístup k modernímu vybavení?
+    - Jaké vybavení je k dispozici pro studenty ve škole?
+    - Mají studenti ve škole dostatek vybavení?
+    - Jsou ve škole dostatečné učební pomůcky?
+    - Jaké technologie má škola k dispozici?
+    - Má škola dobré vybavení pro studenty?
+    - Disponuje škola kvalitními učebními pomůckami?
+    - Je na této škole moderní vybavení?
+    - Má škola moderní vybavení?
+    - Jaké je vybavení školy?
+
+- intent: faq/vybaveni_skoly_PC
+  examples: |
+    - Je na škole počítače, které zvládnou všechny programy potřebné k výuce?
+    - jsou na škole kvalitní počítače?
+    - má škola kvalitní PC?
+    - Máte tam dobrý pc?
+    - máte na škole kvalitní a rychlé počítače?
+    - Mají počítače nedostatečnou kapacitu úložiště?
+    - Jsou počítače vybaveny nejnovějším hardwarem?
+    - Mají počítače vhodné operační systémy?
+    - Je na počítačích dostatečná kapacita RAM?
+    - Je počítačům zajištěna dostatečná ochrana?
+    - Jsou všechny počítače vybavené potřebným softwarem?
+    - Mají počítače veškeré potřebné aktualizace?
+    - Je vybavení počítačů dostatečné?
+    - Mají počítače dostatečný výkon?
+    - Mají počítače kvalitní klávesnice?
+    - Mají počítače dostatečnou grafickou kartu?
+    - Jsou počítače vybaveny vhodnými zvukovými zařízeními?
+    - Je kvalita počítačů dostatečná?
+    - Jsou tu dostatečně výkonné ppčítače?
+    - jsou tam dobré počítače?
+
+- intent: faq/vyuka_pajeni
+  examples: |
+    - Jak je to s pájením, naučí mě to škola?
+    - naučím se ve škole dobře pájet?
+    - Je pájení součástí výuky ve škole?
+    - Můžu se naučit pájet ve škole?
+    - Jakým způsobem se vyučuje pájení ve škole?
+    - Je možné se ve škole naučit pájet?
+    - Jaká je úroveň výuky pájení ve škole?
+    - Vyučuje se ve škole pájení?
+    - Je výuka pájení ve škole zaměřena na praxi?
+    - Je výuka pájení ve škole zaměřena na teorii?
+    - Je výuka pájení ve škole pro všechny?
+    - naučí mě škola pájet?
+    - naucim se s pajkou?
+    - naučí mě škola kvalitně pájet?
+    - Naučím se ve škole pájet?
+    - Budu se učit s pájkou?
+    - Budeme se učit pájet?
+
+- intent: faq/vyuka_multimedia
+  examples: |
+    - učí se u vás na škole stříhání videí?
+    - naučím se ve škole stříhat videa?
+    - Budu se učit multimédia na škole?
+    - Budu se učit dělat se zvukem?
+    - Budeme se učit pracovat s grafikou?
+    - Jaké programy se budou používat ve škole?
+    - Do jakých programů se naučíme?
+    - Budou nás učit pracovat s animacemi?
+    - Co nás naučí o úpravě obrázků?
+    - Jaký program se využívá k úpravě videa?
+    - Bude nám vysvětleno, jak stříhat videa?
+    - Budeme se učit vytvářet 3D modely?
+    - Jaký software se používá k tvorbě obrázků?
+    - Budou nás učit, jak vytvářet animace?
+    - Budeme se učit na škole i multimedia?
+    - Učí se na škole stříhat a editovat videa?
+    - Naučím se ve škole dělat hudbu?
+    - Budeme se učit stříhat fotky a videa?
+
+- intent: faq/vyukove_materialy
+  examples: |
+    - je nutné využívat moodle, MSteams nebo filr?
+    - musím pouzivat moodle?
+    - Je možné používat Moodle k výuce?
+    - Můžu využívat MSteams pro výuku?
+    - Je FILR důležité používat?
+    - Jak mohu používat Moodle pro výuku?
+    - Je možné využít MSteams pro výuku?
+    - Je možné používat FILR pro vzdělávání?
+    - Je možné použít Moodle k vzdělávání?
+    - Je možné využívat MSteams pro vzdělávání?
+    - Jak mohu používat FILR pro výuku?
+    - Je možné využívat Moodle pro vzdělávání?
+    - Můžu používat MSteams k výuce?
+    - Je možné využít FILR pro výuku?
+    - Jak mohu používat Moodle pro vzdělávání?
+    - Co je moodle zač?
+    - co je to filr?
+    - je důležitý používat filr?
+    - musím používat moodle ke studiu?
+    - Je důležité používat FILR, Moodle nebo Teamsy?
+
+- intent: faq/vzdelavaci_metody
+  examples: |
+    - máte na škole moderní vzdělávací metody?
+    - fungují na škole moderní vzdělávací metody?
+    - jaké jsou vaše vzdělávací metody?
+    - Máte moderní metody vzdělávání?
+    - Jaké moderní vzdělávací metody používá škola?
+    - Jsou vzdělávací metody školy moderní?
+    - Jaké jsou nejúčinnější vzdělávací metody na škole?
+    - Jak škola zavádí moderní vzdělávací metody?
+    - Jsou vzdělávací metody školy dost moderní?
+    - Jaký je úspěch školy při modernizaci vzdělávacích metod?
+    - Jak škola zlepšuje vzdělávací metody?
+    - Co je cílem školy při vzdělávání?
+    - Jaká je účinnost moderních vzdělávacích metod na škole?
+    - Snažíte se držet krok s moderními metody vzdělávání?
+    - Jak vaše škola přistupuje k moderním vzdělávacím metodám?
+    - jaké má škola metody vzdělávání?
+    - máte pokrokové vzdělávací metody?
+    - Nemá škola zastaralé metody vzdělávání?
+    - má škola moderní vzělávací metody?
+
+- intent: faq/zabezpeceni
+  examples: |
+    - Je škola zabezpečená?
+    - Je škola bezpečná?
+    - Škola je zajištěná?
+    - Je škola chráněná?
+    - Je škola v bezpečí?
+    - Je škola zabezpečena proti nebezpečí?
+    - Je škola vybavena bezpečnostními opatřeními?
+    - Je škola zabezpečena proti útokům?
+    - Existují na škole bezpečnostní opatření?
+    - Jakým způsobem je škola zabezpečena?
+    - Je škola chráněna proti nebezpečí?
+    - Je škola vybavena bezpečnostními systémy?
+    - Je škola chráněná před vniknutím?
+    - Má škola nějakou ochranu proti nebezpečí?
+    - Je škola vybavena bezpečnostními prvky?
+    - Je škola v bezpečí před nebezpečím?
+    - Je škola zabezpečena proti vniknutí?
+    - Je škola zabezpečena proti teroristickým útokům?
+    - Je škola chráněna proti útokům?
+    - Je škola v bezpečí před útoky?
+    - Je škola vybavena bezpečnostními mechanismy?
+    - Je škola nějak zabezpečena?
+    - Je škola zajištěna proti útokům?
+    - Je škola chráněná před nebezpečím?
+    - Má škola nějaká zabezpečení proti útokům?
+    - je na škole nějaké zabezpečení proti teroristickým útokům?
+    - Je škola nějak zabezpečená?
+    - Jakým způsobem je škola zabezpečená?
+
+- intent: faq/zaci_celkovy_pocet
+  examples: |
+    - Jak moc velký zájem je o studium? 
+    - kolik zaku studuje na skole?
+    - jak velký zájem je o studium?
+    - Jaká je kapacita žáků školy?
+    - Kolik na škole studuje žáků?
+    - Jakej je celkovej počet žáků na škole?
+    - Kolik lidí je ve škole?
+    - Kolik je studentů na škole?
+    - Kolik je žáků ve škole?
+    - Kolik je žáků na škole?
+    - Jaký je celkový počet žáků na škole?
+    - Jaký je počet žáků ve škole?
+    - Jaký je celkový počet studentů ve škole?
+    - Kolik je celkový počet studentů na škole?
+    - Jaký je počet žáků na škole?
+    - Kolik je celkový počet žáků na škole?
+
+- intent: faq/zaci_hezci_kluci
+  examples: |
+    - jsou tam pekny kluci?
+    - Existují na vaší škole atraktivní chlapci?
+    - Jsou tam hezcí chlapci?
+    - Jsou na škole kluci, kteří mají dobrý vzhled?
+    - Jsou na škole pohlední chlapci?
+    - Jsou na škole kluci, kteří vypadají dobře?
+    - Existují na vaší škole přitažliví chlapci?
+    - jsou na vaší škole hezcí kluci?
+    - jsou na vaší škole přitažliví chlapci?
+    - máte tam hezký kluky?
+    - jsou na škole hezký kluci?
+    - jsou tam dobrý kluci?
+
+- intent: faq/zaci_hezke_holky
+  examples: |
+    - jsou na škole hezký holky?
+    - Jsou na vaší škole hezké dívky?
+    - Je na vaší škole dostatek atraktivních holek?
+    - Existují na vaší škole atraktivní holky?
+    - Je na vaší škole spousta krásných holek?
+    - Je na vaší škole mnoho hezkých holek?
+    - Je na vaší škole dostatek hezkých dívek?
+    - Je na vaší škole dostatek dívek, které se vám líbí?
+    - jsou na vaší škole nějaké dívky, které bych si mohl vyhlédnout?
+    - Je vaše škola plná hezkých holek, nebo se spíše setkáváte s těmi méně atraktivními?
+    - mate na skole dobry buchty?
+    - mate hezky hezky?
+    -  Jsou tam dobry holky?
+
+- intent: faq/zasednuti
+  examples: |
+    - Jak mám reagovat, když si na mě zasedne učitel?
+    - Co bych měl udělat, když si na mě zasedne učitel?
+    - Jaká by měla být moje reakce, když si na mě zasedne učitel?
+    - Co bych měla dělat v případě, že si na mě zasedne učitel?
+    - Co je třeba udělat, pokud si na mě zasedne učitel?
+    - Co je nejlepší dělat, když si na mě zasedne učitel?
+    - Co bych měla říct, když si na mě zasedne učitel?
+    - Co bych měla udělat, abych zareagovala na situaci, kdy si na mě zasedne učitel?
+    - Co bych měla dělat, abych zvládla situaci, kdy si na mě zasedne učitel?
+    - Mám se bát, když si na mě zasedne učitel?
+    - Můžu si s tím nějak poradit, když si na mě zasedne učitel?
+    - Co bych měl udělat, abych se zbavil učitele, který si na mě zasedne?
+    - zasedl si na me ucitel, co ted?
+    - Učitel mě šikanuje, co mám dělat?
+    - Co mám dělat když je učitel zasedlý na mém dítěti?
+
+- intent: faq/zkratka_iot
+  examples: |
+    - Jaký je význam IOT?
+    - Co je iot zač?
+    - Jaké jsou základní pojmy v oblasti IOT?
+    - Jaká je budoucnost IOT?
+    - K čemu se používá IOT?
+    - Kde se používá IOT?
+    - Jaké jsou základní principy IOT?
+    - Kde se používají IOT technologie?
+    - K čemu je iot?
+    - K čemi mi bude iot?
+    - co to je internet věcí?
+    - jak muzu rozumet zkratce iot?
+    - Co znamená zkratka IOT?
+
+- intent: faq/ztrata_cip
+  examples: |
+    - ztratil jsem plzenskou kartu, co muzu delat?
+    - Nemam cip, co muzu delat?
+    - jak řešit ztrátu čipu?
+    - Jak vyřešit to, že jsem ztratil kartu a nemůžu si pípat?
+    - Co mám dělat, když jsem ztratil svůj čip?
+    - Jak mohu získat novou kartu bez čipu?
+    - Jak mohu nahradit ztracený čip?
+    - Co mám dělat, když ztratím čip? 
+    - Co mám dělat, pokud jsem ztratil svoji plzenskou kartu?
+    - Co mám udělat, pokud jsem ztratil čip?
+    - Je možné získat náhradu za ztracenou plzenskou kartu?
+    - Jak mohu nahradit ztracenou plzenskou kartu?
+    - Kde mohu získat náhradu za ztracenou plzenskou kartu?
+    - Co když jsem ztratil plzenskou kartu a nedostanu se do školy?
+    - ztratil jsem plzenku, jak se ted dostanu do skoly?
+    - Jak mohu zažádat o novou kartu pro přístup?
+    - Ztratil jsem čip, co mám dělat?
+
+- intent: faq/ztrata_omluvny_list
+  examples: |
+    - jak řešit ztrátu omluvného listu?
+    - Jak získat náhradní omluvný list?
+    - Co dělat když ztratím omluvný list?
+    - Jak mohu postupovat po ztrátě omluvného listu?
+    - Kde mohu získat nový omluvný list po jeho ztrátě?
+    - Mohu sehnat nový omluvný list po ztrátě?
+    - Kde získám nový omluvný list?
+    - Co mám dělat, pokud jsem ztratil omluvný list?
+    - Kde mohu získat nový omluvný list po ztrátě?
+    - Kde mohu získat náhradní omluvný list?
+    - Kde mohu sehnat náhradní omluvný list?
+    - Mohu dostat náhradní omluvný list?
+    - Je možné získat náhradu za ztracený omluvný list?
+    - Jak získat náhradní omluvný list poté, co jsem ho ztratil?
+    - Jak postupovat při ztráte omluvného listu?
+    - Jak postupovat při dopsání omluvného listu?
+    - kdo mi může vydat nový omluvný list?
+    - jak mam postupovat když ztratim omluvnak?
+    - kde mi dají nový omluvňák když jsem ho dopsal?
+    - Jak můžu získat omluvný list?
+
+- intent: faq/jidelna_co_je_k_obedu
+  examples: |
+    - Co je k obědu?
+    - Co bude dneska k obědu?
+    - Jaký je dnes oběd?
+    - Co je dneska k chálce?
+    - Jaké jídlo bude dnes k obědu?
+    - Jaký je dnešní oběd?
+    - Co bude dnes na oběd?
+    - Na co se můžu těšit dnes k obědu?
+    - Co je k obědu dnes na jídelníčku?
+    - Co máme dnes k jídlu?
+    - Jaké jídlo je dnes k obědu?
+    - Jaká jídla můžu dnes očekávat?
+    - Na co se můžu těšit k obědu?
+    - Co je dnes k obědu?
+    - jaký je dnes obed?
+    - co je za jidlo k obědu?
+
+- intent: faq/sancomat
+  examples: |
+    - Kolik musím mít bodů abych se dostal?(kalkulačka)
+    - kolik bodu musím mít abych se dostal na vaší školu?
+    - Je nějaký minimální počet bodů, díky kterému byste mě vzali?
+    - Jaké je minimum bodů k přijetí?
+    - Kolik bodů je potřeba pro přijetí? 
+    - Jaká je minimální potřebná úroveň bodů?
+    - Je pro přijetí potřeba určitý počet bodů?
+    - Jaké je minimální množství bodů pro přijetí?
+    - Kolik bodů je nutných pro přijetí?
+    - Jaké jsou minimální požadavky na přijetí?
+    - Kolik bodů je potřeba pro přijetí na školu?
+    - Je nějaká minimální úroveň bodů pro přijetí?
+    - Jaké je nejnižší požadované skóre pro přijetí?
+    - Kolik bodů je třeba pro přijetí?
+    - Kolik bodů je potřeba k přijetí na školu?
+    - Jaký je minimální počet bodů pro přijetí?
+    - Je potřeba nějaký minimální počet bodů, abych se dostal k vám na školu?
+    - kolik bodu potřebuju abych se dostal na školu?
+    - kolik je potřeba bodů abych se dostal?
+    - jakou mám šanci na přijetí?
+
+- intent: faq/kamarad_trida
+  examples: |
+    - Je možné být se svým kamarádem ve třídě?
+    - Když nebudu se svým kamarádem ve třídě, může se to někde domluvit?
+    - Jaká je šance že budu ve třídě se svým kamarádem?
+    - Mohu být ve třídě s kamarádem ze základky?
+    - Je možné jít do stejné třídy jako můj kamarád?
+
+- intent: faq/zaci_pocet_trid
+  examples: |
+    - kolik je na naší škole tříd?
+    - jaký je počet tříd na škole?
+    - Kolik je tříd na škole?
+    - Kolik tříd je na SPŠE?
+    - Kolik má vaše škola tříd?
+    - Kolik je zde tříd?
+
+- intent: faq/ucitele_kolik
+  examples: |
+    - Kolik se zde nachází vyučujících?
+    - Kolik má škola pedagogů?
+    - Jaké je číslo počtu učitelů na škole?
+    - Kolik je zde pedagogů?
+    - Kolik má škola učitelů?
+
+- intent: faq/ucitele_zmena
+  examples: |
+    - Mohu podat petici na změnu matikáře?
+    - Mohu zažádat o jiného učitele?
+    - Můžu požádat o změnu vyučujícího?
+    - Jak můžu změnit vyučujícího?
+    - Je možná změna vyučujího?
+    - může třída podat žádost na jiného učitele?
+    - Je možné zažádat o změnu třídního učitele?
+
+- intent: faq/kdy_den_otevrenych_dveri
+  examples: |
+    - Kdy se koná den otevřených dveří?
+    - Kdy bude den otevřených dveří?
+    - kdy budou dny otevrenych dneri?
+    - Kdy se mohu přijít do školy podívat?
+    - Kdy je možno se zúčastnit dne otevřených dveří?
+    - Kdy jsou otevřeny dveře školy?
+    - Kdy bude škola otevřená pro veřejnost?
+    - Kdy lze navštívit školu?
+    - Kdy je možné zúčastnit se dne otevřených dveří?
+    - Kdy je příležitost vidět školu?
+    - Kdy je možno se podívat do školy?
+    - Jsou nějaké dny kdy mohu navštívit školu?
+    - Je nějaký den otevřených dveří u vás na škole?
+    - Kdy jsou u vás na škole dny otevřených dveří?
+    - Kdy mohu navštívit den otevřených dveří?
+    - kdy je den otevřených dveří?
+
+- intent: faq/prijmacky_kdy
+  examples: |
+    - Kdy jsou přijímačky?
+    - prijimaci zkousky jsou kdy?
+    - Kdy se konají přijímací zkoušky?
+    - Kdy bude probíhat přijímací řízení?
+    - Kolikátého jsou příjmací zkoušky?
+    - Kdy bude zahájena přijímací řízení?
+    - Kdy budou probíhat přijímací zkoušky?
+    - Kdy budou oznámeny přijímací zkoušky?
+    - Kdy bude vyhlášeno přijímací řízení?
+    - Kdy bude oznámen termín přijímacích zkoušek?
+    - Kdy se uskuteční přijímací proces?
+    - Kdy bude zahájen přijímací proces?
+    - Kdy bude zahájení přijímací řízení?
+    - Kdy bude zveřejněn termín přijímacích zkoušek?
+    - Kdy bude vyhlášena přijímací zkouška?
+    - Kdy bude oznámeno datum přijímacích zkoušek?
+    - Jaké jsou kritéria přijetí?
+    - Které dovednosti jsou potřeba pro přijetí na školu?
+    - Které dokumenty jsou potřeba pro přijetí na školu?
+    - Jaké jsou požadavky na přijetí na školu?
+    - Jaké jsou kritéria pro přijetí na školu?
+    - Které vědomosti jsou potřeba pro přijetí na školu?
+    - Je potřeba splnit určité požadavky pro přijetí na školu?
+    - Jaká jsou kritéria pro přijetí na školu?
+    - Jaké výsledky jsou potřeba pro přijetí na školu?
+    - Které dokumenty jsou nutné pro přijetí na školu?
+    - Jaké jsou minimální požadavky pro přijetí na školu?
+    - Co je potřeba pro přijetí na školu?
+    - Kdy jsou přímačky?
+    - kdy probíhají přijimací zkoušky?
+    - Kdy se koná přijímací řízení?
+
+- intent: faq/maturita_uspesnost
+  examples: |
+    - Jsou studenti ůspěšní v dokončování ročníků?
+    - Jaká je úspěšnost u maturitních zkoušek?
+    - Jaká je úspěšnost žáků u maturit?
+    - Kolik žáků každý rok nezvládne odmaturovat?
+    - Kolik lidí dá maturitu?
+    - jaký podíl studentů skutečně udělá maturitu?
+    - Kolik studentů každý rok nezvládne maturitu?
+    - Jaký je počet studentů, kteří nezvládnou každý rok maturitu?
+    - jaká je úspěšnost u maturit?
+    - Kolik studentů udělá maturitu?
+    - Jaká je na škole úspěšnost studentů? 
+
+- intent: faq/kdy_nastup_do_skoly
+  examples: |
+    - Kolikátého se jde do školy?
+    - kdy nástup do školy?
+    - Kdy začína nástup do školy?
+    - Kdy začíná školní rok?
+    - Kdy je první den ve škole?
+    - Kdy začíná školní rok v září?
+    - Kdy je nástup do školy v září?
+    - Kdy je první den ve škole v září?
+    - Kdy začíná škola?
+    - Kdy v září začíná škola?
+    - Od kdy se nastupuje do školy?
+    - Kdy se nastupuje do školy?
+
+- intent: faq/kdy_prazdniny
+  examples: |
+    - Kdy jsou prázdniny?
+    - Kdy budou nejbližší prázdniny?
+    - Které dny v roce budu doma?
+    - Který den jsou prázdniny?
+    - Jak dlouho trvají prázdniny?
+    - Kdy je období prázdnin?
+    - Které dny v roce jsou prázdniny?
+    - Jaká je délka prázdnin?
+    - Kolik dnů jsou prázdniny?
+    - Kdy se začínají prázdniny?
+    - Kdy končí prázdniny?
+    - Kdy jsou ve škole prázdniny?
+    - Jsou prázdniny každý rok ve stejnou dobu?
+    - Kdy je letní prázdniny?
+    - Kdy jsou zimní prázdniny?
+    - Jaké dny jsou prázdniny?
+
+- intent: faq/kdy_svatky
+  examples: |
+    - Kolikátého je nejbližší svátek?
+    - Kdy jsou ve škole svátky?
+    - Kdy jsou ve škole státní svátky?
+    - Kdy se ve škole slaví svátky?
+    - Jaké dny jsou ve škole svátky?
+    - Kdy ve škole probíhají státní svátky?
+    - Jaké dny jsou ve škole státní svátky?
+    - Kdy ve škole slavíme svátky?
+    - Jaké svátky se slaví ve škole?
+    - Kdy se ve škole slaví státní svátky?
+    - Kdy jsou svátky ve škole?
+
+- intent: nesouhlas
+  examples: |
+    - Ne.
+    - Ne děkuji.
+    - Ne nemám další otázku.
+    - Nn.
+    - Nn
+    - n
+    - Nope
+    - Ne děkuju.
+    - Ne díky.
+    - Ne nechci se už ptát.
+    - Ne nemám už další otázky.
+
+- intent: souhlas
+  examples: |
+    - Jo.
+    - Ano.
+    - Ano mám ještě otázku.
+    - Jo mám ještě otázku.  
+    - J
+    - Jj
+    - Jasně.
+    - Si piš brácho.
+    - Zajisté.
+    - Ovšemže.
+    - Oh ano.
+    - Ano kámo.
+    - Jo kámo.
+    - Mám otázku.
+    - Ano kamaráde.
+    - Jo kamaráde.

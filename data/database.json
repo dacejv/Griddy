@@ -1,0 +1,1314 @@
+﻿[
+    {
+        "intent": "absence_info",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Zletilý žák nebo zákonný zástupce nezletilého žáka je povinen doložit důvody nepřítomnosti ve vyučování nejpozději do 3 kalendářních dnů od počátku jeho nepřítomnosti."
+    },
+    {
+        "intent": "absence_procenta",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Procenta zameškané absence řeší každý vyučující sám v podmínkách klasifikace za daný předmět, se kterými seznámí žáky v září."
+    },
+    {
+        "intent": "absence_procenta_problem",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Vysokou absenci je nutné řešit co nejdříve. Zkuste promluvit s učiteli a vysvětlit jim důvod vaší dlouhodobé nepřítomnosti. Zároveň se pokuste získat co nejvyšší počet známek k tomu, abyste mohli být klasifikováni."
+    },
+    {
+        "intent": "akce_skoly",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/category/novinky/zpravy-akce/",
+        "url_text": "Archiv",
+        "img_src": "",
+        "response_text": "Pro informace ohledně akcí školy navštivte archivy - VOŠ a SPŠE Plzeň."
+    },
+    {
+        "intent": "asistent",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Ve škole nejsou asistenti pedagoga."
+    },
+    {
+        "intent": "automaty_kava",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola disponuje automaty na kávu. Na škole jsou aktuálně dva. Jeden na chodbě u druhého pavilonu a druhý v pátem patře druhého pavilonu."
+    },
+    {
+        "intent": "automaty_piti",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola disponuje automaty s chlazenými nápoji. Na škole jsou aktuálně dva. Jeden v prvním patře prvního pavilonu a druhý na chodbě u druhého pavilonu."
+    },
+    {
+        "intent": "bakalari",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola aktivně využívá systém Bakaláři."
+    },
+    {
+        "intent": "bezbarierovy_pristup",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola má bezbariérový přístup."
+    },
+    {
+        "intent": "bufet_info",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na škole se nachází velice kvalitní bufet. Můžete ho najít na konci chodby druhého pavilonu."
+    },
+    {
+        "intent": "bufet_kdy_zavira",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Školní bufet zavírá od pondělí do čtvrtka ve 13:30. V pátek ve 12:30."
+    },
+    {
+        "intent": "cizy_jazyky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na naší škole je angličtina povinná pro všechny studenty. Následně si žáci vybírají svůj druhý jazyk z němčiny, ruštiny, španělštiny a francouzštiny. Žáci jsou rozděleni do speciálních dovednostních skupin na základě jejich jazykových dovedností. Oba jazyky se vyučují od prvního ročníku."
+    },
+    {
+        "intent": "dalkove_studium",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Dálkové studium na naší škole není možné."
+    },
+    {
+        "intent": "distancni_vyuka",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Primárním nástrojem pro vedení distanční výuky na VOŠ a SPŠE Plzeň je Microsoft Teams. Pokud má vyučující materiály vytvořené v jiném prostředí (Moodle apod.), může toto jiné prostředí využívat, ale musí v MS Teams žákům předávat informace o aktivitách souvisejících s výukou. Distanční výuka probíhá dle standardního rozvrhu a je pro žáky povinná. Vyučující je povinen včas sdělit žákům, v jakém formátu bude výuka probíhat. Není-li online hodina oznámena žákům minimálně 24 hodin předem, je pro žáky nepovinná."
+    },
+    {
+        "intent": "doucovani",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Doučování je možné po domluvě s učiteli daného předmětu. Samotná škola doučování nabízí žákům, kteří mají slabší studijní výsledky a snaží se jim tak maximálně pomoci. "
+    },
+    {
+        "intent": "doucovani_prijmacky",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/prijimaci-rizeni/",
+        "url_text": "Doučování",
+        "img_src": "images/pripravny_kurz.png",
+        "response_text": "Informace ohledně doučování na příjmací zkoušky naleznete zde:"
+    },
+    {
+        "intent": "fitko",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Posilovna je na naší škole samozřejmě dostupná! Žáci jí mohou navštěvovat bezplatně po domluvě s učitelem v hodinách výuky. Nebo si mohou za 500 korun pořídit permanentku a navštěvovat tak školní posilovnu i po skončení výuky."
+    },
+    {
+        "intent": "hodin_telesna_vychova",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "V prvním ročníku mají všechny třídy 3 hodiny tělesné výchovy týdně. V dalších letech jsou dvě hodiny týdně. "
+    },
+    {
+        "intent": "hodin_tydne_prvak",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/obory/",
+        "url_text": "Učební plán",
+        "img_src": "",
+        "response_text": "Obecně lze říci, že každá třída má v prním ročníku 32-33 vyučovacích hodin týdně. Záleží na daném oboru. Pro více informací můžete navštívit následující odkaz."
+    },
+    {
+        "intent": "chatbot_funguje",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Jsem schopen odpovídat na otázky ohledně SPŠE Plzeň. Pokud vaší otázku správně zformulujete, měl bych být schopen poskytnout relevantní odpověděď."
+    },
+    {
+        "intent": "info_lyceum",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/obory/technicke-lyceum/",
+        "url_text": "Technické lyceum",
+        "img_src": "",
+        "response_text": "Technické lyceum je skoro jako gymnázium, ale mnohem lepší! Hlavním cílem tohoto oboru je skvěle tě připravit pro studium technické či ekonomické vysoké škole. To ale neznamená, že po škole nebudeš mít žádné praktické dovednosti! Vybereš si jedno z 5 zaměření a ať už to bude Kybernetika nebo Komunikace, ze školy vyjdeš připraven na univerzitu i pro praxi. Více zde:"
+    },
+    {
+        "intent": "inkluze",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Inkluze na naší škole funguje. Žákům je stanoven idividuální vzdělávací plán."
+    },
+    {
+        "intent": "internat_cena",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Cena domova mládeže je 1250 korun na měsíc. "
+    },
+    {
+        "intent": "internat_do_kdy_dorazit",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Termín příjezdů je stanoven na dobu 16:00 - 21:30 hodin. Pokud to umožňuje rozvrh žáka, může se souhlasem zákonného zástupce přijíždět v pondělí nebo v den následující po dni pracovního klidu."
+    },
+    {
+        "intent": "internat_info",
+        "is_action": "true",
+        "url": "https://dm.spseplzen.cz",
+        "url_text": "Domov mládeže",
+        "img_src": "",
+        "response_text": "Škola má vlastní internát hned v areálu. Více zde:"
+    },
+    {
+        "intent": "internat_jak_prihlasit",
+        "is_action": "true",
+        "url": "https://dm.spseplzen.cz/ke-stazeni/",
+        "url_text": "Přihlášení na DM",
+        "img_src": "",
+        "response_text": "Informace ohledně přihlášení na domov mládeže můžete nalézt níže. Zároveň zde můžete získat přihlášku."
+    },
+    {
+        "intent": "internat_jaky_je",
+        "is_action": "true",
+        "url": "https://dm.spseplzen.cz/ke-stazeni/",
+        "url_text": "Kvalita DM",
+        "img_src": "",
+        "response_text": "Informace o domově mládeže můžete nalézt zde:"
+    },
+    {
+        "intent": "internat_kapacita_pokoju",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pokoje na internátu jsou po dvou. Na základě speciálního požadavku si může uchazeč o ubytování zažádat o vlastní pokoj."
+    },
+    {
+        "intent": "internat_koupelna",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Každé patro má jednu společnou koupelnu."
+    },
+    {
+        "intent": "internat_kuchyne",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Funguje zde jedna kuchyň na patro."
+    },
+    {
+        "intent": "internat_navstevy",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Návštěvy cizých osob jsou povoleny pouze se souhlasem vychovatele a to pouze v době 15:30 - 19:00. Cizý osoby jsou povinny nahlásit příchod i odchod na recepci DM."
+    },
+    {
+        "intent": "internat_opusteni_patek",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "V odjezdový den musíte opustit domov mládeže nejpozději do 15:00."
+    },
+    {
+        "intent": "internat_periny_vlastni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Domov mládeže disponuje vlastními peřiny i polštáři. Ovšem je samozřejmě možné si donést vlastní."
+    },
+    {
+        "intent": "internat_postele",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Postele na domově mládeže už mají něco za sebou. Ovšem vyspat se na nich bezproblému dá."
+    },
+    {
+        "intent": "internat_spolubydlici",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Spolubydlícího na internát si vybrat můžete. Musí to ovšem být uvedeno v přihlášce na domov mládeže."
+    },
+    {
+        "intent": "internat_spotrebice_vlastni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Vlastní spotřebiče jsou na domově mládeže zakázány."
+    },
+    {
+        "intent": "internat_studenti_spokojenost",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Vzhledem k nedostatku dat nemohu posoudit. Podle google recenzí má internát skoro 4 hvězdičky."
+    },
+    {
+        "intent": "internat_vecerka",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Večerka je ve 22 hodin."
+    },
+    {
+        "intent": "internat_vikend",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pro pobyt na internátu přes víkend jsou zde dvě podmínky: 1. - Oznámit to vychovateli nejpozději do středy daného týdne. 2. - Žadatel musí být zletilý."
+    },
+    {
+        "intent": "internat_vychazky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Vycházky uděluje skupinový vychovatel individuálně dle prospěchu žáka a jeho chování v DM: do 18 let - 21:00. Nad 18 let - 22:30. Prodloužení vycházky žáků starších 18 let může vychovatel dobu vycházky vyjímečně prodloužit do 24:00. Prodloužení vycházky u žáků mladších 18 let může skupinový vychovatel povolit pouze na základě písemné žádosti nezákonného zástupce vychovatel"
+    },
+    {
+        "intent": "internat_wifi",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na domově mládeže je samozřejmě dostupné vysokorychlostní připojení k internetu."
+    },
+    {
+        "intent": "iot_info",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/obory/elektrotechnika/",
+        "url_text": "IoT SPŠE",
+        "img_src": "images/iot.png",
+        "response_text": "IoT (anglicky Internet of Things) je na naší škole zaměření v oboru elektrotechnika. Více zde:"
+    },
+    {
+        "intent": "jidelna_burza",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na objednání obědu po termínu změny je nutné sledovat burzu. Je možné, že nějaký jiný student dal své jídlo do burzy a zpřístupnil ho tak těm lidem, kteří objednáno nemají. Ti si ho mohou následně převzít.  "
+    },
+    {
+        "intent": "jidelna_cas_obeda",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Výdej obědů je od 11:30 do 14:45."
+    },
+    {
+        "intent": "jidelna_cas_otevreni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Čas otevření jídelny: snídaně 6:00 - 7:40; obědy 11:30 - 14:45; večeře 17:15 - 18:50."
+    },
+    {
+        "intent": "jidelna_cas_snidane",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Výdej snídaní je od 6:00 do 7:40."
+    },
+    {
+        "intent": "jidelna_cas_vecere",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Výdej večeří je od 17:15 do 18:50."
+    },
+    {
+        "intent": "jidelna_cena_obeda",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Obědy stojí 43 korun."
+    },
+    {
+        "intent": "jidelna_cena_snidane",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Snídaně stojí 39 korun."
+    },
+    {
+        "intent": "jidelna_cena_vecere",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Večeře stojí 39 korun."
+    },
+    {
+        "intent": "jidelna_info",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Školní jídelna je zde k dispozici a řadí se mezi ty nejlepší v Plzni."
+    },
+    {
+        "intent": "jidelna_jak_objednat",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Možnost objednání jídla je skrze terminály v jídelně, ke kterým se přihlásíte pomocí plzeňské karty nebo školního čipu. Studenti mohou také využít webových stránek jídelny, ke kterým se přihlásí pomocí školních údajů."
+    },
+    {
+        "intent": "jidelna_jak_vari",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Jídelna vaří opravdu skvěle. Můžete si zde vybrat z celé řady pokrmů, ať už to jsou teplá, studená nebo případně vegetariánská jídla. "
+    },
+    {
+        "intent": "jidelna_vyber_jidla",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Obvykle je na výběr ze tří snídaní, tří obědů a dvou večeří. "
+    },
+    {
+        "intent": "kava_cena",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Cena malé kávy je 10Kč. Cena velké kávy je 15Kč."
+    },
+    {
+        "intent": "klice_vraceni_penez",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Vrácení peněz za skříňku bohužel není možné. Peníze byli totiž věnovány jako dar pro školu."
+    },
+    {
+        "intent": "kontakt_email",
+        "is_action": "true",
+        "url": "https://septim.spseplzen.cz/eGuide/servlet/eGuide",
+        "url_text": "Kontakty",
+        "img_src": "",
+        "response_text": "Všechny emaily pracovníků školy jsou ve tvaru prijmeni@spseplzen.cz. Více zde:"
+    },
+    {
+        "intent": "kurz_adaptacni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Adaptačnímu kurzu se na naší škole říká Nulák a probíhá před začátkem školního roku pro studenty prvních ročníků. Pak zde funguje ještě Fáze. To je seznamovací akce pro nově vzniklé třídní kolektivy během studia."
+    },
+    {
+        "intent": "kurz_faze",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Fáze je seznamovací akce pro nově vzniklé třídní kolektivy během studia."
+    },
+    {
+        "intent": "kurz_jazykovy",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/erasmus/",
+        "url_text": "Erasmus",
+        "img_src": "",
+        "response_text": "Naše škola se aktivně podílí na projektu erasmus. Více zde:"
+    },
+    {
+        "intent": "kurz_lyzarsky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Lyžařský kurz na naší škole funguje, avšak narozdíl od většiny jiných škol se zájemci sbírají z celé školy. To znamená, že jednotlivé třídy lyžařský kurz nemají."
+    },
+    {
+        "intent": "kurz_lyzarsky_prihlaseni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Přihlášení na lyžařský kurz je možné u učitele tělesné výchovy."
+    },
+    {
+        "intent": "kurz_sportovni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Sportovní kurz je povinný pro všechny studenty třetích ročníků."
+    },
+    {
+        "intent": "kurz_sportovni",
+        "is_action": "true",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Sportovní kurz je povinný pro všechny studenty třetích ročníků."
+    },
+    {
+        "intent": "maturita_pripusteni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pro připuštění k maturitě je nutné řádně dokončit první pololetí ve čtvrtém ročníku. To znamená nemít N nebo 5. Minimálně je to vyžadováno od většiny učitelů."
+    },
+    {
+        "intent": "maturita_prihlaska",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Přihlášku k maturitní práci vám vydá třídní učitel."
+    },
+    {
+        "intent": "maturita_zmena_mat_prace",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Změna maturitní práce je možná po domluvě s učitelem daného předmětu. Doporučuji ovšem změnit maturitní práci co možná nejdříve, zvýšíte tím šanci na úspěch."
+    },
+    {
+        "intent": "mhd",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Ke škole jezdí tramvaj linky 2. Zároveň autobusy 12, 29 a 30."
+    },
+    {
+        "intent": "mimoskolni_aktivity",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Žáci mohou individuálně navštěvovat posilovnu školu za podmínek, které se dozví od svých vyučujících tělesné výchovy. "
+    },
+    {
+        "intent": "mimoskolni_aktivity_uvolneni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pokud jde o akci školy, případně exkurzi, reprezentování školy aj. - absence nebude započítána a bude plně omluvena."
+    },
+    {
+        "intent": "naroky_na_studium",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Všechny potřebné znalosti naučíme studenty u nás na škole."
+    },
+    {
+        "intent": "nestihnuti_nulta",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Žáci jsou povinni dostavit se na všechny hodiny, které mají v rozvrhu."
+    },
+    {
+        "intent": "notebook_tablet",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Záleží na domluvě s učitelem daného předmětu. Obecně však platí, že použití vlastního PC, případně dalších zařízení je tolerováno."
+    },
+    {
+        "intent": "nove_technologie",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola disponuje velice moderním vybavením a pomáhá tak žákům při výuce."
+    },
+    {
+        "intent": "obchod_jak_daleko",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Obchody jsou v okolí školy dva. Penny a Billa, oba asi 3 minuty chůze."
+    },
+    {
+        "intent": "info_obory",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/obory/",
+        "url_text": "Obory na škole",
+        "img_src": "",
+        "response_text": "Na škole si můžete vybrat mezi Informačními technologiemi, elektrotechnikou a technickým lyceem. Více zde:"
+    },
+    {
+        "intent": "obory_nejzadanejsi",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Nejvíce studentů se hlásí na obor Informační technologie. Kapacita oboru je každoročně 120 žáků."
+    },
+    {
+        "intent": "obory_VOS",
+        "is_action": "true",
+        "url": "https://vos.spseplzen.cz/pro-uchazece/",
+        "url_text": "Obory - VOŠ",
+        "img_src": "images/obory_vos.png",
+        "response_text": "Obory na VOŠ můžete nalézt zde:"
+    },
+    {
+        "intent": "office",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Studenti získají přihlašovací údaje na balíček office po celou dobu studia."
+    },
+    {
+        "intent": "opusteni_skoly",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Žák nesmí v době vyučování (včetně přestávek) opouštět školní budovu bez svolení učitele. Zákaz se nevztahuje na prostory školních atrií. Pokud má žák volnou vyučovací hodinu, může budovu školy opustit v této hodině pouze se souhlasem třídního učitele. U nezletilých žáků je navíc podmínkou předchozí odevzdání písemného souhlasu zákonného zástupce s opuštěním budovy školy třídnímu učiteli. Souhlas s opuštěním budovy školy je potvrzen podpisem třídního učitele v žákovském průkazu na příslušný školní rok."
+    },
+    {
+        "intent": "parkoviste_info",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola má vlastní parkoviště. Neslouží ovšem pro studenty."
+    },
+    {
+        "intent": "proc_SPSE",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/proc-studovat-u-nas/",
+        "url_text": "Více informací",
+        "img_src": "",
+        "response_text": "Učíme zde moderní a velice žádané obory pro český průmysl. Jsme škola, která několikrát získala ocenění - Škola doporučená zaměstnavateli. Dlouhodobě také poskytujeme nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji. Více zde:"
+    },
+    {
+        "intent": "prestup_skola",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Podle školského zákona může žák v průběhu středního vzdělávání požádat o přestup do jiné střední školy, změnit obor nebo přerušit studium. Žádost o přestup musí být písemná a je-li vám méně než 18 let, musí ji podepsat i vaši rodiče. Při přestupu můžete také absolvovat rozdílovou zkoušku, ve které prokazujete své znalosti z minulého studia. O tom, zda vás nová střední škola přijme a do jaké ročníku budete umístěn, rozhoduje její ředitel. "
+    },
+    {
+        "intent": "prezuvky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "V naší škole se přezuvky nenosí."
+    },
+    {
+        "intent": "prijmacky_dve_prihlasky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "V případě podání obou přihlášek na naší školu budete bodově zvýhodněni a mít tak větší šanci se na školu dostat."
+    },
+    {
+        "intent": "prijmacky_jak_podat_prihlasku",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/wp-content/uploads/2022/02/Manual-k-vyplneni-prihlasky.pdf",
+        "url_text": "Manuál přihláška",
+        "img_src": "",
+        "response_text": "Ke správnému vyplnění přihlášky můžete využít náš manuál:"
+    },
+    {
+        "intent": "prijmacky_jak_probihaji",
+        "is_action": "true",
+        "url": "https://prijimacky.cermat.cz/menu/jednotna-prijimaci-zkouska",
+        "url_text": "Příjmací zkoušky",
+        "img_src": "",
+        "response_text": "O tom jak probíhají příjmací zkoušky se můžete dozvědět více zde:"
+    },
+    {
+        "intent": "prijmacky_kdy_prihlasku",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Přihlášku ke studiu je nutné podat do 1. března 2024."
+    },
+    {
+        "intent": "prijmacky_kdy_pozvanka",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pozvánky rozesíláme minimálně 14 dní před konáním zkoušky."
+    },
+    {
+        "intent": "prijmacky_kdy_vysledky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Jakmile ředitel školy ukončí hodnocení přijímacího řízení a zveřejní seznam přijatých uchazečů do 2 pracovních dnů od zpřístupnění hodnocení Cermatem. Výsledky se dozvíte na našich stránkách."
+    },
+    {
+        "intent": "prijmacky_kolik_prihlasek_1_kolo",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "V první kole příjmacích zkoušek můžete podat až dvě přihlášky. Při podání obou přihlášek na naší školu budete bodově zvýhodněni v rámci výsledků přijímacích zkoušek."
+    },
+    {
+        "intent": "prijmacky_kolik_prihlasek_2_kolo",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Počet přihlášek, které můžete podat, není v druhém kole omezen."
+    },
+    {
+        "intent": "prijmacky_nemozna_ucast",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pakliže se uchazeči nemohou v řádném termínu dostavit ke konání testů (např. z důvodu nemoci apod.), mohou se omluvit řediteli střední školy. Pokud ředitel školy omluvu uzná, uchazeči mohou konat zkoušku v náhradním termínu."
+    },
+    {
+        "intent": "prijmacky_neuspesne_odvolani",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Střední školy, které po prvním kole nenaplní první ročníky novými žáky, vyhlásí druhé kolo, případně i další kola přijímacího řízení. Tuto informaci bezprostředně oznamují místně příslušnému krajskému úřadu i s počty volných míst do jednotlivých oborů. Přehledy o volných místech ve středních školách a o nenaplněných oborech najdete na webových stránkách krajských úřadů a na webových stránkách jednotlivých středních škol."
+    },
+    {
+        "intent": "prijmacky_odvolani_jak",
+        "is_action": "true",
+        "url": "https://www.zkola.cz/jak-napsat-odvolani-na-stredni-skolu-prinasime-par-zakladnich-tipu/",
+        "url_text": "Jak podat odvolání",
+        "img_src": "",
+        "response_text": "Odvolání je potřeba podat do tří pracovních dnů, od chvíle, co poštou přijde rozhodnutí o nepřijetí. Pro odvolání neexistuje jeden formulář, žádost ale musí obsahovat několik náležitostí.:"
+    },
+    {
+        "intent": "prijmacky_odvolani_kdy",
+        "is_action": "true",
+        "url": "https://prijimacky.cermat.cz/menu/jednotna-prijimaci-zkouska/vysledky-jpz/odvolani-proti-rozhodnuti-o-neprijeti",
+        "url_text": "Kdy podat odvolání",
+        "img_src": "",
+        "response_text": "Uchazeč může podat odvolání proti rozhodnutí ředitele školy o výsledku přijímacího řízení, a to ve lhůtě 3 pracovních dnů ode dne doručení rozhodnutí. Více zde: "
+    },
+    {
+        "intent": "prijmacky_pocet_terminu",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pokud uchazeči podají dvě přihlášky do oborů s jednotnou přijímací zkouškou, mohou testy konat ve dvou termínech, a to v 1. termínu ve škole, kterou uvedli na přihlášce na prvním místě, a v 2."
+    },
+    {
+        "intent": "prijmacky_pozadavky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Žadatel musí mít řádně ukončené základní vzdělání."
+    },
+    {
+        "intent": "prijmacky_z_ceho",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Přijímací zkoušky se konají z českého jazyka a matematiky."
+    },
+    {
+        "intent": "prijmacky_zapisovy_listek",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Zápisový lístek obdržíte na základní škole, kterou navštěvujete, a to nejpozději do 15. března nebo u oborů s talentovou zkouškou do 30. listopadu. Pokud nejste žákem základní školy, zápisový lístek vám vydá krajský úřad příslušný podle místa vašeho trvalého bydliště."
+    },
+    {
+        "intent": "prijmacky_zapisovy_listek_zpatky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Zápisový lístek lze uplatnit jen jednou a nelze ho vzít zpět. To neplatí v případech kdy: uchazeč chce uplatnit na střední škole, kde byl přijat na základě kladného odvolání; uchazeč již uplatnil zápisový lístek v rámci přijímacího řízení do oborů s talentovou zkouškou a následně byl přijat do oboru vzdělání na klasické střední škole."
+    },
+    {
+        "intent": "problem_plny_disk",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pokud jste disk nezaplnili a i přesto vám nezbývá žádné volné místo můžete kontaktovat Bc. Sobotku, který má tyto věci na starosti. E-mail: sobotka@spseplzen.cz"
+    },
+    {
+        "intent": "propadnuti_za_rok",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Každý rok propadne 50 až 60 žáků. (Střední škola má přibližně 1000 žáků)"
+    },
+    {
+        "intent": "psycholog",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola má svého vlastního psychologa, který je žákům k dispozici."
+    },
+    {
+        "intent": "rozdeleni_elektro",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/obory/elektrotechnika/",
+        "url_text": "Elektrotechnika",
+        "img_src": "images/elektro_zamereni.png",
+        "response_text": "Zjistěte o oboru elektrotechnika více:"
+    },
+    {
+        "intent": "rozdeleni_it",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/obory/informacni-technologie/",
+        "url_text": "Informační technologie",
+        "img_src": "images/it_zamereni.png",
+        "response_text": "Zjistěte o oboru informační technologie více:"
+    },
+    {
+        "intent": "rozdeleni_lyceum",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/obory/technicke-lyceum/",
+        "url_text": "Technické lyceum",
+        "img_src": "images/lyceum_zamereni.png",
+        "response_text": "Zjistěte o oboru technické lyceum více:"
+    },
+    {
+        "intent": "rozvrh",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Rozvrh naleznete na bakalářích. Prípadně můžete nahlédnout do rozvrhu všech tříd před vrátnicí naší školy."
+    },
+    {
+        "intent": "sekretariat_cas",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Sekretariát naší školy má úřední hodiny od pondělí do čtvrtka vždy od 7:15 do 12:00."
+    },
+    {
+        "intent": "sekretariat_info",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pro informace o škole a všech informací s ní spojených jsem tu připraven já. Pokud vám ovšem nebudu schopen odpovědět tak se vždy můžete obrátit na sekretariát naší školy. "
+    },
+    {
+        "intent": "sikana",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na škole platí zákaz jakýchkoliv projevů rasismu, xenofobie, netolerance a šikany. Zároveň je zde zakázáno rozšiřování a propagace organizací a ideologií, které směřují k potlačování lidských práv, svobod a demokratického systému. Porušení těchto pravidel se nekompromisně trestá."
+    },
+    {
+        "intent": "skola_adresa",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Koterovská 85, 326 00 Plzeň"
+    },
+    {
+        "intent": "skola_budovy_kolik",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola má 3 pavilony, 2 tělocvičny a dílny."
+    },
+    {
+        "intent": "skola_maturita",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Všechny obory na naší škole jsou zakončeny maturitní zkouškou."
+    },
+    {
+        "intent": "skola_narocnost",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na studenty jsou kladeny větší nároky, než na většině ostatních středních škol. Na druhou stranu je to přesně to, proč naši studenti po skončení studia na této škole nebudou mít problém s nalezení kvalitní práce nebo školy."
+    },
+    {
+        "intent": "skola_orientace",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Funguje zde přehledný systém číslování. Například: 1308 -> 1(pavilon), 3(patro), 08(místnost)"
+    },
+    {
+        "intent": "skola_v_prirode",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Naše škola nenabízí školu v přírodě."
+    },
+    {
+        "intent": "skola_volny_cas",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Během volného času můžete navštívit například bufet. V  jarních a letních měsících jsou otevřeny také atria mezi pavilony."
+    },
+    {
+        "intent": "skola_wifi",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola využívá sítě eduroam. Žáci dostávají každý rok přihlašovací údaje prostřednictvím e-mailu."
+    },
+    {
+        "intent": "skola_wifi_kvalita",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Rychlost připojení je pro nás vším! Jsme vysoce prestižní elektrotechnická škola a odpovídá tomu i naše vysokorychlostní připojení k internetu."
+    },
+    {
+        "intent": "skolne",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na naší střední škole se školné neplatí."
+    },
+    {
+        "intent": "skrinka_scam",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Za dar škole v hodnotě 1000 Kč dostanete klíče od vlastní skříňku na celou dobu studia. Nemáte nárok na vrácení peněz."
+    },
+    {
+        "intent": "stravovani_info",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Žáci mohou ke stravování využít služeb školní jídelny, bufetu a blízkých obchodů."
+    },
+    {
+        "intent": "studium_preruseni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Žáci, jimž už bylo 18 let, mohou zažádat o přerušení studia sami, pokud ještě plnoletosti nedosáhli, musí tak učinit rodiče. V takovém případě by však měla žádost obsahovat i souhlas žáka nebo žákyně. Žádost o přerušení studia na střední škole je nutné podat písemnou formou a adresovat jí řediteli školy. Doplňme, že po návratu pokračuje žák či žákyně v ročníku, během něhož bylo vzdělávání přerušeno. Lze sice zahájit i ve vyšším ročníku, nicméně je třeba prokázat příslušné znalosti."
+    },
+    {
+        "intent": "studium_ukonceni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "K ukončení studia stačí oznámit ve škole, že ukončujete studium a následující den po doručení dopisu řediteli přestáváte být žákem školy. Nic těžkého!"
+    },
+    {
+        "intent": "tridy_pocet_zaku",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "V prvním ročníku jsou obvyklé třídy okolo 28 lidí. V dalších ročnících se to mnohdy liší."
+    },
+    {
+        "intent": "ucitele_info",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Kvalitní učitelé jsou to, co z naší školy dělá tu prestižní. Rádi vám se vším pomohou a také se snaží k žákům přistupovat individuálně a rozvíjet tak jejich potenciál."
+    },
+    {
+        "intent": "ucitele_kompetence",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na naší škole můžeme s jistotou říci, že všichni učitelé jsou vynikající profesionálové ve svém oboru a díky svým kompetencím jsou schopni přinést mnoho cenných zkušeností a poznatků pro naše žáky."
+    },
+    {
+        "intent": "ucitele_komunikace",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Pro komunikaci s učiteli můžete využít Microsoft Teams nebo email. (prijmeni@spseplzen.cz) Na škole také pravidelně probíhají třídní schůzky."
+    },
+    {
+        "intent": "ucitele_nadani_zaci",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Naši pedagogové přistupují ke každému žáku individuálně a snaží se tak maximálně rozvíjet jeho potenciál. Zároveň škola podporuje nadané žáky. V oboru elektrotechnika formou stipendia. Ve všech oborech - účastí v soutěžích, pochvaly ředitele školy a věcné dary."
+    },
+    {
+        "intent": "ucitele_skolni_rad",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Učitelé se snaží předcházet problémům a postupovat v souladu se školním řádem jak jen to jde. Nemám žádné informace o tom, že by to snad mohlo být jinak. Tudíž je krajně nepravděpodobné, že by zdejší učitelé nejednali podle školního řádu."
+    },
+    {
+        "intent": "umisteni_bufet",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Bufet se nachází  v přízemí druhého pavilonu, poslední dveře vlevo."
+    },
+    {
+        "intent": "umisteni_jidelna",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Školní jídelna se nachází naproti budovám školy."
+    },
+    {
+        "intent": "umisteni_sekretariat",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Sekretariát se nachází v prvním pavilonu v přízemí. Na konci chodby vlevo."
+    },
+    {
+        "intent": "umisteni_VR",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Učebna VR se nachází v budově dílen. Dále budete nasměrováni ukazateli v budově."
+    },
+    {
+        "intent": "umisteni_vratnice",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Hlavní vchod se nachází v prvním pavilonu. (budova školy nejblíže od domova mládeže)"
+    },
+    {
+        "intent": "uplatneni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Naším cílem je, aby absolventi VOŠ a SPŠE Plzeň splňovali požadavky evropských zaměstnavatelů: uměli pracovat v týmu, používali odborné kompetence, byli komunikativní, využívali ICT znalosti a dovednosti, byli adaptabilní, uměli analyzovat a řešit problémy, osvojili si schopnost se rozhodovat, získali číselnou gramotnost, měli jazykové kompetence a R/W gramotnost."
+    },
+    {
+        "intent": "vybaveni_skoly",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Naše škola maximálně využívá a rozšiřuje moderní vybavení školy a snaží se tak udržet trend vývoje technických oborů v praxi. Zároveň tak zvýší šanci kvalitně připravit studenty na jejich budoucí kariéru."
+    },
+    {
+        "intent": "vybaveni_skoly_PC",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Škola disponuje moderními a kvalitními počítači."
+    },
+    {
+        "intent": "vyuka_pajeni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na naší škole se může naučit pájet každý! Máme zde kvalitní učitele, kteří mají rádi svojí práci a rádi vám vše vysvětlí."
+    },
+    {
+        "intent": "vyuka_multimedia",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na naší škole se multimédia samozřejmě vyučují. Máme zde kvalitní učitele, kteří milují svojí práci a rádi vás vše naučí."
+    },
+    {
+        "intent": "vyukove_materialy",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Využívání Filr, Moodle a MSTeams vždy záleží na konkrétním učiteli. Pokud se rozhodne nějakou z těchto platforem využít, žáci jsou povinni se přizpůsobit."
+    },
+    {
+        "intent": "vzdelavaci_metody",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Dlouhodobě poskytujeme moderní a zároveň nejkvalitnější středoškolské vzdělávání v oblasti elektrotechniky a IT v Plzeňském kraji."
+    },
+    {
+        "intent": "zabezpeceni",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Naše škola využívá nejmodernějších metod zabezpečení k ochraně všech návštěvníků školy a majetku."
+    },
+    {
+        "intent": "zaci_celkovy_pocet",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na střední škole studuje okolo 1000 žáků."
+    },
+    {
+        "intent": "zaci_hezci_kluci",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Přijďte se podívat a udělejte si názor sami."
+    },
+    {
+        "intent": "zaci_hezke_holky",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Přijďte se podívat a udělejte si názor sami."
+    },
+    {
+        "intent": "zasednuti",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Písemnou žádost na změnu učitele můžete podat řediteli školy (prostřednictvím sekretariátu SŠ). Ředitel žádost prošetří a v zákonné lhůtě 30 dnů od podání žádosti písemně odpoví."
+    },
+    {
+        "intent": "zkratka_iot",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/obory/elektrotechnika/",
+        "url_text": "IoT",
+        "img_src": "",
+        "response_text": "Zkratka IoT představuje zaměření internet věcí. Více zde:"
+    },
+    {
+        "intent": "ztrata_cip",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na pokladně v budově jídelny můžete zažádat o nový čip. Cena je 100 Kč."
+    },
+    {
+        "intent": "ztrata_omluvny_list",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Nový omluvný list vám může předat třídní učitel."
+    },
+    {
+        "intent": "jidelna_co_je_k_obedu",
+        "is_action": "true",
+        "url": "https://strava.spseplzen.cz/faces/login.jsp",
+        "url_text": "Kompletní jídelníček",
+        "img_src": "",
+        "response_text": ""
+    },
+    {
+        "intent": "sancomat",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/sancomat/",
+        "url_text": "Bodová kalkulačka",
+        "img_src": "",
+        "response_text": "Můžete využít našeho šancomatu pro zjištění, zda-li by jste byl/a úspěšný či nikoliv."
+    },
+    {
+        "intent": "kamarad_trida",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Žáci jsou rozdělováni do tříd oborů podle toho z jaké ZŠ přichází, dále podle vysloveného přání rodičů žáků."
+    },
+    {
+        "intent": "zaci_pocet_trid",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Střední škola má 47 tříd."
+    },
+    {
+        "intent": "ucitele_kolik",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Na škole pracuje přibližně 120 učitelů. "
+    },
+    {
+        "intent": "ucitele_zmena",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Písemnou žádost na změnu učitele můžete podat řediteli školy (prostřednictvím sekretariátu SŠ). Ředitel žádost prošetří a v zákonné lhůtě 30 dnů od podání žádosti písemně odpoví."
+    },
+    {
+        "intent": "kdy_den_otevrenych_dveri",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/dny-otevrenych-dveri-puvodni/",
+        "url_text": "Dny otevřených dveří",
+        "img_src": "",
+        "response_text": "Informace ohledně dnů otevřených dveří naleznete dne:"
+    },
+    {
+        "intent": "prijmacky_kdy",
+        "is_action": "true",
+        "url": "https://www.spseplzen.cz/prijimaci-rizeni/",
+        "url_text": "Více informací",
+        "img_src": "",
+        "response_text": ""
+    },
+    {
+        "intent": "maturita_uspesnost",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Úspěšnost studentů u maturity se pohybuje okolo 80%."
+    },
+    {
+        "intent": "maturita_uspesnost",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Úspěšnost studentů u maturity se pohybuje okolo 80%"
+    },
+    {
+        "intent": "kdy_nastup_do_skoly",
+        "is_action": "false",
+        "url": "",
+        "url_text": "",
+        "img_src": "",
+        "response_text": "Nástup do školy v roce 2023 je v pondělí 4. září."
+    },
+    {
+        "intent": "kdy_prazdniny",
+        "is_action": "true",
+        "url": "https://www.finance.cz/535871-prazdniny-a-svatky-ve-skolnim-roce-2021-2022/",
+        "url_text": "Prázdniny",
+        "img_src": "images/prazdniny.png",
+        "response_text": ""
+    },
+    {
+        "intent": "kdy_svatky",
+        "is_action": "true",
+        "url": "https://www.finance.cz/535871-prazdniny-a-svatky-ve-skolnim-roce-2021-2022/",
+        "url_text": "Svátky",
+        "img_src": "images/svatky.png",
+        "response_text": ""
+    }
+]

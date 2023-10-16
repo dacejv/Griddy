@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Můžou studenti studovat na dálku na vaší škole?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.7283861637115479
+    }
+  },
+  {
+    "text": "Je možnost dálkového studia dostupná na vaší škole?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.5261642932891846
+    }
+  },
+  {
+    "text": "Lze na vaší škole studovat na dálku přes internet?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.6366611123085022
+    }
+  },
+  {
+    "text": "Má vaše škola možnost dálkového studia?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.8463678956031799
+    }
+  },
+  {
+    "text": "Je dálkové vzdělávání k dispozici na vaší škole?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.8667849898338318
+    }
+  },
+  {
+    "text": "Můžete studovat na dálku na vaší škole?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.7865963578224182
+    }
+  },
+  {
+    "text": "Poskytuje vaše škola možnost dálkového vzdělávání?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.6771044135093689
+    }
+  },
+  {
+    "text": "Můžou studenti na vaší škole studovat přes internet?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.6219406127929688
+    }
+  },
+  {
+    "text": "Existuje na vaší škole program dálkového vzdělávání?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.5265154838562012
+    }
+  },
+  {
+    "text": "Lze na vaší škole studovat na dálku prostřednictvím internetu?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.7560541033744812
+    }
+  },
+  {
+    "text": "Je možnost dálkového studia k dispozici na vaší škole?",
+    "intent": "distancni_vyuka",
+    "intent_prediction": {
+      "name": "dalkove_studium",
+      "confidence": 0.6612783670425415
+    }
+  },
+  {
+    "text": "kolik přihlášek můžu ve 2. kole podat?",
+    "intent": "prijmacky_kolik_prihlasek_2_kolo",
+    "intent_prediction": {
+      "name": "prijmacky_kolik_prihlasek_1_kolo",
+      "confidence": 0.615168035030365
+    }
+  },
+  {
+    "text": "co mám dělat když jsem se nedostal na vaší školu?",
+    "intent": "prijmacky_neuspesne_odvolani",
+    "intent_prediction": {
+      "name": "prijmacky_odvolani_jak",
+      "confidence": 0.6739392876625061
+    }
+  },
+  {
+    "text": "co mám dělat když jsem neuspěl u příjmacích zkoušek?",
+    "intent": "prijmacky_neuspesne_odvolani",
+    "intent_prediction": {
+      "name": "prijmacky_odvolani_jak",
+      "confidence": 0.7479573488235474
+    }
+  },
+  {
+    "text": "Kdy mohu podat odvolání proti výsledkům přijímacích zkoušek?",
+    "intent": "prijmacky_odvolani_kdy",
+    "intent_prediction": {
+      "name": "prijmacky_odvolani_jak",
+      "confidence": 0.8374301195144653
+    }
+  }
+]

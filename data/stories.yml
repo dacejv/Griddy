@@ -1,0 +1,31 @@
+version: "3.1"
+
+stories:
+- story: Prvni odpoved
+  steps:
+  - intent: faq
+  - action: action_utter_faq
+  - action: utter_dalsi_otazka
+  - checkpoint: Pokracovat
+
+- story: Odpoved Ne
+  steps:
+    - checkpoint: Pokracovat
+    - intent: nesouhlas
+    - action: utter_rozlouceni
+
+- story: Pokracovat
+  steps:
+    - checkpoint: Pokracovat
+    - intent: faq
+    - action: action_utter_faq
+    - action: utter_dalsi_otazka
+    - checkpoint: Pokracovat
+
+
+- story: Pokracovat2
+  steps:
+    - checkpoint: Pokracovat
+    - intent: souhlas
+    - action: utter_cekam
+    - checkpoint: Pokracovat
